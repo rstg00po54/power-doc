@@ -1,0 +1,1613 @@
+Component: ARM Compiler 5.06 update 6 (build 750) Tool: armlink [4d35ed]
+
+==============================================================================
+
+Section Cross References
+
+    main.o(i.main) refers to init.o(i.Initial_prepheral_) for Initial_prepheral_
+    main.o(i.main) refers to state_machine.o(ccmram) for bcfsm
+    system_stm32f30x.o(i.SystemCoreClockUpdate) refers to system_stm32f30x.o(.data) for .data
+    adc_int.o(i.ADC1_Config) refers to stm32f30x_adc.o(i.ADC_DeInit) for ADC_DeInit
+    adc_int.o(i.ADC1_Config) refers to stm32f30x_rcc.o(i.RCC_AHBPeriphClockCmd) for RCC_AHBPeriphClockCmd
+    adc_int.o(i.ADC1_Config) refers to stm32f30x_rcc.o(i.RCC_ADCCLKConfig) for RCC_ADCCLKConfig
+    adc_int.o(i.ADC1_Config) refers to stm32f30x_rcc.o(i.RCC_APB2PeriphClockCmd) for RCC_APB2PeriphClockCmd
+    adc_int.o(i.ADC1_Config) refers to stm32f30x_gpio.o(i.GPIO_Init) for GPIO_Init
+    adc_int.o(i.ADC1_Config) refers to stm32f30x_adc.o(i.ADC_StructInit) for ADC_StructInit
+    adc_int.o(i.ADC1_Config) refers to stm32f30x_adc.o(i.ADC_VoltageRegulatorCmd) for ADC_VoltageRegulatorCmd
+    adc_int.o(i.ADC1_Config) refers to delay.o(i.Delay_ms) for Delay_ms
+    adc_int.o(i.ADC1_Config) refers to stm32f30x_adc.o(i.ADC_SelectCalibrationMode) for ADC_SelectCalibrationMode
+    adc_int.o(i.ADC1_Config) refers to stm32f30x_adc.o(i.ADC_StartCalibration) for ADC_StartCalibration
+    adc_int.o(i.ADC1_Config) refers to stm32f30x_adc.o(i.ADC_GetCalibrationStatus) for ADC_GetCalibrationStatus
+    adc_int.o(i.ADC1_Config) refers to stm32f30x_adc.o(i.ADC_GetCalibrationValue) for ADC_GetCalibrationValue
+    adc_int.o(i.ADC1_Config) refers to stm32f30x_adc.o(i.ADC_CommonInit) for ADC_CommonInit
+    adc_int.o(i.ADC1_Config) refers to stm32f30x_adc.o(i.ADC_Init) for ADC_Init
+    adc_int.o(i.ADC1_Config) refers to stm32f30x_adc.o(i.ADC_RegularChannelConfig) for ADC_RegularChannelConfig
+    adc_int.o(i.ADC1_Config) refers to stm32f30x_adc.o(i.ADC_Cmd) for ADC_Cmd
+    adc_int.o(i.ADC1_Config) refers to stm32f30x_adc.o(i.ADC_GetFlagStatus) for ADC_GetFlagStatus
+    adc_int.o(i.ADC1_Config) refers to stm32f30x_adc.o(i.ADC_DMACmd) for ADC_DMACmd
+    adc_int.o(i.ADC1_Config) refers to stm32f30x_adc.o(i.ADC_DMAConfig) for ADC_DMAConfig
+    adc_int.o(i.ADC1_Config) refers to stm32f30x_adc.o(i.ADC_StartConversion) for ADC_StartConversion
+    adc_int.o(i.ADC1_Config) refers to adc_int.o(.data) for .data
+    adc_int.o(i.ADC1_DMA_Config) refers to stm32f30x_rcc.o(i.RCC_AHBPeriphClockCmd) for RCC_AHBPeriphClockCmd
+    adc_int.o(i.ADC1_DMA_Config) refers to stm32f30x_dma.o(i.DMA_DeInit) for DMA_DeInit
+    adc_int.o(i.ADC1_DMA_Config) refers to stm32f30x_misc.o(i.NVIC_PriorityGroupConfig) for NVIC_PriorityGroupConfig
+    adc_int.o(i.ADC1_DMA_Config) refers to stm32f30x_dma.o(i.DMA_Init) for DMA_Init
+    adc_int.o(i.ADC1_DMA_Config) refers to stm32f30x_dma.o(i.DMA_Cmd) for DMA_Cmd
+    adc_int.o(i.ADC1_DMA_Config) refers to stm32f30x_dma.o(i.DMA_ITConfig) for DMA_ITConfig
+    adc_int.o(i.ADC1_DMA_Config) refers to stm32f30x_adc.o(i.ADC_DMACmd) for ADC_DMACmd
+    adc_int.o(i.ADC1_DMA_Config) refers to delay.o(i.Delay_ms) for Delay_ms
+    adc_int.o(i.ADC1_DMA_Config) refers to adc_int.o(.data) for .data
+    adc_int.o(i.ADC2_Config) refers to stm32f30x_rcc.o(i.RCC_AHBPeriphClockCmd) for RCC_AHBPeriphClockCmd
+    adc_int.o(i.ADC2_Config) refers to stm32f30x_rcc.o(i.RCC_ADCCLKConfig) for RCC_ADCCLKConfig
+    adc_int.o(i.ADC2_Config) refers to stm32f30x_rcc.o(i.RCC_APB2PeriphClockCmd) for RCC_APB2PeriphClockCmd
+    adc_int.o(i.ADC2_Config) refers to stm32f30x_gpio.o(i.GPIO_Init) for GPIO_Init
+    adc_int.o(i.ADC2_Config) refers to stm32f30x_adc.o(i.ADC_StructInit) for ADC_StructInit
+    adc_int.o(i.ADC2_Config) refers to stm32f30x_adc.o(i.ADC_VoltageRegulatorCmd) for ADC_VoltageRegulatorCmd
+    adc_int.o(i.ADC2_Config) refers to delay.o(i.Delay_ms) for Delay_ms
+    adc_int.o(i.ADC2_Config) refers to stm32f30x_adc.o(i.ADC_SelectCalibrationMode) for ADC_SelectCalibrationMode
+    adc_int.o(i.ADC2_Config) refers to stm32f30x_adc.o(i.ADC_StartCalibration) for ADC_StartCalibration
+    adc_int.o(i.ADC2_Config) refers to stm32f30x_adc.o(i.ADC_GetCalibrationStatus) for ADC_GetCalibrationStatus
+    adc_int.o(i.ADC2_Config) refers to stm32f30x_adc.o(i.ADC_GetCalibrationValue) for ADC_GetCalibrationValue
+    adc_int.o(i.ADC2_Config) refers to stm32f30x_adc.o(i.ADC_CommonInit) for ADC_CommonInit
+    adc_int.o(i.ADC2_Config) refers to stm32f30x_adc.o(i.ADC_Init) for ADC_Init
+    adc_int.o(i.ADC2_Config) refers to stm32f30x_adc.o(i.ADC_RegularChannelConfig) for ADC_RegularChannelConfig
+    adc_int.o(i.ADC2_Config) refers to stm32f30x_adc.o(i.ADC_Cmd) for ADC_Cmd
+    adc_int.o(i.ADC2_Config) refers to stm32f30x_adc.o(i.ADC_GetFlagStatus) for ADC_GetFlagStatus
+    adc_int.o(i.ADC2_Config) refers to stm32f30x_adc.o(i.ADC_DMACmd) for ADC_DMACmd
+    adc_int.o(i.ADC2_Config) refers to stm32f30x_adc.o(i.ADC_DMAConfig) for ADC_DMAConfig
+    adc_int.o(i.ADC2_Config) refers to stm32f30x_adc.o(i.ADC_StartConversion) for ADC_StartConversion
+    adc_int.o(i.ADC2_Config) refers to adc_int.o(.data) for .data
+    adc_int.o(i.ADC2_DMA_Config) refers to stm32f30x_rcc.o(i.RCC_AHBPeriphClockCmd) for RCC_AHBPeriphClockCmd
+    adc_int.o(i.ADC2_DMA_Config) refers to stm32f30x_dma.o(i.DMA_Init) for DMA_Init
+    adc_int.o(i.ADC2_DMA_Config) refers to stm32f30x_dma.o(i.DMA_Cmd) for DMA_Cmd
+    adc_int.o(i.ADC2_DMA_Config) refers to stm32f30x_adc.o(i.ADC_DMAConfig) for ADC_DMAConfig
+    adc_int.o(i.ADC2_DMA_Config) refers to stm32f30x_adc.o(i.ADC_DMACmd) for ADC_DMACmd
+    adc_int.o(i.ADC2_DMA_Config) refers to delay.o(i.Delay_ms) for Delay_ms
+    adc_int.o(i.ADC2_DMA_Config) refers to adc_int.o(.data) for .data
+    adc_int.o(i.ADC_Config) refers to stm32f30x_rcc.o(i.RCC_AHBPeriphClockCmd) for RCC_AHBPeriphClockCmd
+    adc_int.o(i.ADC_Config) refers to stm32f30x_dma.o(i.DMA_DeInit) for DMA_DeInit
+    adc_int.o(i.ADC_Config) refers to stm32f30x_misc.o(i.NVIC_PriorityGroupConfig) for NVIC_PriorityGroupConfig
+    adc_int.o(i.ADC_Config) refers to stm32f30x_dma.o(i.DMA_Init) for DMA_Init
+    adc_int.o(i.ADC_Config) refers to stm32f30x_dma.o(i.DMA_Cmd) for DMA_Cmd
+    adc_int.o(i.ADC_Config) refers to stm32f30x_dma.o(i.DMA_ITConfig) for DMA_ITConfig
+    adc_int.o(i.ADC_Config) refers to stm32f30x_adc.o(i.ADC_DMACmd) for ADC_DMACmd
+    adc_int.o(i.ADC_Config) refers to delay.o(i.Delay_ms) for Delay_ms
+    adc_int.o(i.ADC_Config) refers to adc_int.o(i.ADC1_Config) for ADC1_Config
+    adc_int.o(i.ADC_Config) refers to stm32f30x_adc.o(i.ADC_DMAConfig) for ADC_DMAConfig
+    adc_int.o(i.ADC_Config) refers to adc_int.o(i.ADC2_Config) for ADC2_Config
+    adc_int.o(i.ADC_Config) refers to adc_int.o(.data) for .data
+    init.o(i.Initial_prepheral_) refers to delay.o(i.Init_TIM16) for Init_TIM16
+    init.o(i.Initial_prepheral_) refers to adc_int.o(i.ADC_Config) for ADC_Config
+    init.o(i.Initial_prepheral_) refers to hrtim_int.o(i.HRTIM_Config) for HRTIM_Config
+    init.o(i.Initial_prepheral_) refers to hrtim_int.o(i.GPIO_HRTIM_Config) for GPIO_HRTIM_Config
+    init.o(i.Initial_prepheral_) refers to init.o(i.USART1_Config) for USART1_Config
+    init.o(i.Initial_prepheral_) refers to led.o(i.LED_GPIO_InitConfig) for LED_GPIO_InitConfig
+    init.o(i.Initial_prepheral_) refers to stm32f30x_rcc.o(i.RCC_AHBPeriphClockCmd) for RCC_AHBPeriphClockCmd
+    init.o(i.Initial_prepheral_) refers to stm32f30x_gpio.o(i.GPIO_Init) for GPIO_Init
+    init.o(i.KEY_GPIO_InitConfig) refers to stm32f30x_rcc.o(i.RCC_AHBPeriphClockCmd) for RCC_AHBPeriphClockCmd
+    init.o(i.KEY_GPIO_InitConfig) refers to stm32f30x_gpio.o(i.GPIO_Init) for GPIO_Init
+    init.o(i.Send_data_to_PC) refers to stm32f30x_dma.o(i.DMA_SetCurrDataCounter) for DMA_SetCurrDataCounter
+    init.o(i.Send_data_to_PC) refers to stm32f30x_dma.o(i.DMA_Cmd) for DMA_Cmd
+    init.o(i.USART1_Config) refers to stm32f30x_rcc.o(i.RCC_AHBPeriphClockCmd) for RCC_AHBPeriphClockCmd
+    init.o(i.USART1_Config) refers to stm32f30x_rcc.o(i.RCC_APB1PeriphClockCmd) for RCC_APB1PeriphClockCmd
+    init.o(i.USART1_Config) refers to stm32f30x_gpio.o(i.GPIO_Init) for GPIO_Init
+    init.o(i.USART1_Config) refers to stm32f30x_gpio.o(i.GPIO_PinAFConfig) for GPIO_PinAFConfig
+    init.o(i.USART1_Config) refers to stm32f30x_usart.o(i.USART_DeInit) for USART_DeInit
+    init.o(i.USART1_Config) refers to stm32f30x_usart.o(i.USART_Init) for USART_Init
+    init.o(i.USART1_Config) refers to stm32f30x_usart.o(i.USART_ClearFlag) for USART_ClearFlag
+    init.o(i.USART1_Config) refers to stm32f30x_dma.o(i.DMA_Init) for DMA_Init
+    init.o(i.USART1_Config) refers to stm32f30x_dma.o(i.DMA_Cmd) for DMA_Cmd
+    init.o(i.USART1_Config) refers to stm32f30x_usart.o(i.USART_DMACmd) for USART_DMACmd
+    init.o(i.USART1_Config) refers to stm32f30x_usart.o(i.USART_Cmd) for USART_Cmd
+    init.o(i.USART1_Config) refers to init.o(.data) for .data
+    init.o(i.USART1_Config) refers to init.o(.bss) for .bss
+    delay.o(i.Init_TIM16) refers to stm32f30x_rcc.o(i.RCC_APB2PeriphClockCmd) for RCC_APB2PeriphClockCmd
+    delay.o(i.Init_TIM16) refers to stm32f30x_tim.o(i.TIM_TimeBaseInit) for TIM_TimeBaseInit
+    delay.o(i.Init_TIM16) refers to stm32f30x_tim.o(i.TIM_SetAutoreload) for TIM_SetAutoreload
+    delay.o(i.Init_TIM16) refers to stm32f30x_tim.o(i.TIM_ARRPreloadConfig) for TIM_ARRPreloadConfig
+    delay.o(i.Init_TIM16) refers to stm32f30x_tim.o(i.TIM_Cmd) for TIM_Cmd
+    hrtim_int.o(i.GPIO_HRTIM_Config) refers to stm32f30x_rcc.o(i.RCC_AHBPeriphClockCmd) for RCC_AHBPeriphClockCmd
+    hrtim_int.o(i.GPIO_HRTIM_Config) refers to stm32f30x_gpio.o(i.GPIO_Init) for GPIO_Init
+    hrtim_int.o(i.GPIO_HRTIM_Config) refers to stm32f30x_gpio.o(i.GPIO_PinAFConfig) for GPIO_PinAFConfig
+    hrtim_int.o(i.HRTIM_Config) refers to stm32f30x_rcc.o(i.RCC_HRTIM1CLKConfig) for RCC_HRTIM1CLKConfig
+    hrtim_int.o(i.HRTIM_Config) refers to stm32f30x_rcc.o(i.RCC_APB2PeriphClockCmd) for RCC_APB2PeriphClockCmd
+    hrtim_int.o(i.HRTIM_Config) refers to stm32f30x_hrtim.o(i.HRTIM_DLLCalibrationStart) for HRTIM_DLLCalibrationStart
+    hrtim_int.o(i.HRTIM_Config) refers to stm32f30x_hrtim.o(i.HRTIM_GetCommonFlagStatus) for HRTIM_GetCommonFlagStatus
+    hrtim_int.o(i.HRTIM_Config) refers to stm32f30x_hrtim.o(i.HRTIM_Waveform_Init) for HRTIM_Waveform_Init
+    hrtim_int.o(i.HRTIM_Config) refers to stm32f30x_hrtim.o(i.HRTIM_WaveformTimerConfig) for HRTIM_WaveformTimerConfig
+    hrtim_int.o(i.HRTIM_Config) refers to stm32f30x_hrtim.o(i.HRTIM_WaveformOutputConfig) for HRTIM_WaveformOutputConfig
+    hrtim_int.o(i.HRTIM_Config) refers to stm32f30x_hrtim.o(i.HRTIM_WaveformCompareConfig) for HRTIM_WaveformCompareConfig
+    hrtim_int.o(i.HRTIM_Config) refers to stm32f30x_hrtim.o(i.HRTIM_DeadTimeConfig) for HRTIM_DeadTimeConfig
+    hrtim_int.o(i.HRTIM_Config) refers to stm32f30x_hrtim.o(i.HRTIM_ADCTriggerConfig) for HRTIM_ADCTriggerConfig
+    hrtim_int.o(i.HRTIM_Config) refers to stm32f30x_misc.o(i.NVIC_Init) for NVIC_Init
+    hrtim_int.o(i.HRTIM_Config) refers to stm32f30x_hrtim.o(i.HRTIM_ITConfig) for HRTIM_ITConfig
+    hrtim_int.o(i.HRTIM_Config) refers to stm32f30x_hrtim.o(i.HRTIM_WaveformCounterStart) for HRTIM_WaveformCounterStart
+    hrtim_int.o(i.HRTIM_Config) refers to delay.o(i.Delay_us) for Delay_us
+    hrtim_int.o(i.HRTIM_Config) refers to stm32f30x_hrtim.o(i.HRTIM_WaveformOutputStart) for HRTIM_WaveformOutputStart
+    state_machine.o(ccmram) refers to stm32f30x_gpio.o(i.GPIO_SetBits) for GPIO_SetBits
+    state_machine.o(ccmram) refers to stm32f30x_gpio.o(i.GPIO_ResetBits) for GPIO_ResetBits
+    state_machine.o(ccmram) refers to led.o(i.LED_TEST) for LED_TEST
+    state_machine.o(ccmram) refers to pid.o(ccmram) for PID_INT
+    state_machine.o(ccmram) refers to delay.o(i.Delay_ms) for Delay_ms
+    state_machine.o(ccmram) refers to state_machine.o(ccmram) for ccmram
+    state_machine.o(ccmram) refers to init.o(.data) for PC_command
+    state_machine.o(ccmram) refers to stm32f30x_dma.o(i.DMA_GetFlagStatus) for DMA_GetFlagStatus
+    state_machine.o(ccmram) refers to stm32f30x_dma.o(i.DMA_ClearITPendingBit) for DMA_ClearITPendingBit
+    state_machine.o(ccmram) refers to stm32f30x_dma.o(i.DMA_ClearFlag) for DMA_ClearFlag
+    state_machine.o(ccmram) refers to stm32f30x_dma.o(i.DMA_SetCurrDataCounter) for DMA_SetCurrDataCounter
+    state_machine.o(ccmram) refers to init.o(i.Send_data_to_PC) for Send_data_to_PC
+    state_machine.o(ccmram) refers to stm32f30x_hrtim.o(i.HRTIM_GetITStatus) for HRTIM_GetITStatus
+    state_machine.o(ccmram) refers to stm32f30x_hrtim.o(i.HRTIM_ClearITPendingBit) for HRTIM_ClearITPendingBit
+    state_machine.o(ccmram) refers to adc_int.o(.data) for ADC2_RESULT
+    state_machine.o(ccmram) refers to init.o(.bss) for Send_to_PC
+    led.o(i.LED_GPIO_InitConfig) refers to stm32f30x_rcc.o(i.RCC_AHBPeriphClockCmd) for RCC_AHBPeriphClockCmd
+    led.o(i.LED_GPIO_InitConfig) refers to stm32f30x_gpio.o(i.GPIO_Init) for GPIO_Init
+    led.o(i.LED_GPIO_InitConfig) refers to stm32f30x_gpio.o(i.GPIO_SetBits) for GPIO_SetBits
+    led.o(i.LED_TEST) refers to stm32f30x_gpio.o(i.GPIO_ResetBits) for GPIO_ResetBits
+    led.o(i.LED_TEST) refers to delay.o(i.Delay_ms) for Delay_ms
+    led.o(i.LED_TEST) refers to stm32f30x_gpio.o(i.GPIO_SetBits) for GPIO_SetBits
+    pid.o(ccmram) refers to pid.o(ccmram) for ccmram
+    pid.o(ccmram) refers to state_machine.o(ccmram) for Target_voltage
+    startup_stm32f334x8.o(RESET) refers to startup_stm32f334x8.o(STACK) for __initial_sp
+    startup_stm32f334x8.o(RESET) refers to startup_stm32f334x8.o(.text) for Reset_Handler
+    startup_stm32f334x8.o(RESET) refers to stm32f3xx_it.o(i.NMI_Handler) for NMI_Handler
+    startup_stm32f334x8.o(RESET) refers to stm32f3xx_it.o(i.HardFault_Handler) for HardFault_Handler
+    startup_stm32f334x8.o(RESET) refers to stm32f3xx_it.o(i.MemManage_Handler) for MemManage_Handler
+    startup_stm32f334x8.o(RESET) refers to stm32f3xx_it.o(i.BusFault_Handler) for BusFault_Handler
+    startup_stm32f334x8.o(RESET) refers to stm32f3xx_it.o(i.UsageFault_Handler) for UsageFault_Handler
+    startup_stm32f334x8.o(RESET) refers to stm32f3xx_it.o(i.SVC_Handler) for SVC_Handler
+    startup_stm32f334x8.o(RESET) refers to stm32f3xx_it.o(i.DebugMon_Handler) for DebugMon_Handler
+    startup_stm32f334x8.o(RESET) refers to stm32f3xx_it.o(i.PendSV_Handler) for PendSV_Handler
+    startup_stm32f334x8.o(RESET) refers to stm32f3xx_it.o(i.SysTick_Handler) for SysTick_Handler
+    startup_stm32f334x8.o(RESET) refers to state_machine.o(ccmram) for HRTIM1_TIMA_IRQHandler
+    startup_stm32f334x8.o(.text) refers to system_stm32f30x.o(i.SystemInit) for SystemInit
+    startup_stm32f334x8.o(.text) refers to entry.o(.ARM.Collect$$$$00000000) for __main
+    stm32f30x_adc.o(i.ADC_DeInit) refers to stm32f30x_rcc.o(i.RCC_AHBPeriphResetCmd) for RCC_AHBPeriphResetCmd
+    stm32f30x_can.o(i.CAN_DeInit) refers to stm32f30x_rcc.o(i.RCC_APB1PeriphResetCmd) for RCC_APB1PeriphResetCmd
+    stm32f30x_dac.o(i.DAC_DeInit) refers to stm32f30x_rcc.o(i.RCC_APB1PeriphResetCmd) for RCC_APB1PeriphResetCmd
+    stm32f30x_flash.o(i.FLASH_EraseAllPages) refers to stm32f30x_flash.o(i.FLASH_WaitForLastOperation) for FLASH_WaitForLastOperation
+    stm32f30x_flash.o(i.FLASH_ErasePage) refers to stm32f30x_flash.o(i.FLASH_WaitForLastOperation) for FLASH_WaitForLastOperation
+    stm32f30x_flash.o(i.FLASH_OB_BOOTConfig) refers to stm32f30x_flash.o(i.FLASH_WaitForLastOperation) for FLASH_WaitForLastOperation
+    stm32f30x_flash.o(i.FLASH_OB_EnableWRP) refers to stm32f30x_flash.o(i.FLASH_WaitForLastOperation) for FLASH_WaitForLastOperation
+    stm32f30x_flash.o(i.FLASH_OB_Erase) refers to stm32f30x_flash.o(i.FLASH_WaitForLastOperation) for FLASH_WaitForLastOperation
+    stm32f30x_flash.o(i.FLASH_OB_RDPConfig) refers to stm32f30x_flash.o(i.FLASH_WaitForLastOperation) for FLASH_WaitForLastOperation
+    stm32f30x_flash.o(i.FLASH_OB_SRAMParityConfig) refers to stm32f30x_flash.o(i.FLASH_WaitForLastOperation) for FLASH_WaitForLastOperation
+    stm32f30x_flash.o(i.FLASH_OB_UserConfig) refers to stm32f30x_flash.o(i.FLASH_WaitForLastOperation) for FLASH_WaitForLastOperation
+    stm32f30x_flash.o(i.FLASH_OB_VDDAConfig) refers to stm32f30x_flash.o(i.FLASH_WaitForLastOperation) for FLASH_WaitForLastOperation
+    stm32f30x_flash.o(i.FLASH_OB_WriteUser) refers to stm32f30x_flash.o(i.FLASH_WaitForLastOperation) for FLASH_WaitForLastOperation
+    stm32f30x_flash.o(i.FLASH_ProgramHalfWord) refers to stm32f30x_flash.o(i.FLASH_WaitForLastOperation) for FLASH_WaitForLastOperation
+    stm32f30x_flash.o(i.FLASH_ProgramOptionByteData) refers to stm32f30x_flash.o(i.FLASH_WaitForLastOperation) for FLASH_WaitForLastOperation
+    stm32f30x_flash.o(i.FLASH_ProgramWord) refers to stm32f30x_flash.o(i.FLASH_WaitForLastOperation) for FLASH_WaitForLastOperation
+    stm32f30x_gpio.o(i.GPIO_DeInit) refers to stm32f30x_rcc.o(i.RCC_AHBPeriphResetCmd) for RCC_AHBPeriphResetCmd
+    stm32f30x_hrtim.o(i.HRTIM_DeInit) refers to stm32f30x_rcc.o(i.RCC_APB2PeriphResetCmd) for RCC_APB2PeriphResetCmd
+    stm32f30x_hrtim.o(i.HRTIM_EventConfig) refers to stm32f30x_hrtim.o(i.HRTIM_ExternalEventConfig) for HRTIM_ExternalEventConfig
+    stm32f30x_hrtim.o(i.HRTIM_SimpleBaseStart) refers to stm32f30x_hrtim.o(.data) for .data
+    stm32f30x_hrtim.o(i.HRTIM_SimpleBaseStop) refers to stm32f30x_hrtim.o(.data) for .data
+    stm32f30x_hrtim.o(i.HRTIM_SimpleBase_Init) refers to stm32f30x_hrtim.o(i.HRTIM_TimingUnitBase_Config) for HRTIM_TimingUnitBase_Config
+    stm32f30x_hrtim.o(i.HRTIM_SimpleCaptureChannelConfig) refers to stm32f30x_hrtim.o(i.HRTIM_ExternalEventConfig) for HRTIM_ExternalEventConfig
+    stm32f30x_hrtim.o(i.HRTIM_SimpleCaptureStart) refers to stm32f30x_hrtim.o(.data) for .data
+    stm32f30x_hrtim.o(i.HRTIM_SimpleCaptureStop) refers to stm32f30x_hrtim.o(.data) for .data
+    stm32f30x_hrtim.o(i.HRTIM_SimpleCapture_Init) refers to stm32f30x_hrtim.o(i.HRTIM_TimingUnitBase_Config) for HRTIM_TimingUnitBase_Config
+    stm32f30x_hrtim.o(i.HRTIM_SimpleOCChannelConfig) refers to stm32f30x_hrtim.o(i.HRTIM_OutputConfig) for HRTIM_OutputConfig
+    stm32f30x_hrtim.o(i.HRTIM_SimpleOCStart) refers to stm32f30x_hrtim.o(.data) for .data
+    stm32f30x_hrtim.o(i.HRTIM_SimpleOCStop) refers to stm32f30x_hrtim.o(.data) for .data
+    stm32f30x_hrtim.o(i.HRTIM_SimpleOC_Init) refers to stm32f30x_hrtim.o(i.HRTIM_TimingUnitBase_Config) for HRTIM_TimingUnitBase_Config
+    stm32f30x_hrtim.o(i.HRTIM_SimpleOnePulseChannelConfig) refers to stm32f30x_hrtim.o(i.HRTIM_OutputConfig) for HRTIM_OutputConfig
+    stm32f30x_hrtim.o(i.HRTIM_SimpleOnePulseChannelConfig) refers to stm32f30x_hrtim.o(i.HRTIM_ExternalEventConfig) for HRTIM_ExternalEventConfig
+    stm32f30x_hrtim.o(i.HRTIM_SimpleOnePulseStart) refers to stm32f30x_hrtim.o(.data) for .data
+    stm32f30x_hrtim.o(i.HRTIM_SimpleOnePulseStop) refers to stm32f30x_hrtim.o(.data) for .data
+    stm32f30x_hrtim.o(i.HRTIM_SimpleOnePulse_Init) refers to stm32f30x_hrtim.o(i.HRTIM_TimingUnitBase_Config) for HRTIM_TimingUnitBase_Config
+    stm32f30x_hrtim.o(i.HRTIM_SimplePWMChannelConfig) refers to stm32f30x_hrtim.o(i.HRTIM_OutputConfig) for HRTIM_OutputConfig
+    stm32f30x_hrtim.o(i.HRTIM_SimplePWMStart) refers to stm32f30x_hrtim.o(.data) for .data
+    stm32f30x_hrtim.o(i.HRTIM_SimplePWMStop) refers to stm32f30x_hrtim.o(.data) for .data
+    stm32f30x_hrtim.o(i.HRTIM_SimplePWM_Init) refers to stm32f30x_hrtim.o(i.HRTIM_TimingUnitBase_Config) for HRTIM_TimingUnitBase_Config
+    stm32f30x_hrtim.o(i.HRTIM_WaveformOutputConfig) refers to stm32f30x_hrtim.o(i.HRTIM_OutputConfig) for HRTIM_OutputConfig
+    stm32f30x_hrtim.o(i.HRTIM_Waveform_Init) refers to stm32f30x_hrtim.o(i.HRTIM_TimingUnitBase_Config) for HRTIM_TimingUnitBase_Config
+    stm32f30x_i2c.o(i.I2C_DeInit) refers to stm32f30x_rcc.o(i.RCC_APB1PeriphResetCmd) for RCC_APB1PeriphResetCmd
+    stm32f30x_pwr.o(i.PWR_DeInit) refers to stm32f30x_rcc.o(i.RCC_APB1PeriphResetCmd) for RCC_APB1PeriphResetCmd
+    stm32f30x_rcc.o(i.RCC_GetClocksFreq) refers to stm32f30x_rcc.o(.data) for .data
+    stm32f30x_rtc.o(i.RTC_DeInit) refers to stm32f30x_rtc.o(i.RTC_EnterInitMode) for RTC_EnterInitMode
+    stm32f30x_rtc.o(i.RTC_DeInit) refers to stm32f30x_rtc.o(i.RTC_WaitForSynchro) for RTC_WaitForSynchro
+    stm32f30x_rtc.o(i.RTC_Init) refers to stm32f30x_rtc.o(i.RTC_EnterInitMode) for RTC_EnterInitMode
+    stm32f30x_rtc.o(i.RTC_RefClockCmd) refers to stm32f30x_rtc.o(i.RTC_EnterInitMode) for RTC_EnterInitMode
+    stm32f30x_rtc.o(i.RTC_SetAlarm) refers to stm32f30x_rtc.o(i.RTC_ByteToBcd2) for RTC_ByteToBcd2
+    stm32f30x_rtc.o(i.RTC_SetDate) refers to stm32f30x_rtc.o(i.RTC_EnterInitMode) for RTC_EnterInitMode
+    stm32f30x_rtc.o(i.RTC_SetDate) refers to stm32f30x_rtc.o(i.RTC_ByteToBcd2) for RTC_ByteToBcd2
+    stm32f30x_rtc.o(i.RTC_SetDate) refers to stm32f30x_rtc.o(i.RTC_WaitForSynchro) for RTC_WaitForSynchro
+    stm32f30x_rtc.o(i.RTC_SetTime) refers to stm32f30x_rtc.o(i.RTC_ByteToBcd2) for RTC_ByteToBcd2
+    stm32f30x_rtc.o(i.RTC_SetTime) refers to stm32f30x_rtc.o(i.RTC_EnterInitMode) for RTC_EnterInitMode
+    stm32f30x_rtc.o(i.RTC_SetTime) refers to stm32f30x_rtc.o(i.RTC_WaitForSynchro) for RTC_WaitForSynchro
+    stm32f30x_rtc.o(i.RTC_SynchroShiftConfig) refers to stm32f30x_rtc.o(i.RTC_WaitForSynchro) for RTC_WaitForSynchro
+    stm32f30x_spi.o(i.I2S_Init) refers to stm32f30x_rcc.o(i.RCC_GetClocksFreq) for RCC_GetClocksFreq
+    stm32f30x_spi.o(i.SPI_I2S_DeInit) refers to stm32f30x_rcc.o(i.RCC_APB1PeriphResetCmd) for RCC_APB1PeriphResetCmd
+    stm32f30x_spi.o(i.SPI_I2S_DeInit) refers to stm32f30x_rcc.o(i.RCC_APB2PeriphResetCmd) for RCC_APB2PeriphResetCmd
+    stm32f30x_tim.o(i.TIM_DeInit) refers to stm32f30x_rcc.o(i.RCC_APB2PeriphResetCmd) for RCC_APB2PeriphResetCmd
+    stm32f30x_tim.o(i.TIM_DeInit) refers to stm32f30x_rcc.o(i.RCC_APB1PeriphResetCmd) for RCC_APB1PeriphResetCmd
+    stm32f30x_usart.o(i.USART_DeInit) refers to stm32f30x_rcc.o(i.RCC_APB1PeriphResetCmd) for RCC_APB1PeriphResetCmd
+    stm32f30x_usart.o(i.USART_DeInit) refers to stm32f30x_rcc.o(i.RCC_APB2PeriphResetCmd) for RCC_APB2PeriphResetCmd
+    stm32f30x_usart.o(i.USART_Init) refers to stm32f30x_rcc.o(i.RCC_GetClocksFreq) for RCC_GetClocksFreq
+    stm32f30x_wwdg.o(i.WWDG_DeInit) refers to stm32f30x_rcc.o(i.RCC_APB1PeriphResetCmd) for RCC_APB1PeriphResetCmd
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry10a.o(.ARM.Collect$$$$0000000D) for __rt_final_cpp
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry11a.o(.ARM.Collect$$$$0000000F) for __rt_final_exit
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry7b.o(.ARM.Collect$$$$00000008) for _main_clock
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry8b.o(.ARM.Collect$$$$0000000A) for _main_cpp_init
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry9a.o(.ARM.Collect$$$$0000000B) for _main_init
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry5.o(.ARM.Collect$$$$00000004) for _main_scatterload
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry2.o(.ARM.Collect$$$$00000001) for _main_stk
+    entry2.o(.ARM.Collect$$$$00000001) refers to entry2.o(.ARM.Collect$$$$00002712) for __lit__00000000
+    entry2.o(.ARM.Collect$$$$00002712) refers to startup_stm32f334x8.o(STACK) for __initial_sp
+    entry2.o(__vectab_stack_and_reset_area) refers to startup_stm32f334x8.o(STACK) for __initial_sp
+    entry2.o(__vectab_stack_and_reset_area) refers to entry.o(.ARM.Collect$$$$00000000) for __main
+    entry5.o(.ARM.Collect$$$$00000004) refers to init.o(.text) for __scatterload
+    entry9a.o(.ARM.Collect$$$$0000000B) refers to main.o(i.main) for main
+    entry9b.o(.ARM.Collect$$$$0000000C) refers to main.o(i.main) for main
+    init.o(.text) refers to entry5.o(.ARM.Collect$$$$00000004) for __main_after_scatterload
+
+
+==============================================================================
+
+Removing Unused input sections from the image.
+
+    Removing main.o(.rev16_text), (4 bytes).
+    Removing main.o(.revsh_text), (4 bytes).
+    Removing stm32f3xx_it.o(.rev16_text), (4 bytes).
+    Removing stm32f3xx_it.o(.revsh_text), (4 bytes).
+    Removing system_stm32f30x.o(.rev16_text), (4 bytes).
+    Removing system_stm32f30x.o(.revsh_text), (4 bytes).
+    Removing system_stm32f30x.o(i.SystemCoreClockUpdate), (116 bytes).
+    Removing system_stm32f30x.o(.data), (20 bytes).
+    Removing adc_int.o(.rev16_text), (4 bytes).
+    Removing adc_int.o(.revsh_text), (4 bytes).
+    Removing adc_int.o(i.ADC1_DMA_Config), (132 bytes).
+    Removing adc_int.o(i.ADC2_DMA_Config), (116 bytes).
+    Removing init.o(.rev16_text), (4 bytes).
+    Removing init.o(.revsh_text), (4 bytes).
+    Removing init.o(i.KEY_GPIO_InitConfig), (50 bytes).
+    Removing delay.o(.rev16_text), (4 bytes).
+    Removing delay.o(.revsh_text), (4 bytes).
+    Removing hrtim_int.o(.rev16_text), (4 bytes).
+    Removing hrtim_int.o(.revsh_text), (4 bytes).
+    Removing state_machine.o(.rev16_text), (4 bytes).
+    Removing state_machine.o(.revsh_text), (4 bytes).
+    Removing led.o(.rev16_text), (4 bytes).
+    Removing led.o(.revsh_text), (4 bytes).
+    Removing pid.o(.rev16_text), (4 bytes).
+    Removing pid.o(.revsh_text), (4 bytes).
+    Removing startup_stm32f334x8.o(HEAP), (512 bytes).
+    Removing stm32f30x_adc.o(.rev16_text), (4 bytes).
+    Removing stm32f30x_adc.o(.revsh_text), (4 bytes).
+    Removing stm32f30x_adc.o(i.ADC_AnalogWatchdog1SingleChannelConfig), (14 bytes).
+    Removing stm32f30x_adc.o(i.ADC_AnalogWatchdog1ThresholdsConfig), (32 bytes).
+    Removing stm32f30x_adc.o(i.ADC_AnalogWatchdog2SingleChannelConfig), (28 bytes).
+    Removing stm32f30x_adc.o(i.ADC_AnalogWatchdog2ThresholdsConfig), (32 bytes).
+    Removing stm32f30x_adc.o(i.ADC_AnalogWatchdog3SingleChannelConfig), (28 bytes).
+    Removing stm32f30x_adc.o(i.ADC_AnalogWatchdog3ThresholdsConfig), (32 bytes).
+    Removing stm32f30x_adc.o(i.ADC_AnalogWatchdogCmd), (12 bytes).
+    Removing stm32f30x_adc.o(i.ADC_AutoDelayCmd), (18 bytes).
+    Removing stm32f30x_adc.o(i.ADC_AutoInjectedConvCmd), (18 bytes).
+    Removing stm32f30x_adc.o(i.ADC_ChannelOffset1Cmd), (18 bytes).
+    Removing stm32f30x_adc.o(i.ADC_ChannelOffset2Cmd), (18 bytes).
+    Removing stm32f30x_adc.o(i.ADC_ChannelOffset3Cmd), (18 bytes).
+    Removing stm32f30x_adc.o(i.ADC_ChannelOffset4Cmd), (18 bytes).
+    Removing stm32f30x_adc.o(i.ADC_ClearCommonFlag), (48 bytes).
+    Removing stm32f30x_adc.o(i.ADC_ClearFlag), (4 bytes).
+    Removing stm32f30x_adc.o(i.ADC_ClearITPendingBit), (4 bytes).
+    Removing stm32f30x_adc.o(i.ADC_CommonStructInit), (14 bytes).
+    Removing stm32f30x_adc.o(i.ADC_DisableCmd), (10 bytes).
+    Removing stm32f30x_adc.o(i.ADC_DiscModeChannelCountConfig), (16 bytes).
+    Removing stm32f30x_adc.o(i.ADC_DiscModeCmd), (18 bytes).
+    Removing stm32f30x_adc.o(i.ADC_ExternalTriggerConfig), (18 bytes).
+    Removing stm32f30x_adc.o(i.ADC_GetCommonFlagStatus), (44 bytes).
+    Removing stm32f30x_adc.o(i.ADC_GetConversionValue), (6 bytes).
+    Removing stm32f30x_adc.o(i.ADC_GetDisableCmdStatus), (16 bytes).
+    Removing stm32f30x_adc.o(i.ADC_GetDualModeConversionValue), (36 bytes).
+    Removing stm32f30x_adc.o(i.ADC_GetITStatus), (24 bytes).
+    Removing stm32f30x_adc.o(i.ADC_GetInjectedConversionValue), (18 bytes).
+    Removing stm32f30x_adc.o(i.ADC_GetStartConversionStatus), (16 bytes).
+    Removing stm32f30x_adc.o(i.ADC_GetStartInjectedConversionStatus), (16 bytes).
+    Removing stm32f30x_adc.o(i.ADC_ITConfig), (16 bytes).
+    Removing stm32f30x_adc.o(i.ADC_InjectedChannelSampleTimeConfig), (76 bytes).
+    Removing stm32f30x_adc.o(i.ADC_InjectedDiscModeCmd), (18 bytes).
+    Removing stm32f30x_adc.o(i.ADC_InjectedInit), (44 bytes).
+    Removing stm32f30x_adc.o(i.ADC_InjectedStructInit), (20 bytes).
+    Removing stm32f30x_adc.o(i.ADC_RegularChannelSequencerLengthConfig), (18 bytes).
+    Removing stm32f30x_adc.o(i.ADC_SelectDifferentialMode), (26 bytes).
+    Removing stm32f30x_adc.o(i.ADC_SelectQueueOfContextMode), (18 bytes).
+    Removing stm32f30x_adc.o(i.ADC_SetCalibrationValue), (6 bytes).
+    Removing stm32f30x_adc.o(i.ADC_SetChannelOffset1), (32 bytes).
+    Removing stm32f30x_adc.o(i.ADC_SetChannelOffset2), (32 bytes).
+    Removing stm32f30x_adc.o(i.ADC_SetChannelOffset3), (32 bytes).
+    Removing stm32f30x_adc.o(i.ADC_SetChannelOffset4), (32 bytes).
+    Removing stm32f30x_adc.o(i.ADC_StartInjectedConversion), (10 bytes).
+    Removing stm32f30x_adc.o(i.ADC_StopConversion), (10 bytes).
+    Removing stm32f30x_adc.o(i.ADC_StopInjectedConversion), (10 bytes).
+    Removing stm32f30x_adc.o(i.ADC_TempSensorCmd), (26 bytes).
+    Removing stm32f30x_adc.o(i.ADC_VbatCmd), (26 bytes).
+    Removing stm32f30x_adc.o(i.ADC_VrefintCmd), (68 bytes).
+    Removing stm32f30x_can.o(.rev16_text), (4 bytes).
+    Removing stm32f30x_can.o(.revsh_text), (4 bytes).
+    Removing stm32f30x_can.o(i.CAN_CancelTransmit), (40 bytes).
+    Removing stm32f30x_can.o(i.CAN_ClearFlag), (52 bytes).
+    Removing stm32f30x_can.o(i.CAN_ClearITPendingBit), (156 bytes).
+    Removing stm32f30x_can.o(i.CAN_DBGFreeze), (18 bytes).
+    Removing stm32f30x_can.o(i.CAN_DeInit), (24 bytes).
+    Removing stm32f30x_can.o(i.CAN_FIFORelease), (22 bytes).
+    Removing stm32f30x_can.o(i.CAN_FilterInit), (240 bytes).
+    Removing stm32f30x_can.o(i.CAN_GetFlagStatus), (82 bytes).
+    Removing stm32f30x_can.o(i.CAN_GetITStatus), (272 bytes).
+    Removing stm32f30x_can.o(i.CAN_GetLSBTransmitErrorCounter), (8 bytes).
+    Removing stm32f30x_can.o(i.CAN_GetLastErrorCode), (10 bytes).
+    Removing stm32f30x_can.o(i.CAN_GetReceiveErrorCounter), (6 bytes).
+    Removing stm32f30x_can.o(i.CAN_ITConfig), (16 bytes).
+    Removing stm32f30x_can.o(i.CAN_Init), (254 bytes).
+    Removing stm32f30x_can.o(i.CAN_MessagePending), (26 bytes).
+    Removing stm32f30x_can.o(i.CAN_OperatingModeRequest), (138 bytes).
+    Removing stm32f30x_can.o(i.CAN_Receive), (180 bytes).
+    Removing stm32f30x_can.o(i.CAN_SlaveStartBank), (44 bytes).
+    Removing stm32f30x_can.o(i.CAN_Sleep), (30 bytes).
+    Removing stm32f30x_can.o(i.CAN_StructInit), (32 bytes).
+    Removing stm32f30x_can.o(i.CAN_TTComModeCmd), (90 bytes).
+    Removing stm32f30x_can.o(i.CAN_Transmit), (194 bytes).
+    Removing stm32f30x_can.o(i.CAN_TransmitStatus), (124 bytes).
+    Removing stm32f30x_can.o(i.CAN_WakeUp), (42 bytes).
+    Removing stm32f30x_comp.o(.rev16_text), (4 bytes).
+    Removing stm32f30x_comp.o(.revsh_text), (4 bytes).
+    Removing stm32f30x_comp.o(i.COMP_Cmd), (26 bytes).
+    Removing stm32f30x_comp.o(i.COMP_DeInit), (14 bytes).
+    Removing stm32f30x_comp.o(i.COMP_GetOutputLevel), (26 bytes).
+    Removing stm32f30x_comp.o(i.COMP_Init), (66 bytes).
+    Removing stm32f30x_comp.o(i.COMP_LockConfig), (18 bytes).
+    Removing stm32f30x_comp.o(i.COMP_StructInit), (20 bytes).
+    Removing stm32f30x_comp.o(i.COMP_SwitchCmd), (26 bytes).
+    Removing stm32f30x_comp.o(i.COMP_WindowCmd), (26 bytes).
+    Removing stm32f30x_crc.o(.rev16_text), (4 bytes).
+    Removing stm32f30x_crc.o(.revsh_text), (4 bytes).
+    Removing stm32f30x_crc.o(i.CRC_CalcBlockCRC), (60 bytes).
+    Removing stm32f30x_crc.o(i.CRC_CalcCRC), (12 bytes).
+    Removing stm32f30x_crc.o(i.CRC_CalcCRC16bits), (12 bytes).
+    Removing stm32f30x_crc.o(i.CRC_CalcCRC8bits), (12 bytes).
+    Removing stm32f30x_crc.o(i.CRC_DeInit), (32 bytes).
+    Removing stm32f30x_crc.o(i.CRC_GetCRC), (12 bytes).
+    Removing stm32f30x_crc.o(i.CRC_GetIDRegister), (12 bytes).
+    Removing stm32f30x_crc.o(i.CRC_PolynomialSizeSelect), (20 bytes).
+    Removing stm32f30x_crc.o(i.CRC_ResetDR), (16 bytes).
+    Removing stm32f30x_crc.o(i.CRC_ReverseInputDataSelect), (20 bytes).
+    Removing stm32f30x_crc.o(i.CRC_ReverseOutputDataCmd), (24 bytes).
+    Removing stm32f30x_crc.o(i.CRC_SetIDRegister), (12 bytes).
+    Removing stm32f30x_crc.o(i.CRC_SetInitRegister), (12 bytes).
+    Removing stm32f30x_crc.o(i.CRC_SetPolynomial), (12 bytes).
+    Removing stm32f30x_dac.o(.rev16_text), (4 bytes).
+    Removing stm32f30x_dac.o(.revsh_text), (4 bytes).
+    Removing stm32f30x_dac.o(i.DAC_ClearFlag), (8 bytes).
+    Removing stm32f30x_dac.o(i.DAC_ClearITPendingBit), (8 bytes).
+    Removing stm32f30x_dac.o(i.DAC_Cmd), (22 bytes).
+    Removing stm32f30x_dac.o(i.DAC_DMACmd), (24 bytes).
+    Removing stm32f30x_dac.o(i.DAC_DeInit), (58 bytes).
+    Removing stm32f30x_dac.o(i.DAC_DualSoftwareTriggerCmd), (18 bytes).
+    Removing stm32f30x_dac.o(i.DAC_GetDataOutputValue), (18 bytes).
+    Removing stm32f30x_dac.o(i.DAC_GetFlagStatus), (18 bytes).
+    Removing stm32f30x_dac.o(i.DAC_GetITStatus), (26 bytes).
+    Removing stm32f30x_dac.o(i.DAC_ITConfig), (20 bytes).
+    Removing stm32f30x_dac.o(i.DAC_Init), (46 bytes).
+    Removing stm32f30x_dac.o(i.DAC_SetChannel1Data), (14 bytes).
+    Removing stm32f30x_dac.o(i.DAC_SetChannel2Data), (14 bytes).
+    Removing stm32f30x_dac.o(i.DAC_SetDualChannelData), (18 bytes).
+    Removing stm32f30x_dac.o(i.DAC_SoftwareTriggerCmd), (24 bytes).
+    Removing stm32f30x_dac.o(i.DAC_StructInit), (14 bytes).
+    Removing stm32f30x_dac.o(i.DAC_WaveGenerationCmd), (20 bytes).
+    Removing stm32f30x_dbgmcu.o(.rev16_text), (4 bytes).
+    Removing stm32f30x_dbgmcu.o(.revsh_text), (4 bytes).
+    Removing stm32f30x_dbgmcu.o(i.DBGMCU_APB1PeriphConfig), (24 bytes).
+    Removing stm32f30x_dbgmcu.o(i.DBGMCU_APB2PeriphConfig), (24 bytes).
+    Removing stm32f30x_dbgmcu.o(i.DBGMCU_Config), (24 bytes).
+    Removing stm32f30x_dbgmcu.o(i.DBGMCU_GetDEVID), (16 bytes).
+    Removing stm32f30x_dbgmcu.o(i.DBGMCU_GetREVID), (12 bytes).
+    Removing stm32f30x_dma.o(.rev16_text), (4 bytes).
+    Removing stm32f30x_dma.o(.revsh_text), (4 bytes).
+    Removing stm32f30x_dma.o(i.DMA_GetCurrDataCounter), (6 bytes).
+    Removing stm32f30x_dma.o(i.DMA_GetITStatus), (32 bytes).
+    Removing stm32f30x_dma.o(i.DMA_StructInit), (26 bytes).
+    Removing stm32f30x_exti.o(.rev16_text), (4 bytes).
+    Removing stm32f30x_exti.o(.revsh_text), (4 bytes).
+    Removing stm32f30x_exti.o(i.EXTI_ClearFlag), (28 bytes).
+    Removing stm32f30x_exti.o(i.EXTI_ClearITPendingBit), (28 bytes).
+    Removing stm32f30x_exti.o(i.EXTI_DeInit), (76 bytes).
+    Removing stm32f30x_exti.o(i.EXTI_GenerateSWInterrupt), (34 bytes).
+    Removing stm32f30x_exti.o(i.EXTI_GetFlagStatus), (38 bytes).
+    Removing stm32f30x_exti.o(i.EXTI_GetITStatus), (38 bytes).
+    Removing stm32f30x_exti.o(i.EXTI_Init), (308 bytes).
+    Removing stm32f30x_exti.o(i.EXTI_StructInit), (14 bytes).
+    Removing stm32f30x_flash.o(.rev16_text), (4 bytes).
+    Removing stm32f30x_flash.o(.revsh_text), (4 bytes).
+    Removing stm32f30x_flash.o(i.FLASH_ClearFlag), (12 bytes).
+    Removing stm32f30x_flash.o(i.FLASH_EraseAllPages), (56 bytes).
+    Removing stm32f30x_flash.o(i.FLASH_ErasePage), (60 bytes).
+    Removing stm32f30x_flash.o(i.FLASH_GetFlagStatus), (20 bytes).
+    Removing stm32f30x_flash.o(i.FLASH_GetStatus), (44 bytes).
+    Removing stm32f30x_flash.o(i.FLASH_HalfCycleAccessCmd), (24 bytes).
+    Removing stm32f30x_flash.o(i.FLASH_ITConfig), (24 bytes).
+    Removing stm32f30x_flash.o(i.FLASH_Lock), (16 bytes).
+    Removing stm32f30x_flash.o(i.FLASH_OB_BOOTConfig), (84 bytes).
+    Removing stm32f30x_flash.o(i.FLASH_OB_EnableWRP), (100 bytes).
+    Removing stm32f30x_flash.o(i.FLASH_OB_Erase), (120 bytes).
+    Removing stm32f30x_flash.o(i.FLASH_OB_GetRDP), (20 bytes).
+    Removing stm32f30x_flash.o(i.FLASH_OB_GetUser), (16 bytes).
+    Removing stm32f30x_flash.o(i.FLASH_OB_GetWRP), (12 bytes).
+    Removing stm32f30x_flash.o(i.FLASH_OB_Launch), (16 bytes).
+    Removing stm32f30x_flash.o(i.FLASH_OB_Lock), (16 bytes).
+    Removing stm32f30x_flash.o(i.FLASH_OB_RDPConfig), (116 bytes).
+    Removing stm32f30x_flash.o(i.FLASH_OB_SRAMParityConfig), (68 bytes).
+    Removing stm32f30x_flash.o(i.FLASH_OB_Unlock), (36 bytes).
+    Removing stm32f30x_flash.o(i.FLASH_OB_UserConfig), (96 bytes).
+    Removing stm32f30x_flash.o(i.FLASH_OB_VDDAConfig), (84 bytes).
+    Removing stm32f30x_flash.o(i.FLASH_OB_WriteUser), (84 bytes).
+    Removing stm32f30x_flash.o(i.FLASH_PrefetchBufferCmd), (24 bytes).
+    Removing stm32f30x_flash.o(i.FLASH_ProgramHalfWord), (56 bytes).
+    Removing stm32f30x_flash.o(i.FLASH_ProgramOptionByteData), (60 bytes).
+    Removing stm32f30x_flash.o(i.FLASH_ProgramWord), (80 bytes).
+    Removing stm32f30x_flash.o(i.FLASH_SetLatency), (20 bytes).
+    Removing stm32f30x_flash.o(i.FLASH_Unlock), (36 bytes).
+    Removing stm32f30x_flash.o(i.FLASH_WaitForLastOperation), (100 bytes).
+    Removing stm32f30x_gpio.o(.rev16_text), (4 bytes).
+    Removing stm32f30x_gpio.o(.revsh_text), (4 bytes).
+    Removing stm32f30x_gpio.o(i.GPIO_DeInit), (192 bytes).
+    Removing stm32f30x_gpio.o(i.GPIO_PinLockConfig), (16 bytes).
+    Removing stm32f30x_gpio.o(i.GPIO_ReadInputData), (4 bytes).
+    Removing stm32f30x_gpio.o(i.GPIO_ReadInputDataBit), (14 bytes).
+    Removing stm32f30x_gpio.o(i.GPIO_ReadOutputData), (4 bytes).
+    Removing stm32f30x_gpio.o(i.GPIO_ReadOutputDataBit), (14 bytes).
+    Removing stm32f30x_gpio.o(i.GPIO_StructInit), (20 bytes).
+    Removing stm32f30x_gpio.o(i.GPIO_Write), (4 bytes).
+    Removing stm32f30x_gpio.o(i.GPIO_WriteBit), (10 bytes).
+    Removing stm32f30x_hrtim.o(.rev16_text), (4 bytes).
+    Removing stm32f30x_hrtim.o(.revsh_text), (4 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_BurstDMAConfig), (52 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_BurstModeConfig), (60 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_BurstModeCtl), (16 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_ChopperModeConfig), (34 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_ClearCommonFlag), (12 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_ClearCommonITPendingBit), (12 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_ClearFlag), (40 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_DMACmd), (52 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_DeInit), (24 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_EventConfig), (4 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_EventPrescalerConfig), (16 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_ExternalEventConfig), (466 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_FaultConfig), (192 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_FaultModeCtl), (88 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_FaultPrescalerConfig), (16 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_GetBurstStatus), (10 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_GetCapturedValue), (28 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_GetCommonITStatus), (28 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_GetCurrentPushPullStatus), (14 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_GetDelayedProtectionStatus), (92 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_GetFlagStatus), (46 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_GetIdlePushPullStatus), (14 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_ITCommonConfig), (20 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_MasterSetCompare), (32 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_SimpleBaseStart), (20 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_SimpleBaseStop), (172 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_SimpleBase_Init), (50 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_SimpleCaptureChannelConfig), (180 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_SimpleCaptureStart), (20 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_SimpleCaptureStop), (212 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_SimpleCapture_Init), (4 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_SimpleOCChannelConfig), (256 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_SimpleOCStart), (28 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_SimpleOCStop), (180 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_SimpleOC_Init), (4 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_SimpleOnePulseChannelConfig), (354 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_SimpleOnePulseStart), (28 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_SimpleOnePulseStop), (180 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_SimpleOnePulse_Init), (4 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_SimplePWMChannelConfig), (204 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_SimplePWMStart), (28 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_SimplePWMStop), (180 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_SimplePWM_Init), (4 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_SlaveSetCompare), (44 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_SoftwareCapture), (42 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_SoftwareReset), (12 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_SoftwareUpdate), (12 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_SynchronizationConfig), (30 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_TimerEventFilteringConfig), (276 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_WaveformCaptureConfig), (28 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_WaveformCounterStop), (10 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_WaveformGetOutputLevel), (92 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_WaveformGetOutputState), (120 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_WaveformOutputStop), (6 bytes).
+    Removing stm32f30x_hrtim.o(i.HRTIM_WaveformSetOutputLevel), (122 bytes).
+    Removing stm32f30x_hrtim.o(.data), (24 bytes).
+    Removing stm32f30x_i2c.o(.rev16_text), (4 bytes).
+    Removing stm32f30x_i2c.o(.revsh_text), (4 bytes).
+    Removing stm32f30x_i2c.o(i.I2C_10BitAddressHeaderCmd), (18 bytes).
+    Removing stm32f30x_i2c.o(i.I2C_10BitAddressingModeCmd), (18 bytes).
+    Removing stm32f30x_i2c.o(i.I2C_AcknowledgeConfig), (18 bytes).
+    Removing stm32f30x_i2c.o(i.I2C_AutoEndCmd), (18 bytes).
+    Removing stm32f30x_i2c.o(i.I2C_CalculatePEC), (18 bytes).
+    Removing stm32f30x_i2c.o(i.I2C_ClearFlag), (4 bytes).
+    Removing stm32f30x_i2c.o(i.I2C_ClearITPendingBit), (4 bytes).
+    Removing stm32f30x_i2c.o(i.I2C_ClockTimeoutCmd), (18 bytes).
+    Removing stm32f30x_i2c.o(i.I2C_Cmd), (18 bytes).
+    Removing stm32f30x_i2c.o(i.I2C_DMACmd), (16 bytes).
+    Removing stm32f30x_i2c.o(i.I2C_DeInit), (58 bytes).
+    Removing stm32f30x_i2c.o(i.I2C_DualAddressCmd), (18 bytes).
+    Removing stm32f30x_i2c.o(i.I2C_ExtendedClockTimeoutCmd), (18 bytes).
+    Removing stm32f30x_i2c.o(i.I2C_GeneralCallCmd), (18 bytes).
+    Removing stm32f30x_i2c.o(i.I2C_GenerateSTART), (18 bytes).
+    Removing stm32f30x_i2c.o(i.I2C_GenerateSTOP), (18 bytes).
+    Removing stm32f30x_i2c.o(i.I2C_GetAddressMatched), (10 bytes).
+    Removing stm32f30x_i2c.o(i.I2C_GetFlagStatus), (14 bytes).
+    Removing stm32f30x_i2c.o(i.I2C_GetITStatus), (46 bytes).
+    Removing stm32f30x_i2c.o(i.I2C_GetPEC), (6 bytes).
+    Removing stm32f30x_i2c.o(i.I2C_GetTransferDirection), (18 bytes).
+    Removing stm32f30x_i2c.o(i.I2C_ITConfig), (16 bytes).
+    Removing stm32f30x_i2c.o(i.I2C_IdleClockTimeoutCmd), (18 bytes).
+    Removing stm32f30x_i2c.o(i.I2C_Init), (96 bytes).
+    Removing stm32f30x_i2c.o(i.I2C_MasterRequestConfig), (18 bytes).
+    Removing stm32f30x_i2c.o(i.I2C_NumberOfBytesConfig), (14 bytes).
+    Removing stm32f30x_i2c.o(i.I2C_OwnAddress2Config), (26 bytes).
+    Removing stm32f30x_i2c.o(i.I2C_PECRequestCmd), (18 bytes).
+    Removing stm32f30x_i2c.o(i.I2C_ReadRegister), (12 bytes).
+    Removing stm32f30x_i2c.o(i.I2C_ReceiveData), (6 bytes).
+    Removing stm32f30x_i2c.o(i.I2C_ReloadCmd), (18 bytes).
+    Removing stm32f30x_i2c.o(i.I2C_SMBusAlertCmd), (18 bytes).
+    Removing stm32f30x_i2c.o(i.I2C_SendData), (4 bytes).
+    Removing stm32f30x_i2c.o(i.I2C_SlaveAddressConfig), (16 bytes).
+    Removing stm32f30x_i2c.o(i.I2C_SlaveByteControlCmd), (18 bytes).
+    Removing stm32f30x_i2c.o(i.I2C_SoftwareResetCmd), (20 bytes).
+    Removing stm32f30x_i2c.o(i.I2C_StopModeCmd), (18 bytes).
+    Removing stm32f30x_i2c.o(i.I2C_StretchClockCmd), (18 bytes).
+    Removing stm32f30x_i2c.o(i.I2C_StructInit), (22 bytes).
+    Removing stm32f30x_i2c.o(i.I2C_TimeoutAConfig), (16 bytes).
+    Removing stm32f30x_i2c.o(i.I2C_TimeoutBConfig), (20 bytes).
+    Removing stm32f30x_i2c.o(i.I2C_TransferHandling), (40 bytes).
+    Removing stm32f30x_iwdg.o(.rev16_text), (4 bytes).
+    Removing stm32f30x_iwdg.o(.revsh_text), (4 bytes).
+    Removing stm32f30x_iwdg.o(i.IWDG_Enable), (16 bytes).
+    Removing stm32f30x_iwdg.o(i.IWDG_GetFlagStatus), (20 bytes).
+    Removing stm32f30x_iwdg.o(i.IWDG_ReloadCounter), (16 bytes).
+    Removing stm32f30x_iwdg.o(i.IWDG_SetPrescaler), (12 bytes).
+    Removing stm32f30x_iwdg.o(i.IWDG_SetReload), (12 bytes).
+    Removing stm32f30x_iwdg.o(i.IWDG_SetWindowValue), (12 bytes).
+    Removing stm32f30x_iwdg.o(i.IWDG_WriteAccessCmd), (12 bytes).
+    Removing stm32f30x_misc.o(.rev16_text), (4 bytes).
+    Removing stm32f30x_misc.o(.revsh_text), (4 bytes).
+    Removing stm32f30x_misc.o(i.NVIC_SetVectorTable), (20 bytes).
+    Removing stm32f30x_misc.o(i.NVIC_SystemLPConfig), (24 bytes).
+    Removing stm32f30x_misc.o(i.SysTick_CLKSourceConfig), (22 bytes).
+    Removing stm32f30x_opamp.o(.rev16_text), (4 bytes).
+    Removing stm32f30x_opamp.o(.revsh_text), (4 bytes).
+    Removing stm32f30x_opamp.o(i.OPAMP_Cmd), (26 bytes).
+    Removing stm32f30x_opamp.o(i.OPAMP_DeInit), (14 bytes).
+    Removing stm32f30x_opamp.o(i.OPAMP_GetOutputLevel), (26 bytes).
+    Removing stm32f30x_opamp.o(i.OPAMP_Init), (26 bytes).
+    Removing stm32f30x_opamp.o(i.OPAMP_LockConfig), (18 bytes).
+    Removing stm32f30x_opamp.o(i.OPAMP_OffsetTrimConfig), (32 bytes).
+    Removing stm32f30x_opamp.o(i.OPAMP_OffsetTrimModeSelect), (24 bytes).
+    Removing stm32f30x_opamp.o(i.OPAMP_PGAConfig), (26 bytes).
+    Removing stm32f30x_opamp.o(i.OPAMP_StartCalibration), (26 bytes).
+    Removing stm32f30x_opamp.o(i.OPAMP_StructInit), (8 bytes).
+    Removing stm32f30x_opamp.o(i.OPAMP_TimerControlledMuxCmd), (26 bytes).
+    Removing stm32f30x_opamp.o(i.OPAMP_TimerControlledMuxConfig), (30 bytes).
+    Removing stm32f30x_opamp.o(i.OPAMP_VrefConfig), (20 bytes).
+    Removing stm32f30x_opamp.o(i.OPAMP_VrefConnectADCCmd), (26 bytes).
+    Removing stm32f30x_opamp.o(i.OPAMP_VrefConnectNonInvertingInput), (26 bytes).
+    Removing stm32f30x_pwr.o(.rev16_text), (4 bytes).
+    Removing stm32f30x_pwr.o(.revsh_text), (4 bytes).
+    Removing stm32f30x_pwr.o(i.PWR_BackupAccessCmd), (12 bytes).
+    Removing stm32f30x_pwr.o(i.PWR_ClearFlag), (16 bytes).
+    Removing stm32f30x_pwr.o(i.PWR_DeInit), (24 bytes).
+    Removing stm32f30x_pwr.o(i.PWR_EnterSTANDBYMode), (40 bytes).
+    Removing stm32f30x_pwr.o(i.PWR_EnterSTOPMode), (48 bytes).
+    Removing stm32f30x_pwr.o(i.PWR_EnterSleepMode), (24 bytes).
+    Removing stm32f30x_pwr.o(i.PWR_GetFlagStatus), (20 bytes).
+    Removing stm32f30x_pwr.o(i.PWR_PVDCmd), (12 bytes).
+    Removing stm32f30x_pwr.o(i.PWR_PVDLevelConfig), (20 bytes).
+    Removing stm32f30x_pwr.o(i.PWR_WakeUpPinCmd), (24 bytes).
+    Removing stm32f30x_rcc.o(.rev16_text), (4 bytes).
+    Removing stm32f30x_rcc.o(.revsh_text), (4 bytes).
+    Removing stm32f30x_rcc.o(i.RCC_AdjustHSICalibrationValue), (20 bytes).
+    Removing stm32f30x_rcc.o(i.RCC_BackupResetCmd), (12 bytes).
+    Removing stm32f30x_rcc.o(i.RCC_ClearFlag), (16 bytes).
+    Removing stm32f30x_rcc.o(i.RCC_ClearITPendingBit), (12 bytes).
+    Removing stm32f30x_rcc.o(i.RCC_ClockSecuritySystemCmd), (12 bytes).
+    Removing stm32f30x_rcc.o(i.RCC_DeInit), (80 bytes).
+    Removing stm32f30x_rcc.o(i.RCC_GetFlagStatus), (52 bytes).
+    Removing stm32f30x_rcc.o(i.RCC_GetITStatus), (20 bytes).
+    Removing stm32f30x_rcc.o(i.RCC_GetSYSCLKSource), (16 bytes).
+    Removing stm32f30x_rcc.o(i.RCC_HCLKConfig), (20 bytes).
+    Removing stm32f30x_rcc.o(i.RCC_HSEConfig), (16 bytes).
+    Removing stm32f30x_rcc.o(i.RCC_HSICmd), (12 bytes).
+    Removing stm32f30x_rcc.o(i.RCC_I2CCLKConfig), (56 bytes).
+    Removing stm32f30x_rcc.o(i.RCC_I2SCLKConfig), (12 bytes).
+    Removing stm32f30x_rcc.o(i.RCC_ITConfig), (24 bytes).
+    Removing stm32f30x_rcc.o(i.RCC_LSEConfig), (32 bytes).
+    Removing stm32f30x_rcc.o(i.RCC_LSEDriveConfig), (24 bytes).
+    Removing stm32f30x_rcc.o(i.RCC_LSICmd), (12 bytes).
+    Removing stm32f30x_rcc.o(i.RCC_MCOConfig), (24 bytes).
+    Removing stm32f30x_rcc.o(i.RCC_PCLK1Config), (20 bytes).
+    Removing stm32f30x_rcc.o(i.RCC_PCLK2Config), (20 bytes).
+    Removing stm32f30x_rcc.o(i.RCC_PLLCmd), (12 bytes).
+    Removing stm32f30x_rcc.o(i.RCC_PLLConfig), (24 bytes).
+    Removing stm32f30x_rcc.o(i.RCC_PREDIV1Config), (20 bytes).
+    Removing stm32f30x_rcc.o(i.RCC_RTCCLKCmd), (12 bytes).
+    Removing stm32f30x_rcc.o(i.RCC_RTCCLKConfig), (16 bytes).
+    Removing stm32f30x_rcc.o(i.RCC_SYSCLKConfig), (20 bytes).
+    Removing stm32f30x_rcc.o(i.RCC_TIMCLKConfig), (72 bytes).
+    Removing stm32f30x_rcc.o(i.RCC_USARTCLKConfig), (72 bytes).
+    Removing stm32f30x_rcc.o(i.RCC_USBCLKConfig), (12 bytes).
+    Removing stm32f30x_rcc.o(i.RCC_WaitForHSEStartUp), (56 bytes).
+    Removing stm32f30x_rtc.o(.rev16_text), (4 bytes).
+    Removing stm32f30x_rtc.o(.revsh_text), (4 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_AlarmCmd), (100 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_AlarmStructInit), (20 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_AlarmSubSecondConfig), (52 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_BypassShadowCmd), (44 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_ByteToBcd2), (48 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_CalibOutputCmd), (44 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_CalibOutputConfig), (40 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_ClearFlag), (28 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_ClearITPendingBit), (28 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_DateStructInit), (14 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_DayLightSavingConfig), (52 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_DeInit), (192 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_EnterInitMode), (68 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_ExitInitMode), (16 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_GetAlarm), (148 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_GetAlarmSubSecond), (36 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_GetDate), (108 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_GetFlagStatus), (28 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_GetITStatus), (64 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_GetStoreOperation), (16 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_GetSubSecond), (20 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_GetTime), (112 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_GetTimeStamp), (208 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_GetTimeStampSubSecond), (12 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_GetWakeUpCounter), (12 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_ITConfig), (72 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_Init), (88 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_OutputConfig), (52 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_OutputTypeConfig), (24 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_ReadBackupRegister), (20 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_RefClockCmd), (72 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_SetAlarm), (168 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_SetDate), (156 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_SetTime), (172 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_SetWakeUpCounter), (28 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_SmoothCalibConfig), (96 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_StructInit), (14 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_SynchroShiftConfig), (112 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_TamperCmd), (24 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_TamperFilterConfig), (24 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_TamperPinsPrechargeDuration), (24 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_TamperPullUpCmd), (24 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_TamperSamplingFreqConfig), (24 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_TamperTriggerConfig), (24 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_TimeStampCmd), (52 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_TimeStampOnTamperDetectionCmd), (24 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_TimeStructInit), (12 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_WaitForSynchro), (96 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_WakeUpClockConfig), (40 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_WakeUpCmd), (96 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_WriteBackupRegister), (20 bytes).
+    Removing stm32f30x_rtc.o(i.RTC_WriteProtectionCmd), (24 bytes).
+    Removing stm32f30x_spi.o(.rev16_text), (4 bytes).
+    Removing stm32f30x_spi.o(.revsh_text), (4 bytes).
+    Removing stm32f30x_spi.o(i.I2S_Cmd), (18 bytes).
+    Removing stm32f30x_spi.o(i.I2S_FullDuplexConfig), (70 bytes).
+    Removing stm32f30x_spi.o(i.I2S_Init), (176 bytes).
+    Removing stm32f30x_spi.o(i.I2S_StructInit), (18 bytes).
+    Removing stm32f30x_spi.o(i.SPI_BiDirectionalLineConfig), (20 bytes).
+    Removing stm32f30x_spi.o(i.SPI_CRCLengthConfig), (16 bytes).
+    Removing stm32f30x_spi.o(i.SPI_CalculateCRC), (18 bytes).
+    Removing stm32f30x_spi.o(i.SPI_Cmd), (18 bytes).
+    Removing stm32f30x_spi.o(i.SPI_DataSizeConfig), (12 bytes).
+    Removing stm32f30x_spi.o(i.SPI_GetCRC), (10 bytes).
+    Removing stm32f30x_spi.o(i.SPI_GetCRCPolynomial), (4 bytes).
+    Removing stm32f30x_spi.o(i.SPI_GetReceptionFIFOStatus), (8 bytes).
+    Removing stm32f30x_spi.o(i.SPI_GetTransmissionFIFOStatus), (8 bytes).
+    Removing stm32f30x_spi.o(i.SPI_I2S_ClearFlag), (6 bytes).
+    Removing stm32f30x_spi.o(i.SPI_I2S_DMACmd), (16 bytes).
+    Removing stm32f30x_spi.o(i.SPI_I2S_DeInit), (100 bytes).
+    Removing stm32f30x_spi.o(i.SPI_I2S_GetFlagStatus), (14 bytes).
+    Removing stm32f30x_spi.o(i.SPI_I2S_GetITStatus), (46 bytes).
+    Removing stm32f30x_spi.o(i.SPI_I2S_ITConfig), (26 bytes).
+    Removing stm32f30x_spi.o(i.SPI_I2S_ReceiveData16), (4 bytes).
+    Removing stm32f30x_spi.o(i.SPI_I2S_SendData16), (4 bytes).
+    Removing stm32f30x_spi.o(i.SPI_Init), (158 bytes).
+    Removing stm32f30x_spi.o(i.SPI_LastDMATransferCmd), (16 bytes).
+    Removing stm32f30x_spi.o(i.SPI_NSSInternalSoftwareConfig), (22 bytes).
+    Removing stm32f30x_spi.o(i.SPI_NSSPulseModeCmd), (18 bytes).
+    Removing stm32f30x_spi.o(i.SPI_ReceiveData8), (4 bytes).
+    Removing stm32f30x_spi.o(i.SPI_RxFIFOThresholdConfig), (16 bytes).
+    Removing stm32f30x_spi.o(i.SPI_SSOutputCmd), (18 bytes).
+    Removing stm32f30x_spi.o(i.SPI_SendData8), (4 bytes).
+    Removing stm32f30x_spi.o(i.SPI_StructInit), (28 bytes).
+    Removing stm32f30x_spi.o(i.SPI_TIModeCmd), (18 bytes).
+    Removing stm32f30x_spi.o(i.SPI_TransmitCRC), (10 bytes).
+    Removing stm32f30x_syscfg.o(.rev16_text), (4 bytes).
+    Removing stm32f30x_syscfg.o(.revsh_text), (4 bytes).
+    Removing stm32f30x_syscfg.o(i.SYSCFG_BreakConfig), (16 bytes).
+    Removing stm32f30x_syscfg.o(i.SYSCFG_BypassParityCheckDisable), (16 bytes).
+    Removing stm32f30x_syscfg.o(i.SYSCFG_ClearFlag), (16 bytes).
+    Removing stm32f30x_syscfg.o(i.SYSCFG_DMAChannelRemapConfig), (44 bytes).
+    Removing stm32f30x_syscfg.o(i.SYSCFG_DeInit), (40 bytes).
+    Removing stm32f30x_syscfg.o(i.SYSCFG_EXTILineConfig), (40 bytes).
+    Removing stm32f30x_syscfg.o(i.SYSCFG_EncoderRemapConfig), (24 bytes).
+    Removing stm32f30x_syscfg.o(i.SYSCFG_GetFlagStatus), (20 bytes).
+    Removing stm32f30x_syscfg.o(i.SYSCFG_I2CFastModePlusConfig), (24 bytes).
+    Removing stm32f30x_syscfg.o(i.SYSCFG_ITConfig), (24 bytes).
+    Removing stm32f30x_syscfg.o(i.SYSCFG_MemoryRemapConfig), (20 bytes).
+    Removing stm32f30x_syscfg.o(i.SYSCFG_SRAMWRPEnable), (16 bytes).
+    Removing stm32f30x_syscfg.o(i.SYSCFG_TriggerRemapConfig), (44 bytes).
+    Removing stm32f30x_syscfg.o(i.SYSCFG_USBInterruptLineRemapCmd), (12 bytes).
+    Removing stm32f30x_tim.o(.rev16_text), (4 bytes).
+    Removing stm32f30x_tim.o(.revsh_text), (4 bytes).
+    Removing stm32f30x_tim.o(i.TIM_BDTRConfig), (34 bytes).
+    Removing stm32f30x_tim.o(i.TIM_BDTRStructInit), (18 bytes).
+    Removing stm32f30x_tim.o(i.TIM_Break1Cmd), (18 bytes).
+    Removing stm32f30x_tim.o(i.TIM_Break1Config), (20 bytes).
+    Removing stm32f30x_tim.o(i.TIM_Break2Cmd), (18 bytes).
+    Removing stm32f30x_tim.o(i.TIM_Break2Config), (20 bytes).
+    Removing stm32f30x_tim.o(i.TIM_CCPreloadControl), (20 bytes).
+    Removing stm32f30x_tim.o(i.TIM_CCxCmd), (26 bytes).
+    Removing stm32f30x_tim.o(i.TIM_CCxNCmd), (26 bytes).
+    Removing stm32f30x_tim.o(i.TIM_ClearFlag), (8 bytes).
+    Removing stm32f30x_tim.o(i.TIM_ClearITPendingBit), (8 bytes).
+    Removing stm32f30x_tim.o(i.TIM_ClearOC1Ref), (12 bytes).
+    Removing stm32f30x_tim.o(i.TIM_ClearOC2Ref), (14 bytes).
+    Removing stm32f30x_tim.o(i.TIM_ClearOC3Ref), (12 bytes).
+    Removing stm32f30x_tim.o(i.TIM_ClearOC4Ref), (14 bytes).
+    Removing stm32f30x_tim.o(i.TIM_ClearOC5Ref), (12 bytes).
+    Removing stm32f30x_tim.o(i.TIM_ClearOC6Ref), (14 bytes).
+    Removing stm32f30x_tim.o(i.TIM_CounterModeConfig), (12 bytes).
+    Removing stm32f30x_tim.o(i.TIM_CtrlPWMOutputs), (18 bytes).
+    Removing stm32f30x_tim.o(i.TIM_DMACmd), (18 bytes).
+    Removing stm32f30x_tim.o(i.TIM_DMAConfig), (8 bytes).
+    Removing stm32f30x_tim.o(i.TIM_DeInit), (310 bytes).
+    Removing stm32f30x_tim.o(i.TIM_ETRClockMode1Config), (42 bytes).
+    Removing stm32f30x_tim.o(i.TIM_ETRClockMode2Config), (40 bytes).
+    Removing stm32f30x_tim.o(i.TIM_ETRConfig), (32 bytes).
+    Removing stm32f30x_tim.o(i.TIM_EncoderInterfaceConfig), (72 bytes).
+    Removing stm32f30x_tim.o(i.TIM_ForcedOC1Config), (16 bytes).
+    Removing stm32f30x_tim.o(i.TIM_ForcedOC2Config), (18 bytes).
+    Removing stm32f30x_tim.o(i.TIM_ForcedOC3Config), (12 bytes).
+    Removing stm32f30x_tim.o(i.TIM_ForcedOC4Config), (14 bytes).
+    Removing stm32f30x_tim.o(i.TIM_ForcedOC5Config), (12 bytes).
+    Removing stm32f30x_tim.o(i.TIM_ForcedOC6Config), (14 bytes).
+    Removing stm32f30x_tim.o(i.TIM_GenerateEvent), (4 bytes).
+    Removing stm32f30x_tim.o(i.TIM_GetCapture1), (4 bytes).
+    Removing stm32f30x_tim.o(i.TIM_GetCapture2), (4 bytes).
+    Removing stm32f30x_tim.o(i.TIM_GetCapture3), (4 bytes).
+    Removing stm32f30x_tim.o(i.TIM_GetCapture4), (4 bytes).
+    Removing stm32f30x_tim.o(i.TIM_GetCounter), (4 bytes).
+    Removing stm32f30x_tim.o(i.TIM_GetFlagStatus), (14 bytes).
+    Removing stm32f30x_tim.o(i.TIM_GetITStatus), (22 bytes).
+    Removing stm32f30x_tim.o(i.TIM_GetPrescaler), (4 bytes).
+    Removing stm32f30x_tim.o(i.TIM_ICInit), (300 bytes).
+    Removing stm32f30x_tim.o(i.TIM_ICStructInit), (16 bytes).
+    Removing stm32f30x_tim.o(i.TIM_ITConfig), (18 bytes).
+    Removing stm32f30x_tim.o(i.TIM_ITRxExternalClockConfig), (22 bytes).
+    Removing stm32f30x_tim.o(i.TIM_InternalClockConfig), (12 bytes).
+    Removing stm32f30x_tim.o(i.TIM_OC1FastConfig), (12 bytes).
+    Removing stm32f30x_tim.o(i.TIM_OC1Init), (136 bytes).
+    Removing stm32f30x_tim.o(i.TIM_OC1NPolarityConfig), (12 bytes).
+    Removing stm32f30x_tim.o(i.TIM_OC1PolarityConfig), (12 bytes).
+    Removing stm32f30x_tim.o(i.TIM_OC1PreloadConfig), (12 bytes).
+    Removing stm32f30x_tim.o(i.TIM_OC2FastConfig), (14 bytes).
+    Removing stm32f30x_tim.o(i.TIM_OC2Init), (120 bytes).
+    Removing stm32f30x_tim.o(i.TIM_OC2NPolarityConfig), (14 bytes).
+    Removing stm32f30x_tim.o(i.TIM_OC2PolarityConfig), (14 bytes).
+    Removing stm32f30x_tim.o(i.TIM_OC2PreloadConfig), (14 bytes).
+    Removing stm32f30x_tim.o(i.TIM_OC3FastConfig), (12 bytes).
+    Removing stm32f30x_tim.o(i.TIM_OC3Init), (116 bytes).
+    Removing stm32f30x_tim.o(i.TIM_OC3NPolarityConfig), (14 bytes).
+    Removing stm32f30x_tim.o(i.TIM_OC3PolarityConfig), (14 bytes).
+    Removing stm32f30x_tim.o(i.TIM_OC3PreloadConfig), (12 bytes).
+    Removing stm32f30x_tim.o(i.TIM_OC4FastConfig), (14 bytes).
+    Removing stm32f30x_tim.o(i.TIM_OC4Init), (90 bytes).
+    Removing stm32f30x_tim.o(i.TIM_OC4PolarityConfig), (14 bytes).
+    Removing stm32f30x_tim.o(i.TIM_OC4PreloadConfig), (14 bytes).
+    Removing stm32f30x_tim.o(i.TIM_OC5Init), (88 bytes).
+    Removing stm32f30x_tim.o(i.TIM_OC5PolarityConfig), (14 bytes).
+    Removing stm32f30x_tim.o(i.TIM_OC5PreloadConfig), (12 bytes).
+    Removing stm32f30x_tim.o(i.TIM_OC6Init), (82 bytes).
+    Removing stm32f30x_tim.o(i.TIM_OC6PolarityConfig), (14 bytes).
+    Removing stm32f30x_tim.o(i.TIM_OC6PreloadConfig), (14 bytes).
+    Removing stm32f30x_tim.o(i.TIM_OCStructInit), (20 bytes).
+    Removing stm32f30x_tim.o(i.TIM_PWMIConfig), (320 bytes).
+    Removing stm32f30x_tim.o(i.TIM_PrescalerConfig), (6 bytes).
+    Removing stm32f30x_tim.o(i.TIM_RemapConfig), (6 bytes).
+    Removing stm32f30x_tim.o(i.TIM_SelectCCDMA), (20 bytes).
+    Removing stm32f30x_tim.o(i.TIM_SelectCOM), (20 bytes).
+    Removing stm32f30x_tim.o(i.TIM_SelectGC5C1), (18 bytes).
+    Removing stm32f30x_tim.o(i.TIM_SelectGC5C2), (18 bytes).
+    Removing stm32f30x_tim.o(i.TIM_SelectGC5C3), (18 bytes).
+    Removing stm32f30x_tim.o(i.TIM_SelectHallSensor), (20 bytes).
+    Removing stm32f30x_tim.o(i.TIM_SelectInputTrigger), (14 bytes).
+    Removing stm32f30x_tim.o(i.TIM_SelectMasterSlaveMode), (18 bytes).
+    Removing stm32f30x_tim.o(i.TIM_SelectOCREFClear), (18 bytes).
+    Removing stm32f30x_tim.o(i.TIM_SelectOCxM), (96 bytes).
+    Removing stm32f30x_tim.o(i.TIM_SelectOnePulseMode), (16 bytes).
+    Removing stm32f30x_tim.o(i.TIM_SelectOutputTrigger), (18 bytes).
+    Removing stm32f30x_tim.o(i.TIM_SelectOutputTrigger2), (16 bytes).
+    Removing stm32f30x_tim.o(i.TIM_SelectSlaveMode), (20 bytes).
+    Removing stm32f30x_tim.o(i.TIM_SetClockDivision), (16 bytes).
+    Removing stm32f30x_tim.o(i.TIM_SetCompare1), (4 bytes).
+    Removing stm32f30x_tim.o(i.TIM_SetCompare2), (4 bytes).
+    Removing stm32f30x_tim.o(i.TIM_SetCompare3), (4 bytes).
+    Removing stm32f30x_tim.o(i.TIM_SetCompare4), (4 bytes).
+    Removing stm32f30x_tim.o(i.TIM_SetCompare5), (4 bytes).
+    Removing stm32f30x_tim.o(i.TIM_SetCompare6), (4 bytes).
+    Removing stm32f30x_tim.o(i.TIM_SetCounter), (4 bytes).
+    Removing stm32f30x_tim.o(i.TIM_SetIC1Prescaler), (16 bytes).
+    Removing stm32f30x_tim.o(i.TIM_SetIC2Prescaler), (18 bytes).
+    Removing stm32f30x_tim.o(i.TIM_SetIC3Prescaler), (18 bytes).
+    Removing stm32f30x_tim.o(i.TIM_SetIC4Prescaler), (26 bytes).
+    Removing stm32f30x_tim.o(i.TIM_TIxExternalClockConfig), (136 bytes).
+    Removing stm32f30x_tim.o(i.TIM_TimeBaseStructInit), (18 bytes).
+    Removing stm32f30x_tim.o(i.TIM_UIFRemap), (18 bytes).
+    Removing stm32f30x_tim.o(i.TIM_UpdateDisableConfig), (18 bytes).
+    Removing stm32f30x_tim.o(i.TIM_UpdateRequestConfig), (18 bytes).
+    Removing stm32f30x_usart.o(.rev16_text), (4 bytes).
+    Removing stm32f30x_usart.o(.revsh_text), (4 bytes).
+    Removing stm32f30x_usart.o(i.USART_AddressDetectionConfig), (16 bytes).
+    Removing stm32f30x_usart.o(i.USART_AutoBaudRateCmd), (18 bytes).
+    Removing stm32f30x_usart.o(i.USART_AutoBaudRateConfig), (16 bytes).
+    Removing stm32f30x_usart.o(i.USART_ClearITPendingBit), (12 bytes).
+    Removing stm32f30x_usart.o(i.USART_ClockInit), (30 bytes).
+    Removing stm32f30x_usart.o(i.USART_ClockStructInit), (12 bytes).
+    Removing stm32f30x_usart.o(i.USART_DECmd), (18 bytes).
+    Removing stm32f30x_usart.o(i.USART_DEPolarityConfig), (16 bytes).
+    Removing stm32f30x_usart.o(i.USART_DMAReceptionErrorConfig), (16 bytes).
+    Removing stm32f30x_usart.o(i.USART_DataInvCmd), (18 bytes).
+    Removing stm32f30x_usart.o(i.USART_DirectionModeCmd), (16 bytes).
+    Removing stm32f30x_usart.o(i.USART_GetFlagStatus), (14 bytes).
+    Removing stm32f30x_usart.o(i.USART_GetITStatus), (72 bytes).
+    Removing stm32f30x_usart.o(i.USART_HalfDuplexCmd), (18 bytes).
+    Removing stm32f30x_usart.o(i.USART_ITConfig), (42 bytes).
+    Removing stm32f30x_usart.o(i.USART_InvPinCmd), (16 bytes).
+    Removing stm32f30x_usart.o(i.USART_IrDACmd), (18 bytes).
+    Removing stm32f30x_usart.o(i.USART_IrDAConfig), (16 bytes).
+    Removing stm32f30x_usart.o(i.USART_LINBreakDetectLengthConfig), (16 bytes).
+    Removing stm32f30x_usart.o(i.USART_LINCmd), (18 bytes).
+    Removing stm32f30x_usart.o(i.USART_MSBFirstCmd), (18 bytes).
+    Removing stm32f30x_usart.o(i.USART_MuteModeCmd), (18 bytes).
+    Removing stm32f30x_usart.o(i.USART_MuteModeWakeUpConfig), (16 bytes).
+    Removing stm32f30x_usart.o(i.USART_OneBitMethodCmd), (18 bytes).
+    Removing stm32f30x_usart.o(i.USART_OverSampling8Cmd), (18 bytes).
+    Removing stm32f30x_usart.o(i.USART_OverrunDetectionConfig), (16 bytes).
+    Removing stm32f30x_usart.o(i.USART_ReceiveData), (8 bytes).
+    Removing stm32f30x_usart.o(i.USART_ReceiverTimeOutCmd), (18 bytes).
+    Removing stm32f30x_usart.o(i.USART_RequestCmd), (16 bytes).
+    Removing stm32f30x_usart.o(i.USART_STOPModeCmd), (18 bytes).
+    Removing stm32f30x_usart.o(i.USART_SWAPPinCmd), (18 bytes).
+    Removing stm32f30x_usart.o(i.USART_SendData), (8 bytes).
+    Removing stm32f30x_usart.o(i.USART_SetAddress), (18 bytes).
+    Removing stm32f30x_usart.o(i.USART_SetAutoRetryCount), (18 bytes).
+    Removing stm32f30x_usart.o(i.USART_SetBlockLength), (18 bytes).
+    Removing stm32f30x_usart.o(i.USART_SetDEAssertionTime), (18 bytes).
+    Removing stm32f30x_usart.o(i.USART_SetDEDeassertionTime), (18 bytes).
+    Removing stm32f30x_usart.o(i.USART_SetGuardTime), (16 bytes).
+    Removing stm32f30x_usart.o(i.USART_SetPrescaler), (16 bytes).
+    Removing stm32f30x_usart.o(i.USART_SetReceiverTimeOut), (16 bytes).
+    Removing stm32f30x_usart.o(i.USART_SmartCardCmd), (18 bytes).
+    Removing stm32f30x_usart.o(i.USART_SmartCardNACKCmd), (18 bytes).
+    Removing stm32f30x_usart.o(i.USART_StopModeWakeUpSourceConfig), (16 bytes).
+    Removing stm32f30x_usart.o(i.USART_StructInit), (22 bytes).
+    Removing stm32f30x_wwdg.o(.rev16_text), (4 bytes).
+    Removing stm32f30x_wwdg.o(.revsh_text), (4 bytes).
+    Removing stm32f30x_wwdg.o(i.WWDG_ClearFlag), (12 bytes).
+    Removing stm32f30x_wwdg.o(i.WWDG_DeInit), (24 bytes).
+    Removing stm32f30x_wwdg.o(i.WWDG_Enable), (16 bytes).
+    Removing stm32f30x_wwdg.o(i.WWDG_EnableIT), (16 bytes).
+    Removing stm32f30x_wwdg.o(i.WWDG_GetFlagStatus), (20 bytes).
+    Removing stm32f30x_wwdg.o(i.WWDG_SetCounter), (16 bytes).
+    Removing stm32f30x_wwdg.o(i.WWDG_SetPrescaler), (20 bytes).
+    Removing stm32f30x_wwdg.o(i.WWDG_SetWindowValue), (28 bytes).
+
+657 unused section(s) (total 23120 bytes) removed from the image.
+
+==============================================================================
+
+Adding Veneers to the image
+
+    Adding TT veneer (10 bytes, Long) for call to 'bcfsm' from main.o(i.main).
+    Adding TT veneer (10 bytes, Long) for call to 'GPIO_SetBits' from state_machine.o(ccmram).
+    Adding TT veneer (10 bytes, Long) for call to 'GPIO_ResetBits' from state_machine.o(ccmram).
+    Adding TT veneer (10 bytes, Long) for call to 'LED_TEST' from state_machine.o(ccmram).
+    Adding TT veneer (10 bytes, Long) for call to 'Delay_ms' from state_machine.o(ccmram).
+    Adding TT veneer (10 bytes, Long) for call to 'DMA_GetFlagStatus' from state_machine.o(ccmram).
+    Adding TT veneer (10 bytes, Long) for call to 'DMA_ClearITPendingBit' from state_machine.o(ccmram).
+    Adding TT veneer (10 bytes, Long) for call to 'DMA_ClearFlag' from state_machine.o(ccmram).
+    Adding TT veneer (10 bytes, Long) for call to 'DMA_SetCurrDataCounter' from state_machine.o(ccmram).
+    Adding TT veneer (10 bytes, Long) for call to 'Send_data_to_PC' from state_machine.o(ccmram).
+    Adding TT veneer (10 bytes, Long) for call to 'HRTIM_GetITStatus' from state_machine.o(ccmram).
+    Adding TT veneer (10 bytes, Long) for call to 'HRTIM_ClearITPendingBit' from state_machine.o(ccmram).
+
+12 Veneer(s) (total 120 bytes) added to the image.
+
+==============================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry5.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry10a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry10b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry2.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry.o ABSOLUTE
+    ..\Algorithm\PID.c                       0x00000000   Number         0  pid.o ABSOLUTE
+    ..\Lib\STM32F30x_StdPeriph_Driver\src\stm32f30x_adc.c 0x00000000   Number         0  stm32f30x_adc.o ABSOLUTE
+    ..\Lib\STM32F30x_StdPeriph_Driver\src\stm32f30x_can.c 0x00000000   Number         0  stm32f30x_can.o ABSOLUTE
+    ..\Lib\STM32F30x_StdPeriph_Driver\src\stm32f30x_comp.c 0x00000000   Number         0  stm32f30x_comp.o ABSOLUTE
+    ..\Lib\STM32F30x_StdPeriph_Driver\src\stm32f30x_crc.c 0x00000000   Number         0  stm32f30x_crc.o ABSOLUTE
+    ..\Lib\STM32F30x_StdPeriph_Driver\src\stm32f30x_dac.c 0x00000000   Number         0  stm32f30x_dac.o ABSOLUTE
+    ..\Lib\STM32F30x_StdPeriph_Driver\src\stm32f30x_dbgmcu.c 0x00000000   Number         0  stm32f30x_dbgmcu.o ABSOLUTE
+    ..\Lib\STM32F30x_StdPeriph_Driver\src\stm32f30x_dma.c 0x00000000   Number         0  stm32f30x_dma.o ABSOLUTE
+    ..\Lib\STM32F30x_StdPeriph_Driver\src\stm32f30x_exti.c 0x00000000   Number         0  stm32f30x_exti.o ABSOLUTE
+    ..\Lib\STM32F30x_StdPeriph_Driver\src\stm32f30x_flash.c 0x00000000   Number         0  stm32f30x_flash.o ABSOLUTE
+    ..\Lib\STM32F30x_StdPeriph_Driver\src\stm32f30x_gpio.c 0x00000000   Number         0  stm32f30x_gpio.o ABSOLUTE
+    ..\Lib\STM32F30x_StdPeriph_Driver\src\stm32f30x_hrtim.c 0x00000000   Number         0  stm32f30x_hrtim.o ABSOLUTE
+    ..\Lib\STM32F30x_StdPeriph_Driver\src\stm32f30x_i2c.c 0x00000000   Number         0  stm32f30x_i2c.o ABSOLUTE
+    ..\Lib\STM32F30x_StdPeriph_Driver\src\stm32f30x_iwdg.c 0x00000000   Number         0  stm32f30x_iwdg.o ABSOLUTE
+    ..\Lib\STM32F30x_StdPeriph_Driver\src\stm32f30x_misc.c 0x00000000   Number         0  stm32f30x_misc.o ABSOLUTE
+    ..\Lib\STM32F30x_StdPeriph_Driver\src\stm32f30x_opamp.c 0x00000000   Number         0  stm32f30x_opamp.o ABSOLUTE
+    ..\Lib\STM32F30x_StdPeriph_Driver\src\stm32f30x_pwr.c 0x00000000   Number         0  stm32f30x_pwr.o ABSOLUTE
+    ..\Lib\STM32F30x_StdPeriph_Driver\src\stm32f30x_rcc.c 0x00000000   Number         0  stm32f30x_rcc.o ABSOLUTE
+    ..\Lib\STM32F30x_StdPeriph_Driver\src\stm32f30x_rtc.c 0x00000000   Number         0  stm32f30x_rtc.o ABSOLUTE
+    ..\Lib\STM32F30x_StdPeriph_Driver\src\stm32f30x_spi.c 0x00000000   Number         0  stm32f30x_spi.o ABSOLUTE
+    ..\Lib\STM32F30x_StdPeriph_Driver\src\stm32f30x_syscfg.c 0x00000000   Number         0  stm32f30x_syscfg.o ABSOLUTE
+    ..\Lib\STM32F30x_StdPeriph_Driver\src\stm32f30x_tim.c 0x00000000   Number         0  stm32f30x_tim.o ABSOLUTE
+    ..\Lib\STM32F30x_StdPeriph_Driver\src\stm32f30x_usart.c 0x00000000   Number         0  stm32f30x_usart.o ABSOLUTE
+    ..\Lib\STM32F30x_StdPeriph_Driver\src\stm32f30x_wwdg.c 0x00000000   Number         0  stm32f30x_wwdg.o ABSOLUTE
+    ..\User_code\ADC_INT.c                   0x00000000   Number         0  adc_int.o ABSOLUTE
+    ..\User_code\HRTIM_INT.c                 0x00000000   Number         0  hrtim_int.o ABSOLUTE
+    ..\User_code\LED.C                       0x00000000   Number         0  led.o ABSOLUTE
+    ..\User_code\delay.c                     0x00000000   Number         0  delay.o ABSOLUTE
+    ..\User_code\init.c                      0x00000000   Number         0  init.o ABSOLUTE
+    ..\User_code\main.c                      0x00000000   Number         0  main.o ABSOLUTE
+    ..\User_code\state_machine.c             0x00000000   Number         0  state_machine.o ABSOLUTE
+    ..\User_code\stm32f3xx_it.c              0x00000000   Number         0  stm32f3xx_it.o ABSOLUTE
+    ..\User_code\system_stm32f30x.c          0x00000000   Number         0  system_stm32f30x.o ABSOLUTE
+    ..\\Algorithm\\PID.c                     0x00000000   Number         0  pid.o ABSOLUTE
+    ..\\Lib\\STM32F30x_StdPeriph_Driver\\src\\stm32f30x_adc.c 0x00000000   Number         0  stm32f30x_adc.o ABSOLUTE
+    ..\\Lib\\STM32F30x_StdPeriph_Driver\\src\\stm32f30x_can.c 0x00000000   Number         0  stm32f30x_can.o ABSOLUTE
+    ..\\Lib\\STM32F30x_StdPeriph_Driver\\src\\stm32f30x_comp.c 0x00000000   Number         0  stm32f30x_comp.o ABSOLUTE
+    ..\\Lib\\STM32F30x_StdPeriph_Driver\\src\\stm32f30x_crc.c 0x00000000   Number         0  stm32f30x_crc.o ABSOLUTE
+    ..\\Lib\\STM32F30x_StdPeriph_Driver\\src\\stm32f30x_dac.c 0x00000000   Number         0  stm32f30x_dac.o ABSOLUTE
+    ..\\Lib\\STM32F30x_StdPeriph_Driver\\src\\stm32f30x_dbgmcu.c 0x00000000   Number         0  stm32f30x_dbgmcu.o ABSOLUTE
+    ..\\Lib\\STM32F30x_StdPeriph_Driver\\src\\stm32f30x_dma.c 0x00000000   Number         0  stm32f30x_dma.o ABSOLUTE
+    ..\\Lib\\STM32F30x_StdPeriph_Driver\\src\\stm32f30x_exti.c 0x00000000   Number         0  stm32f30x_exti.o ABSOLUTE
+    ..\\Lib\\STM32F30x_StdPeriph_Driver\\src\\stm32f30x_flash.c 0x00000000   Number         0  stm32f30x_flash.o ABSOLUTE
+    ..\\Lib\\STM32F30x_StdPeriph_Driver\\src\\stm32f30x_gpio.c 0x00000000   Number         0  stm32f30x_gpio.o ABSOLUTE
+    ..\\Lib\\STM32F30x_StdPeriph_Driver\\src\\stm32f30x_hrtim.c 0x00000000   Number         0  stm32f30x_hrtim.o ABSOLUTE
+    ..\\Lib\\STM32F30x_StdPeriph_Driver\\src\\stm32f30x_i2c.c 0x00000000   Number         0  stm32f30x_i2c.o ABSOLUTE
+    ..\\Lib\\STM32F30x_StdPeriph_Driver\\src\\stm32f30x_iwdg.c 0x00000000   Number         0  stm32f30x_iwdg.o ABSOLUTE
+    ..\\Lib\\STM32F30x_StdPeriph_Driver\\src\\stm32f30x_misc.c 0x00000000   Number         0  stm32f30x_misc.o ABSOLUTE
+    ..\\Lib\\STM32F30x_StdPeriph_Driver\\src\\stm32f30x_opamp.c 0x00000000   Number         0  stm32f30x_opamp.o ABSOLUTE
+    ..\\Lib\\STM32F30x_StdPeriph_Driver\\src\\stm32f30x_pwr.c 0x00000000   Number         0  stm32f30x_pwr.o ABSOLUTE
+    ..\\Lib\\STM32F30x_StdPeriph_Driver\\src\\stm32f30x_rcc.c 0x00000000   Number         0  stm32f30x_rcc.o ABSOLUTE
+    ..\\Lib\\STM32F30x_StdPeriph_Driver\\src\\stm32f30x_rtc.c 0x00000000   Number         0  stm32f30x_rtc.o ABSOLUTE
+    ..\\Lib\\STM32F30x_StdPeriph_Driver\\src\\stm32f30x_spi.c 0x00000000   Number         0  stm32f30x_spi.o ABSOLUTE
+    ..\\Lib\\STM32F30x_StdPeriph_Driver\\src\\stm32f30x_syscfg.c 0x00000000   Number         0  stm32f30x_syscfg.o ABSOLUTE
+    ..\\Lib\\STM32F30x_StdPeriph_Driver\\src\\stm32f30x_tim.c 0x00000000   Number         0  stm32f30x_tim.o ABSOLUTE
+    ..\\Lib\\STM32F30x_StdPeriph_Driver\\src\\stm32f30x_usart.c 0x00000000   Number         0  stm32f30x_usart.o ABSOLUTE
+    ..\\Lib\\STM32F30x_StdPeriph_Driver\\src\\stm32f30x_wwdg.c 0x00000000   Number         0  stm32f30x_wwdg.o ABSOLUTE
+    ..\\User_code\\ADC_INT.c                 0x00000000   Number         0  adc_int.o ABSOLUTE
+    ..\\User_code\\HRTIM_INT.c               0x00000000   Number         0  hrtim_int.o ABSOLUTE
+    ..\\User_code\\LED.C                     0x00000000   Number         0  led.o ABSOLUTE
+    ..\\User_code\\delay.c                   0x00000000   Number         0  delay.o ABSOLUTE
+    ..\\User_code\\init.c                    0x00000000   Number         0  init.o ABSOLUTE
+    ..\\User_code\\main.c                    0x00000000   Number         0  main.o ABSOLUTE
+    ..\\User_code\\state_machine.c           0x00000000   Number         0  state_machine.o ABSOLUTE
+    ..\\User_code\\stm32f3xx_it.c            0x00000000   Number         0  stm32f3xx_it.o ABSOLUTE
+    ..\\User_code\\system_stm32f30x.c        0x00000000   Number         0  system_stm32f30x.o ABSOLUTE
+    dc.s                                     0x00000000   Number         0  dc.o ABSOLUTE
+    handlers.s                               0x00000000   Number         0  handlers.o ABSOLUTE
+    init.s                                   0x00000000   Number         0  init.o ABSOLUTE
+    startup_stm32f334x8.s                    0x00000000   Number         0  startup_stm32f334x8.o ABSOLUTE
+    RESET                                    0x08000000   Section      392  startup_stm32f334x8.o(RESET)
+    .ARM.Collect$$$$00000000                 0x08000188   Section        0  entry.o(.ARM.Collect$$$$00000000)
+    .ARM.Collect$$$$00000001                 0x08000188   Section        4  entry2.o(.ARM.Collect$$$$00000001)
+    .ARM.Collect$$$$00000004                 0x0800018c   Section        4  entry5.o(.ARM.Collect$$$$00000004)
+    .ARM.Collect$$$$00000008                 0x08000190   Section        0  entry7b.o(.ARM.Collect$$$$00000008)
+    .ARM.Collect$$$$0000000A                 0x08000190   Section        0  entry8b.o(.ARM.Collect$$$$0000000A)
+    .ARM.Collect$$$$0000000B                 0x08000190   Section        8  entry9a.o(.ARM.Collect$$$$0000000B)
+    .ARM.Collect$$$$0000000D                 0x08000198   Section        0  entry10a.o(.ARM.Collect$$$$0000000D)
+    .ARM.Collect$$$$0000000F                 0x08000198   Section        0  entry11a.o(.ARM.Collect$$$$0000000F)
+    .ARM.Collect$$$$00002712                 0x08000198   Section        4  entry2.o(.ARM.Collect$$$$00002712)
+    __lit__00000000                          0x08000198   Data           4  entry2.o(.ARM.Collect$$$$00002712)
+    .text                                    0x0800019c   Section       36  startup_stm32f334x8.o(.text)
+    $v0                                      0x0800019c   Number         0  startup_stm32f334x8.o(.text)
+    .text                                    0x080001c0   Section       36  init.o(.text)
+    i.ADC1_Config                            0x080001f0   Section        0  adc_int.o(i.ADC1_Config)
+    i.ADC2_Config                            0x08000314   Section        0  adc_int.o(i.ADC2_Config)
+    i.ADC_Cmd                                0x08000428   Section        0  stm32f30x_adc.o(i.ADC_Cmd)
+    i.ADC_CommonInit                         0x0800043c   Section        0  stm32f30x_adc.o(i.ADC_CommonInit)
+    i.ADC_Config                             0x08000498   Section        0  adc_int.o(i.ADC_Config)
+    i.ADC_DMACmd                             0x08000584   Section        0  stm32f30x_adc.o(i.ADC_DMACmd)
+    i.ADC_DMAConfig                          0x08000596   Section        0  stm32f30x_adc.o(i.ADC_DMAConfig)
+    i.ADC_DeInit                             0x080005a6   Section        0  stm32f30x_adc.o(i.ADC_DeInit)
+    i.ADC_GetCalibrationStatus               0x080005f8   Section        0  stm32f30x_adc.o(i.ADC_GetCalibrationStatus)
+    i.ADC_GetCalibrationValue                0x08000608   Section        0  stm32f30x_adc.o(i.ADC_GetCalibrationValue)
+    i.ADC_GetFlagStatus                      0x0800060e   Section        0  stm32f30x_adc.o(i.ADC_GetFlagStatus)
+    i.ADC_Init                               0x0800061c   Section        0  stm32f30x_adc.o(i.ADC_Init)
+    i.ADC_RegularChannelConfig               0x0800066c   Section        0  stm32f30x_adc.o(i.ADC_RegularChannelConfig)
+    i.ADC_SelectCalibrationMode              0x08000746   Section        0  stm32f30x_adc.o(i.ADC_SelectCalibrationMode)
+    i.ADC_StartCalibration                   0x08000756   Section        0  stm32f30x_adc.o(i.ADC_StartCalibration)
+    i.ADC_StartConversion                    0x08000760   Section        0  stm32f30x_adc.o(i.ADC_StartConversion)
+    i.ADC_StructInit                         0x0800076a   Section        0  stm32f30x_adc.o(i.ADC_StructInit)
+    i.ADC_VoltageRegulatorCmd                0x08000780   Section        0  stm32f30x_adc.o(i.ADC_VoltageRegulatorCmd)
+    i.BusFault_Handler                       0x0800079a   Section        0  stm32f3xx_it.o(i.BusFault_Handler)
+    i.DMA_ClearFlag                          0x0800079c   Section        0  stm32f30x_dma.o(i.DMA_ClearFlag)
+    i.DMA_ClearITPendingBit                  0x080007b4   Section        0  stm32f30x_dma.o(i.DMA_ClearITPendingBit)
+    i.DMA_Cmd                                0x080007cc   Section        0  stm32f30x_dma.o(i.DMA_Cmd)
+    i.DMA_DeInit                             0x080007e0   Section        0  stm32f30x_dma.o(i.DMA_DeInit)
+    i.DMA_GetFlagStatus                      0x080008e4   Section        0  stm32f30x_dma.o(i.DMA_GetFlagStatus)
+    i.DMA_ITConfig                           0x08000904   Section        0  stm32f30x_dma.o(i.DMA_ITConfig)
+    i.DMA_Init                               0x08000914   Section        0  stm32f30x_dma.o(i.DMA_Init)
+    i.DMA_SetCurrDataCounter                 0x08000966   Section        0  stm32f30x_dma.o(i.DMA_SetCurrDataCounter)
+    i.DebugMon_Handler                       0x0800096a   Section        0  stm32f3xx_it.o(i.DebugMon_Handler)
+    i.Delay_ms                               0x0800096c   Section        0  delay.o(i.Delay_ms)
+    i.Delay_us                               0x080009a8   Section        0  delay.o(i.Delay_us)
+    i.GPIO_HRTIM_Config                      0x080009c4   Section        0  hrtim_int.o(i.GPIO_HRTIM_Config)
+    i.GPIO_Init                              0x08000a28   Section        0  stm32f30x_gpio.o(i.GPIO_Init)
+    i.GPIO_PinAFConfig                       0x08000aba   Section        0  stm32f30x_gpio.o(i.GPIO_PinAFConfig)
+    i.GPIO_ResetBits                         0x08000adc   Section        0  stm32f30x_gpio.o(i.GPIO_ResetBits)
+    i.GPIO_SetBits                           0x08000ae0   Section        0  stm32f30x_gpio.o(i.GPIO_SetBits)
+    i.HRTIM_ADCTriggerConfig                 0x08000ae4   Section        0  stm32f30x_hrtim.o(i.HRTIM_ADCTriggerConfig)
+    i.HRTIM_ClearITPendingBit                0x08000b42   Section        0  stm32f30x_hrtim.o(i.HRTIM_ClearITPendingBit)
+    i.HRTIM_Config                           0x08000b6c   Section        0  hrtim_int.o(i.HRTIM_Config)
+    i.HRTIM_DLLCalibrationStart              0x08000d48   Section        0  stm32f30x_hrtim.o(i.HRTIM_DLLCalibrationStart)
+    i.HRTIM_DeadTimeConfig                   0x08000d6c   Section        0  stm32f30x_hrtim.o(i.HRTIM_DeadTimeConfig)
+    i.HRTIM_GetCommonFlagStatus              0x08000dac   Section        0  stm32f30x_hrtim.o(i.HRTIM_GetCommonFlagStatus)
+    i.HRTIM_GetITStatus                      0x08000dbc   Section        0  stm32f30x_hrtim.o(i.HRTIM_GetITStatus)
+    i.HRTIM_ITConfig                         0x08000e02   Section        0  stm32f30x_hrtim.o(i.HRTIM_ITConfig)
+    i.HRTIM_OutputConfig                     0x08000e36   Section        0  stm32f30x_hrtim.o(i.HRTIM_OutputConfig)
+    HRTIM_OutputConfig                       0x08000e37   Thumb Code   158  stm32f30x_hrtim.o(i.HRTIM_OutputConfig)
+    i.HRTIM_TimingUnitBase_Config            0x08000ed4   Section        0  stm32f30x_hrtim.o(i.HRTIM_TimingUnitBase_Config)
+    HRTIM_TimingUnitBase_Config              0x08000ed5   Thumb Code    66  stm32f30x_hrtim.o(i.HRTIM_TimingUnitBase_Config)
+    i.HRTIM_WaveformCompareConfig            0x08000f16   Section        0  stm32f30x_hrtim.o(i.HRTIM_WaveformCompareConfig)
+    i.HRTIM_WaveformCounterStart             0x08000fae   Section        0  stm32f30x_hrtim.o(i.HRTIM_WaveformCounterStart)
+    i.HRTIM_WaveformOutputConfig             0x08000fb6   Section        0  stm32f30x_hrtim.o(i.HRTIM_WaveformOutputConfig)
+    i.HRTIM_WaveformOutputStart              0x08000fba   Section        0  stm32f30x_hrtim.o(i.HRTIM_WaveformOutputStart)
+    i.HRTIM_WaveformTimerConfig              0x08000fc0   Section        0  stm32f30x_hrtim.o(i.HRTIM_WaveformTimerConfig)
+    i.HRTIM_Waveform_Init                    0x0800102e   Section        0  stm32f30x_hrtim.o(i.HRTIM_Waveform_Init)
+    i.HardFault_Handler                      0x08001150   Section        0  stm32f3xx_it.o(i.HardFault_Handler)
+    i.Init_TIM16                             0x08001154   Section        0  delay.o(i.Init_TIM16)
+    i.Initial_prepheral_                     0x080011a8   Section        0  init.o(i.Initial_prepheral_)
+    i.LED_GPIO_InitConfig                    0x080011f4   Section        0  led.o(i.LED_GPIO_InitConfig)
+    i.LED_TEST                               0x08001294   Section        0  led.o(i.LED_TEST)
+    i.MemManage_Handler                      0x08001378   Section        0  stm32f3xx_it.o(i.MemManage_Handler)
+    i.NMI_Handler                            0x0800137a   Section        0  stm32f3xx_it.o(i.NMI_Handler)
+    i.NVIC_Init                              0x0800137c   Section        0  stm32f30x_misc.o(i.NVIC_Init)
+    i.NVIC_PriorityGroupConfig               0x080013f0   Section        0  stm32f30x_misc.o(i.NVIC_PriorityGroupConfig)
+    i.PendSV_Handler                         0x08001404   Section        0  stm32f3xx_it.o(i.PendSV_Handler)
+    i.RCC_ADCCLKConfig                       0x08001408   Section        0  stm32f30x_rcc.o(i.RCC_ADCCLKConfig)
+    i.RCC_AHBPeriphClockCmd                  0x08001428   Section        0  stm32f30x_rcc.o(i.RCC_AHBPeriphClockCmd)
+    i.RCC_AHBPeriphResetCmd                  0x08001440   Section        0  stm32f30x_rcc.o(i.RCC_AHBPeriphResetCmd)
+    i.RCC_APB1PeriphClockCmd                 0x08001458   Section        0  stm32f30x_rcc.o(i.RCC_APB1PeriphClockCmd)
+    i.RCC_APB1PeriphResetCmd                 0x08001470   Section        0  stm32f30x_rcc.o(i.RCC_APB1PeriphResetCmd)
+    i.RCC_APB2PeriphClockCmd                 0x08001488   Section        0  stm32f30x_rcc.o(i.RCC_APB2PeriphClockCmd)
+    i.RCC_APB2PeriphResetCmd                 0x080014a0   Section        0  stm32f30x_rcc.o(i.RCC_APB2PeriphResetCmd)
+    i.RCC_GetClocksFreq                      0x080014b8   Section        0  stm32f30x_rcc.o(i.RCC_GetClocksFreq)
+    i.RCC_HRTIM1CLKConfig                    0x080017a8   Section        0  stm32f30x_rcc.o(i.RCC_HRTIM1CLKConfig)
+    i.SVC_Handler                            0x080017c0   Section        0  stm32f3xx_it.o(i.SVC_Handler)
+    i.Send_data_to_PC                        0x080017c4   Section        0  init.o(i.Send_data_to_PC)
+    i.SysTick_Handler                        0x080017e0   Section        0  stm32f3xx_it.o(i.SysTick_Handler)
+    i.SystemInit                             0x080017e4   Section        0  system_stm32f30x.o(i.SystemInit)
+    i.TIM_ARRPreloadConfig                   0x080018dc   Section        0  stm32f30x_tim.o(i.TIM_ARRPreloadConfig)
+    i.TIM_Cmd                                0x080018ee   Section        0  stm32f30x_tim.o(i.TIM_Cmd)
+    i.TIM_SetAutoreload                      0x08001900   Section        0  stm32f30x_tim.o(i.TIM_SetAutoreload)
+    i.TIM_TimeBaseInit                       0x08001904   Section        0  stm32f30x_tim.o(i.TIM_TimeBaseInit)
+    i.USART1_Config                          0x08001994   Section        0  init.o(i.USART1_Config)
+    i.USART_ClearFlag                        0x08001ab0   Section        0  stm32f30x_usart.o(i.USART_ClearFlag)
+    i.USART_Cmd                              0x08001ab4   Section        0  stm32f30x_usart.o(i.USART_Cmd)
+    i.USART_DMACmd                           0x08001ac6   Section        0  stm32f30x_usart.o(i.USART_DMACmd)
+    i.USART_DeInit                           0x08001ad6   Section        0  stm32f30x_usart.o(i.USART_DeInit)
+    i.USART_Init                             0x08001b7a   Section        0  stm32f30x_usart.o(i.USART_Init)
+    i.UsageFault_Handler                     0x08001c44   Section        0  stm32f3xx_it.o(i.UsageFault_Handler)
+    i.__scatterload_copy                     0x08001c46   Section       14  handlers.o(i.__scatterload_copy)
+    i.__scatterload_null                     0x08001c54   Section        2  handlers.o(i.__scatterload_null)
+    i.__scatterload_zeroinit                 0x08001c56   Section       14  handlers.o(i.__scatterload_zeroinit)
+    i.main                                   0x08001c64   Section        0  main.o(i.main)
+    ccmram                                   0x10000070   Section        0  state_machine.o(ccmram)
+    ccmram                                   0x1000091c   Section        0  pid.o(ccmram)
+    ccmram                                   0x10000b54   Section       80  state_machine.o(ccmram)
+    ccmram                                   0x10000ba4   Section       80  pid.o(ccmram)
+    .data                                    0x20000000   Section       12  adc_int.o(.data)
+    .data                                    0x2000000c   Section        6  init.o(.data)
+    .data                                    0x20000012   Section       48  stm32f30x_rcc.o(.data)
+    APBAHBPrescTable                         0x20000012   Data          16  stm32f30x_rcc.o(.data)
+    ADCPrescTable                            0x20000022   Data          32  stm32f30x_rcc.o(.data)
+    .bss                                     0x20000044   Section       14  init.o(.bss)
+    STACK                                    0x20000058   Section     1024  startup_stm32f334x8.o(STACK)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THM_ISAv4$E$P$D$K$B$S$7EM$VFPi3$EXTD16$VFPS$VFMA$PE$A:L22UL41UL21$X:L11$S22US41US21$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OTIME$EBA8$MICROLIB$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    __ARM_use_no_argv                        0x00000000   Number         0  main.o ABSOLUTE
+    __cpp_initialize__aeabi_                  - Undefined Weak Reference
+    __cxa_finalize                            - Undefined Weak Reference
+    __decompress                              - Undefined Weak Reference
+    _clock_init                               - Undefined Weak Reference
+    _microlib_exit                            - Undefined Weak Reference
+    __Vectors_Size                           0x00000188   Number         0  startup_stm32f334x8.o ABSOLUTE
+    __Vectors                                0x08000000   Data           4  startup_stm32f334x8.o(RESET)
+    __Vectors_End                            0x08000188   Data           0  startup_stm32f334x8.o(RESET)
+    __main                                   0x08000189   Thumb Code     0  entry.o(.ARM.Collect$$$$00000000)
+    _main_stk                                0x08000189   Thumb Code     0  entry2.o(.ARM.Collect$$$$00000001)
+    _main_scatterload                        0x0800018d   Thumb Code     0  entry5.o(.ARM.Collect$$$$00000004)
+    __main_after_scatterload                 0x08000191   Thumb Code     0  entry5.o(.ARM.Collect$$$$00000004)
+    _main_clock                              0x08000191   Thumb Code     0  entry7b.o(.ARM.Collect$$$$00000008)
+    _main_cpp_init                           0x08000191   Thumb Code     0  entry8b.o(.ARM.Collect$$$$0000000A)
+    _main_init                               0x08000191   Thumb Code     0  entry9a.o(.ARM.Collect$$$$0000000B)
+    __rt_final_cpp                           0x08000199   Thumb Code     0  entry10a.o(.ARM.Collect$$$$0000000D)
+    __rt_final_exit                          0x08000199   Thumb Code     0  entry11a.o(.ARM.Collect$$$$0000000F)
+    Reset_Handler                            0x0800019d   Thumb Code     8  startup_stm32f334x8.o(.text)
+    ADC1_2_IRQHandler                        0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    CAN1_RX0_IRQHandler                      0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    CAN1_RX1_IRQHandler                      0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    CAN1_SCE_IRQHandler                      0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    CAN1_TX_IRQHandler                       0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    COMP2_IRQHandler                         0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    COMP4_6_IRQHandler                       0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    DMA1_Channel1_IRQHandler                 0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    DMA1_Channel2_IRQHandler                 0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    DMA1_Channel3_IRQHandler                 0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    DMA1_Channel4_IRQHandler                 0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    DMA1_Channel5_IRQHandler                 0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    DMA1_Channel6_IRQHandler                 0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    DMA1_Channel7_IRQHandler                 0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    EXTI0_IRQHandler                         0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    EXTI15_10_IRQHandler                     0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    EXTI1_IRQHandler                         0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    EXTI2_TS_IRQHandler                      0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    EXTI3_IRQHandler                         0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    EXTI4_IRQHandler                         0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    EXTI9_5_IRQHandler                       0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    FLASH_IRQHandler                         0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    FPU_IRQHandler                           0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    HRTIM1_FLT_IRQHandler                    0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    HRTIM1_Master_IRQHandler                 0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    HRTIM1_TIMB_IRQHandler                   0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    HRTIM1_TIMC_IRQHandler                   0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    HRTIM1_TIMD_IRQHandler                   0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    HRTIM1_TIME_IRQHandler                   0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    I2C1_ER_IRQHandler                       0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    I2C1_EV_IRQHandler                       0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    PVD_IRQHandler                           0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    RCC_IRQHandler                           0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    RTC_Alarm_IRQHandler                     0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    RTC_WKUP_IRQHandler                      0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    SPI1_IRQHandler                          0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    TAMPER_STAMP_IRQHandler                  0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    TIM1_BRK_TIM15_IRQHandler                0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    TIM1_CC_IRQHandler                       0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    TIM1_TRG_COM_TIM17_IRQHandler            0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    TIM1_UP_TIM16_IRQHandler                 0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    TIM2_IRQHandler                          0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    TIM3_IRQHandler                          0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    TIM6_DAC1_IRQHandler                     0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    TIM7_DAC2_IRQHandler                     0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    USART1_IRQHandler                        0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    USART2_IRQHandler                        0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    USART3_IRQHandler                        0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    WWDG_IRQHandler                          0x080001b7   Thumb Code     0  startup_stm32f334x8.o(.text)
+    __scatterload                            0x080001c1   Thumb Code    28  init.o(.text)
+    __scatterload_rt2                        0x080001c1   Thumb Code     0  init.o(.text)
+    Long Thumb to Thumb Veneer to bcfsm      0x080001e5   Thumb Code    10  anon$$obj.o(Veneer$$Code)
+    ADC1_Config                              0x080001f1   Thumb Code   288  adc_int.o(i.ADC1_Config)
+    ADC2_Config                              0x08000315   Thumb Code   268  adc_int.o(i.ADC2_Config)
+    ADC_Cmd                                  0x08000429   Thumb Code    18  stm32f30x_adc.o(i.ADC_Cmd)
+    ADC_CommonInit                           0x0800043d   Thumb Code    78  stm32f30x_adc.o(i.ADC_CommonInit)
+    ADC_Config                               0x08000499   Thumb Code   208  adc_int.o(i.ADC_Config)
+    ADC_DMACmd                               0x08000585   Thumb Code    18  stm32f30x_adc.o(i.ADC_DMACmd)
+    ADC_DMAConfig                            0x08000597   Thumb Code    16  stm32f30x_adc.o(i.ADC_DMAConfig)
+    ADC_DeInit                               0x080005a7   Thumb Code    82  stm32f30x_adc.o(i.ADC_DeInit)
+    ADC_GetCalibrationStatus                 0x080005f9   Thumb Code    16  stm32f30x_adc.o(i.ADC_GetCalibrationStatus)
+    ADC_GetCalibrationValue                  0x08000609   Thumb Code     6  stm32f30x_adc.o(i.ADC_GetCalibrationValue)
+    ADC_GetFlagStatus                        0x0800060f   Thumb Code    14  stm32f30x_adc.o(i.ADC_GetFlagStatus)
+    ADC_Init                                 0x0800061d   Thumb Code    74  stm32f30x_adc.o(i.ADC_Init)
+    ADC_RegularChannelConfig                 0x0800066d   Thumb Code   218  stm32f30x_adc.o(i.ADC_RegularChannelConfig)
+    ADC_SelectCalibrationMode                0x08000747   Thumb Code    16  stm32f30x_adc.o(i.ADC_SelectCalibrationMode)
+    ADC_StartCalibration                     0x08000757   Thumb Code    10  stm32f30x_adc.o(i.ADC_StartCalibration)
+    ADC_StartConversion                      0x08000761   Thumb Code    10  stm32f30x_adc.o(i.ADC_StartConversion)
+    ADC_StructInit                           0x0800076b   Thumb Code    22  stm32f30x_adc.o(i.ADC_StructInit)
+    ADC_VoltageRegulatorCmd                  0x08000781   Thumb Code    26  stm32f30x_adc.o(i.ADC_VoltageRegulatorCmd)
+    BusFault_Handler                         0x0800079b   Thumb Code     2  stm32f3xx_it.o(i.BusFault_Handler)
+    DMA_ClearFlag                            0x0800079d   Thumb Code    16  stm32f30x_dma.o(i.DMA_ClearFlag)
+    DMA_ClearITPendingBit                    0x080007b5   Thumb Code    16  stm32f30x_dma.o(i.DMA_ClearITPendingBit)
+    DMA_Cmd                                  0x080007cd   Thumb Code    20  stm32f30x_dma.o(i.DMA_Cmd)
+    DMA_DeInit                               0x080007e1   Thumb Code   206  stm32f30x_dma.o(i.DMA_DeInit)
+    DMA_GetFlagStatus                        0x080008e5   Thumb Code    24  stm32f30x_dma.o(i.DMA_GetFlagStatus)
+    DMA_ITConfig                             0x08000905   Thumb Code    16  stm32f30x_dma.o(i.DMA_ITConfig)
+    DMA_Init                                 0x08000915   Thumb Code    82  stm32f30x_dma.o(i.DMA_Init)
+    DMA_SetCurrDataCounter                   0x08000967   Thumb Code     4  stm32f30x_dma.o(i.DMA_SetCurrDataCounter)
+    DebugMon_Handler                         0x0800096b   Thumb Code     2  stm32f3xx_it.o(i.DebugMon_Handler)
+    Delay_ms                                 0x0800096d   Thumb Code    54  delay.o(i.Delay_ms)
+    Delay_us                                 0x080009a9   Thumb Code    22  delay.o(i.Delay_us)
+    GPIO_HRTIM_Config                        0x080009c5   Thumb Code   100  hrtim_int.o(i.GPIO_HRTIM_Config)
+    GPIO_Init                                0x08000a29   Thumb Code   146  stm32f30x_gpio.o(i.GPIO_Init)
+    GPIO_PinAFConfig                         0x08000abb   Thumb Code    34  stm32f30x_gpio.o(i.GPIO_PinAFConfig)
+    GPIO_ResetBits                           0x08000add   Thumb Code     4  stm32f30x_gpio.o(i.GPIO_ResetBits)
+    GPIO_SetBits                             0x08000ae1   Thumb Code     4  stm32f30x_gpio.o(i.GPIO_SetBits)
+    HRTIM_ADCTriggerConfig                   0x08000ae5   Thumb Code    94  stm32f30x_hrtim.o(i.HRTIM_ADCTriggerConfig)
+    HRTIM_ClearITPendingBit                  0x08000b43   Thumb Code    40  stm32f30x_hrtim.o(i.HRTIM_ClearITPendingBit)
+    HRTIM_Config                             0x08000b6d   Thumb Code   450  hrtim_int.o(i.HRTIM_Config)
+    HRTIM_DLLCalibrationStart                0x08000d49   Thumb Code    36  stm32f30x_hrtim.o(i.HRTIM_DLLCalibrationStart)
+    HRTIM_DeadTimeConfig                     0x08000d6d   Thumb Code    58  stm32f30x_hrtim.o(i.HRTIM_DeadTimeConfig)
+    HRTIM_GetCommonFlagStatus                0x08000dad   Thumb Code    16  stm32f30x_hrtim.o(i.HRTIM_GetCommonFlagStatus)
+    HRTIM_GetITStatus                        0x08000dbd   Thumb Code    70  stm32f30x_hrtim.o(i.HRTIM_GetITStatus)
+    HRTIM_ITConfig                           0x08000e03   Thumb Code    52  stm32f30x_hrtim.o(i.HRTIM_ITConfig)
+    HRTIM_WaveformCompareConfig              0x08000f17   Thumb Code   152  stm32f30x_hrtim.o(i.HRTIM_WaveformCompareConfig)
+    HRTIM_WaveformCounterStart               0x08000faf   Thumb Code     8  stm32f30x_hrtim.o(i.HRTIM_WaveformCounterStart)
+    HRTIM_WaveformOutputConfig               0x08000fb7   Thumb Code     4  stm32f30x_hrtim.o(i.HRTIM_WaveformOutputConfig)
+    HRTIM_WaveformOutputStart                0x08000fbb   Thumb Code     6  stm32f30x_hrtim.o(i.HRTIM_WaveformOutputStart)
+    HRTIM_WaveformTimerConfig                0x08000fc1   Thumb Code   110  stm32f30x_hrtim.o(i.HRTIM_WaveformTimerConfig)
+    HRTIM_Waveform_Init                      0x0800102f   Thumb Code   290  stm32f30x_hrtim.o(i.HRTIM_Waveform_Init)
+    HardFault_Handler                        0x08001151   Thumb Code     2  stm32f3xx_it.o(i.HardFault_Handler)
+    Init_TIM16                               0x08001155   Thumb Code    78  delay.o(i.Init_TIM16)
+    Initial_prepheral_                       0x080011a9   Thumb Code    74  init.o(i.Initial_prepheral_)
+    LED_GPIO_InitConfig                      0x080011f5   Thumb Code   154  led.o(i.LED_GPIO_InitConfig)
+    LED_TEST                                 0x08001295   Thumb Code   224  led.o(i.LED_TEST)
+    MemManage_Handler                        0x08001379   Thumb Code     2  stm32f3xx_it.o(i.MemManage_Handler)
+    NMI_Handler                              0x0800137b   Thumb Code     2  stm32f3xx_it.o(i.NMI_Handler)
+    NVIC_Init                                0x0800137d   Thumb Code   112  stm32f30x_misc.o(i.NVIC_Init)
+    NVIC_PriorityGroupConfig                 0x080013f1   Thumb Code    14  stm32f30x_misc.o(i.NVIC_PriorityGroupConfig)
+    PendSV_Handler                           0x08001405   Thumb Code     2  stm32f3xx_it.o(i.PendSV_Handler)
+    RCC_ADCCLKConfig                         0x08001409   Thumb Code    26  stm32f30x_rcc.o(i.RCC_ADCCLKConfig)
+    RCC_AHBPeriphClockCmd                    0x08001429   Thumb Code    18  stm32f30x_rcc.o(i.RCC_AHBPeriphClockCmd)
+    RCC_AHBPeriphResetCmd                    0x08001441   Thumb Code    18  stm32f30x_rcc.o(i.RCC_AHBPeriphResetCmd)
+    RCC_APB1PeriphClockCmd                   0x08001459   Thumb Code    18  stm32f30x_rcc.o(i.RCC_APB1PeriphClockCmd)
+    RCC_APB1PeriphResetCmd                   0x08001471   Thumb Code    18  stm32f30x_rcc.o(i.RCC_APB1PeriphResetCmd)
+    RCC_APB2PeriphClockCmd                   0x08001489   Thumb Code    18  stm32f30x_rcc.o(i.RCC_APB2PeriphClockCmd)
+    RCC_APB2PeriphResetCmd                   0x080014a1   Thumb Code    18  stm32f30x_rcc.o(i.RCC_APB2PeriphResetCmd)
+    RCC_GetClocksFreq                        0x080014b9   Thumb Code   732  stm32f30x_rcc.o(i.RCC_GetClocksFreq)
+    RCC_HRTIM1CLKConfig                      0x080017a9   Thumb Code    18  stm32f30x_rcc.o(i.RCC_HRTIM1CLKConfig)
+    SVC_Handler                              0x080017c1   Thumb Code     2  stm32f3xx_it.o(i.SVC_Handler)
+    Send_data_to_PC                          0x080017c5   Thumb Code    24  init.o(i.Send_data_to_PC)
+    SysTick_Handler                          0x080017e1   Thumb Code     2  stm32f3xx_it.o(i.SysTick_Handler)
+    SystemInit                               0x080017e5   Thumb Code   222  system_stm32f30x.o(i.SystemInit)
+    TIM_ARRPreloadConfig                     0x080018dd   Thumb Code    18  stm32f30x_tim.o(i.TIM_ARRPreloadConfig)
+    TIM_Cmd                                  0x080018ef   Thumb Code    18  stm32f30x_tim.o(i.TIM_Cmd)
+    TIM_SetAutoreload                        0x08001901   Thumb Code     4  stm32f30x_tim.o(i.TIM_SetAutoreload)
+    TIM_TimeBaseInit                         0x08001905   Thumb Code   136  stm32f30x_tim.o(i.TIM_TimeBaseInit)
+    USART1_Config                            0x08001995   Thumb Code   252  init.o(i.USART1_Config)
+    USART_ClearFlag                          0x08001ab1   Thumb Code     4  stm32f30x_usart.o(i.USART_ClearFlag)
+    USART_Cmd                                0x08001ab5   Thumb Code    18  stm32f30x_usart.o(i.USART_Cmd)
+    USART_DMACmd                             0x08001ac7   Thumb Code    16  stm32f30x_usart.o(i.USART_DMACmd)
+    USART_DeInit                             0x08001ad7   Thumb Code   164  stm32f30x_usart.o(i.USART_DeInit)
+    USART_Init                               0x08001b7b   Thumb Code   202  stm32f30x_usart.o(i.USART_Init)
+    UsageFault_Handler                       0x08001c45   Thumb Code     2  stm32f3xx_it.o(i.UsageFault_Handler)
+    __scatterload_copy                       0x08001c47   Thumb Code    14  handlers.o(i.__scatterload_copy)
+    __scatterload_null                       0x08001c55   Thumb Code     2  handlers.o(i.__scatterload_null)
+    __scatterload_zeroinit                   0x08001c57   Thumb Code    14  handlers.o(i.__scatterload_zeroinit)
+    main                                     0x08001c65   Thumb Code    14  main.o(i.main)
+    Region$$Table$$Base                      0x08001c74   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x08001cb4   Number         0  anon$$obj.o(Region$$Table)
+    Long Thumb to Thumb Veneer to GPIO_SetBits 0x10000001   Thumb Code    10  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to GPIO_ResetBits 0x1000000b   Thumb Code    10  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to LED_TEST   0x10000015   Thumb Code    10  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to Delay_ms   0x1000001f   Thumb Code    10  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to DMA_GetFlagStatus 0x10000029   Thumb Code    10  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to DMA_ClearITPendingBit 0x10000033   Thumb Code    10  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to DMA_ClearFlag 0x1000003d   Thumb Code    10  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to DMA_SetCurrDataCounter 0x10000047   Thumb Code    10  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to Send_data_to_PC 0x10000051   Thumb Code    10  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to HRTIM_GetITStatus 0x1000005b   Thumb Code    10  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to HRTIM_ClearITPendingBit 0x10000065   Thumb Code    10  anon$$obj.o(Veneer$$Code)
+    Reset_VAR                                0x10000071   Thumb Code   202  state_machine.o(ccmram)
+    CS_DISPALY                               0x1000013b   Thumb Code   520  state_machine.o(ccmram)
+    bcfsm                                    0x10000343   Thumb Code  1186  state_machine.o(ccmram)
+    HRTIM1_TIMA_IRQHandler                   0x100007e5   Thumb Code   310  state_machine.o(ccmram)
+    PID_INT                                  0x1000091d   Thumb Code    92  pid.o(ccmram)
+    PID_Incremental                          0x10000979   Thumb Code   418  pid.o(ccmram)
+    flag_Soft_start                          0x10000b54   Data           1  state_machine.o(ccmram)
+    flag_start_cnt                           0x10000b55   Data           1  state_machine.o(ccmram)
+    flag_Vin_ovp                             0x10000b56   Data           1  state_machine.o(ccmram)
+    flag_Vin_uvp                             0x10000b57   Data           1  state_machine.o(ccmram)
+    flag_OTP                                 0x10000b58   Data           1  state_machine.o(ccmram)
+    i                                        0x10000b59   Data           1  state_machine.o(ccmram)
+    j                                        0x10000b5a   Data           1  state_machine.o(ccmram)
+    k                                        0x10000b5b   Data           1  state_machine.o(ccmram)
+    Current_State                            0x10000b5c   Data           1  state_machine.o(ccmram)
+    Next_State                               0x10000b5d   Data           1  state_machine.o(ccmram)
+    V_temp                                   0x10000b5e   Data           2  state_machine.o(ccmram)
+    Target_voltage                           0x10000b60   Data           2  state_machine.o(ccmram)
+    Target_current                           0x10000b62   Data           2  state_machine.o(ccmram)
+    Vin_f                                    0x10000b64   Data           4  state_machine.o(ccmram)
+    Vout_f                                   0x10000b68   Data           4  state_machine.o(ccmram)
+    Iin_f                                    0x10000b6c   Data           4  state_machine.o(ccmram)
+    Iout_f                                   0x10000b70   Data           4  state_machine.o(ccmram)
+    temp_7900                                0x10000b74   Data           4  state_machine.o(ccmram)
+    SOA_IN                                   0x10000b78   Data           4  state_machine.o(ccmram)
+    Vin                                      0x10000b7c   Data           8  state_machine.o(ccmram)
+    Vout                                     0x10000b84   Data           8  state_machine.o(ccmram)
+    Iin                                      0x10000b8c   Data           8  state_machine.o(ccmram)
+    Iout                                     0x10000b94   Data           8  state_machine.o(ccmram)
+    Temperature                              0x10000b9c   Data           8  state_machine.o(ccmram)
+    Pulse_width                              0x10000ba4   Data           2  pid.o(ccmram)
+    Kp_V                                     0x10000ba8   Data           4  pid.o(ccmram)
+    Ki_V                                     0x10000bac   Data           4  pid.o(ccmram)
+    Kd_V                                     0x10000bb0   Data           4  pid.o(ccmram)
+    error1_V                                 0x10000bb4   Data           4  pid.o(ccmram)
+    error2_V                                 0x10000bb8   Data           4  pid.o(ccmram)
+    e1_V                                     0x10000bbc   Data           4  pid.o(ccmram)
+    e2_V                                     0x10000bc0   Data           4  pid.o(ccmram)
+    Kp_I                                     0x10000bc4   Data           4  pid.o(ccmram)
+    Ki_I                                     0x10000bc8   Data           4  pid.o(ccmram)
+    Kd_I                                     0x10000bcc   Data           4  pid.o(ccmram)
+    error1_I                                 0x10000bd0   Data           4  pid.o(ccmram)
+    error2_I                                 0x10000bd4   Data           4  pid.o(ccmram)
+    e1_I                                     0x10000bd8   Data           4  pid.o(ccmram)
+    e2_I                                     0x10000bdc   Data           4  pid.o(ccmram)
+    ERROR_Increase_V                         0x10000be0   Data           4  pid.o(ccmram)
+    ERROR_Increase_I                         0x10000be4   Data           4  pid.o(ccmram)
+    Duty_V                                   0x10000be8   Data           4  pid.o(ccmram)
+    Duty_I                                   0x10000bec   Data           4  pid.o(ccmram)
+    Duty                                     0x10000bf0   Data           4  pid.o(ccmram)
+    calibration_value                        0x20000000   Data           2  adc_int.o(.data)
+    ADC1_RESULT                              0x20000002   Data           4  adc_int.o(.data)
+    ADC2_RESULT                              0x20000006   Data           6  adc_int.o(.data)
+    PC_command                               0x2000000c   Data           6  init.o(.data)
+    Send_to_PC                               0x20000044   Data          14  init.o(.bss)
+    __initial_sp                             0x20000458   Data           0  startup_stm32f334x8.o(STACK)
+
+
+
+==============================================================================
+
+Memory Map of the image
+
+  Image Entry point : 0x08000189
+
+  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x000028ec, Max: 0x00010000, ABSOLUTE)
+
+    Execution Region ER_IROM1 (Exec base: 0x08000000, Load base: 0x08000000, Size: 0x00001cb4, Max: 0x00010000, ABSOLUTE)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x08000000   0x08000000   0x00000188   Data   RO          471    RESET               startup_stm32f334x8.o
+    0x08000188   0x08000188   0x00000000   Code   RO         4666  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
+    0x08000188   0x08000188   0x00000004   Code   RO         4669    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
+    0x0800018c   0x0800018c   0x00000004   Code   RO         4672    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
+    0x08000190   0x08000190   0x00000000   Code   RO         4674    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
+    0x08000190   0x08000190   0x00000000   Code   RO         4676    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
+    0x08000190   0x08000190   0x00000008   Code   RO         4677    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
+    0x08000198   0x08000198   0x00000000   Code   RO         4679    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
+    0x08000198   0x08000198   0x00000000   Code   RO         4681    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
+    0x08000198   0x08000198   0x00000004   Code   RO         4670    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
+    0x0800019c   0x0800019c   0x00000024   Code   RO          472    .text               startup_stm32f334x8.o
+    0x080001c0   0x080001c0   0x00000024   Code   RO         4683    .text               mc_w.l(init.o)
+    0x080001e4   0x080001e4   0x0000000a   Ven    RO         4693    Veneer$$Code        anon$$obj.o
+    0x080001ee   0x080001ee   0x00000002   PAD
+    0x080001f0   0x080001f0   0x00000124   Code   RO          254    i.ADC1_Config       adc_int.o
+    0x08000314   0x08000314   0x00000114   Code   RO          256    i.ADC2_Config       adc_int.o
+    0x08000428   0x08000428   0x00000012   Code   RO          494    i.ADC_Cmd           stm32f30x_adc.o
+    0x0800043a   0x0800043a   0x00000002   PAD
+    0x0800043c   0x0800043c   0x0000005c   Code   RO          495    i.ADC_CommonInit    stm32f30x_adc.o
+    0x08000498   0x08000498   0x000000ec   Code   RO          258    i.ADC_Config        adc_int.o
+    0x08000584   0x08000584   0x00000012   Code   RO          497    i.ADC_DMACmd        stm32f30x_adc.o
+    0x08000596   0x08000596   0x00000010   Code   RO          498    i.ADC_DMAConfig     stm32f30x_adc.o
+    0x080005a6   0x080005a6   0x00000052   Code   RO          499    i.ADC_DeInit        stm32f30x_adc.o
+    0x080005f8   0x080005f8   0x00000010   Code   RO          504    i.ADC_GetCalibrationStatus  stm32f30x_adc.o
+    0x08000608   0x08000608   0x00000006   Code   RO          505    i.ADC_GetCalibrationValue  stm32f30x_adc.o
+    0x0800060e   0x0800060e   0x0000000e   Code   RO          510    i.ADC_GetFlagStatus  stm32f30x_adc.o
+    0x0800061c   0x0800061c   0x00000050   Code   RO          516    i.ADC_Init          stm32f30x_adc.o
+    0x0800066c   0x0800066c   0x000000da   Code   RO          521    i.ADC_RegularChannelConfig  stm32f30x_adc.o
+    0x08000746   0x08000746   0x00000010   Code   RO          523    i.ADC_SelectCalibrationMode  stm32f30x_adc.o
+    0x08000756   0x08000756   0x0000000a   Code   RO          531    i.ADC_StartCalibration  stm32f30x_adc.o
+    0x08000760   0x08000760   0x0000000a   Code   RO          532    i.ADC_StartConversion  stm32f30x_adc.o
+    0x0800076a   0x0800076a   0x00000016   Code   RO          536    i.ADC_StructInit    stm32f30x_adc.o
+    0x08000780   0x08000780   0x0000001a   Code   RO          539    i.ADC_VoltageRegulatorCmd  stm32f30x_adc.o
+    0x0800079a   0x0800079a   0x00000002   Code   RO          145    i.BusFault_Handler  stm32f3xx_it.o
+    0x0800079c   0x0800079c   0x00000018   Code   RO         1348    i.DMA_ClearFlag     stm32f30x_dma.o
+    0x080007b4   0x080007b4   0x00000018   Code   RO         1349    i.DMA_ClearITPendingBit  stm32f30x_dma.o
+    0x080007cc   0x080007cc   0x00000014   Code   RO         1350    i.DMA_Cmd           stm32f30x_dma.o
+    0x080007e0   0x080007e0   0x00000104   Code   RO         1351    i.DMA_DeInit        stm32f30x_dma.o
+    0x080008e4   0x080008e4   0x00000020   Code   RO         1353    i.DMA_GetFlagStatus  stm32f30x_dma.o
+    0x08000904   0x08000904   0x00000010   Code   RO         1355    i.DMA_ITConfig      stm32f30x_dma.o
+    0x08000914   0x08000914   0x00000052   Code   RO         1356    i.DMA_Init          stm32f30x_dma.o
+    0x08000966   0x08000966   0x00000004   Code   RO         1357    i.DMA_SetCurrDataCounter  stm32f30x_dma.o
+    0x0800096a   0x0800096a   0x00000002   Code   RO          146    i.DebugMon_Handler  stm32f3xx_it.o
+    0x0800096c   0x0800096c   0x0000003c   Code   RO          339    i.Delay_ms          delay.o
+    0x080009a8   0x080009a8   0x0000001c   Code   RO          340    i.Delay_us          delay.o
+    0x080009c4   0x080009c4   0x00000064   Code   RO          371    i.GPIO_HRTIM_Config  hrtim_int.o
+    0x08000a28   0x08000a28   0x00000092   Code   RO         1678    i.GPIO_Init         stm32f30x_gpio.o
+    0x08000aba   0x08000aba   0x00000022   Code   RO         1679    i.GPIO_PinAFConfig  stm32f30x_gpio.o
+    0x08000adc   0x08000adc   0x00000004   Code   RO         1685    i.GPIO_ResetBits    stm32f30x_gpio.o
+    0x08000ae0   0x08000ae0   0x00000004   Code   RO         1686    i.GPIO_SetBits      stm32f30x_gpio.o
+    0x08000ae4   0x08000ae4   0x0000005e   Code   RO         1769    i.HRTIM_ADCTriggerConfig  stm32f30x_hrtim.o
+    0x08000b42   0x08000b42   0x00000028   Code   RO         1777    i.HRTIM_ClearITPendingBit  stm32f30x_hrtim.o
+    0x08000b6a   0x08000b6a   0x00000002   PAD
+    0x08000b6c   0x08000b6c   0x000001dc   Code   RO          372    i.HRTIM_Config      hrtim_int.o
+    0x08000d48   0x08000d48   0x00000024   Code   RO         1778    i.HRTIM_DLLCalibrationStart  stm32f30x_hrtim.o
+    0x08000d6c   0x08000d6c   0x00000040   Code   RO         1781    i.HRTIM_DeadTimeConfig  stm32f30x_hrtim.o
+    0x08000dac   0x08000dac   0x00000010   Code   RO         1790    i.HRTIM_GetCommonFlagStatus  stm32f30x_hrtim.o
+    0x08000dbc   0x08000dbc   0x00000046   Code   RO         1795    i.HRTIM_GetITStatus  stm32f30x_hrtim.o
+    0x08000e02   0x08000e02   0x00000034   Code   RO         1798    i.HRTIM_ITConfig    stm32f30x_hrtim.o
+    0x08000e36   0x08000e36   0x0000009e   Code   RO         1800    i.HRTIM_OutputConfig  stm32f30x_hrtim.o
+    0x08000ed4   0x08000ed4   0x00000042   Code   RO         1826    i.HRTIM_TimingUnitBase_Config  stm32f30x_hrtim.o
+    0x08000f16   0x08000f16   0x00000098   Code   RO         1828    i.HRTIM_WaveformCompareConfig  stm32f30x_hrtim.o
+    0x08000fae   0x08000fae   0x00000008   Code   RO         1829    i.HRTIM_WaveformCounterStart  stm32f30x_hrtim.o
+    0x08000fb6   0x08000fb6   0x00000004   Code   RO         1833    i.HRTIM_WaveformOutputConfig  stm32f30x_hrtim.o
+    0x08000fba   0x08000fba   0x00000006   Code   RO         1834    i.HRTIM_WaveformOutputStart  stm32f30x_hrtim.o
+    0x08000fc0   0x08000fc0   0x0000006e   Code   RO         1837    i.HRTIM_WaveformTimerConfig  stm32f30x_hrtim.o
+    0x0800102e   0x0800102e   0x00000122   Code   RO         1838    i.HRTIM_Waveform_Init  stm32f30x_hrtim.o
+    0x08001150   0x08001150   0x00000002   Code   RO          147    i.HardFault_Handler  stm32f3xx_it.o
+    0x08001152   0x08001152   0x00000002   PAD
+    0x08001154   0x08001154   0x00000054   Code   RO          341    i.Init_TIM16        delay.o
+    0x080011a8   0x080011a8   0x0000004a   Code   RO          298    i.Initial_prepheral_  init.o
+    0x080011f2   0x080011f2   0x00000002   PAD
+    0x080011f4   0x080011f4   0x000000a0   Code   RO          421    i.LED_GPIO_InitConfig  led.o
+    0x08001294   0x08001294   0x000000e4   Code   RO          422    i.LED_TEST          led.o
+    0x08001378   0x08001378   0x00000002   Code   RO          148    i.MemManage_Handler  stm32f3xx_it.o
+    0x0800137a   0x0800137a   0x00000002   Code   RO          149    i.NMI_Handler       stm32f3xx_it.o
+    0x0800137c   0x0800137c   0x00000074   Code   RO         2524    i.NVIC_Init         stm32f30x_misc.o
+    0x080013f0   0x080013f0   0x00000014   Code   RO         2525    i.NVIC_PriorityGroupConfig  stm32f30x_misc.o
+    0x08001404   0x08001404   0x00000002   Code   RO          150    i.PendSV_Handler    stm32f3xx_it.o
+    0x08001406   0x08001406   0x00000002   PAD
+    0x08001408   0x08001408   0x00000020   Code   RO         2746    i.RCC_ADCCLKConfig  stm32f30x_rcc.o
+    0x08001428   0x08001428   0x00000018   Code   RO         2747    i.RCC_AHBPeriphClockCmd  stm32f30x_rcc.o
+    0x08001440   0x08001440   0x00000018   Code   RO         2748    i.RCC_AHBPeriphResetCmd  stm32f30x_rcc.o
+    0x08001458   0x08001458   0x00000018   Code   RO         2749    i.RCC_APB1PeriphClockCmd  stm32f30x_rcc.o
+    0x08001470   0x08001470   0x00000018   Code   RO         2750    i.RCC_APB1PeriphResetCmd  stm32f30x_rcc.o
+    0x08001488   0x08001488   0x00000018   Code   RO         2751    i.RCC_APB2PeriphClockCmd  stm32f30x_rcc.o
+    0x080014a0   0x080014a0   0x00000018   Code   RO         2752    i.RCC_APB2PeriphResetCmd  stm32f30x_rcc.o
+    0x080014b8   0x080014b8   0x000002f0   Code   RO         2759    i.RCC_GetClocksFreq  stm32f30x_rcc.o
+    0x080017a8   0x080017a8   0x00000018   Code   RO         2764    i.RCC_HRTIM1CLKConfig  stm32f30x_rcc.o
+    0x080017c0   0x080017c0   0x00000002   Code   RO          151    i.SVC_Handler       stm32f3xx_it.o
+    0x080017c2   0x080017c2   0x00000002   PAD
+    0x080017c4   0x080017c4   0x0000001c   Code   RO          300    i.Send_data_to_PC   init.o
+    0x080017e0   0x080017e0   0x00000002   Code   RO          152    i.SysTick_Handler   stm32f3xx_it.o
+    0x080017e2   0x080017e2   0x00000002   PAD
+    0x080017e4   0x080017e4   0x000000f8   Code   RO          223    i.SystemInit        system_stm32f30x.o
+    0x080018dc   0x080018dc   0x00000012   Code   RO         3629    i.TIM_ARRPreloadConfig  stm32f30x_tim.o
+    0x080018ee   0x080018ee   0x00000012   Code   RO         3647    i.TIM_Cmd           stm32f30x_tim.o
+    0x08001900   0x08001900   0x00000004   Code   RO         3720    i.TIM_SetAutoreload  stm32f30x_tim.o
+    0x08001904   0x08001904   0x00000090   Code   RO         3734    i.TIM_TimeBaseInit  stm32f30x_tim.o
+    0x08001994   0x08001994   0x0000011c   Code   RO          301    i.USART1_Config     init.o
+    0x08001ab0   0x08001ab0   0x00000004   Code   RO         4301    i.USART_ClearFlag   stm32f30x_usart.o
+    0x08001ab4   0x08001ab4   0x00000012   Code   RO         4305    i.USART_Cmd         stm32f30x_usart.o
+    0x08001ac6   0x08001ac6   0x00000010   Code   RO         4308    i.USART_DMACmd      stm32f30x_usart.o
+    0x08001ad6   0x08001ad6   0x000000a4   Code   RO         4311    i.USART_DeInit      stm32f30x_usart.o
+    0x08001b7a   0x08001b7a   0x000000ca   Code   RO         4317    i.USART_Init        stm32f30x_usart.o
+    0x08001c44   0x08001c44   0x00000002   Code   RO          153    i.UsageFault_Handler  stm32f3xx_it.o
+    0x08001c46   0x08001c46   0x0000000e   Code   RO         4687    i.__scatterload_copy  mc_w.l(handlers.o)
+    0x08001c54   0x08001c54   0x00000002   Code   RO         4688    i.__scatterload_null  mc_w.l(handlers.o)
+    0x08001c56   0x08001c56   0x0000000e   Code   RO         4689    i.__scatterload_zeroinit  mc_w.l(handlers.o)
+    0x08001c64   0x08001c64   0x0000000e   Code   RO            3    i.main              main.o
+    0x08001c72   0x08001c72   0x00000002   PAD
+    0x08001c74   0x08001c74   0x00000040   Data   RO         4685    Region$$Table       anon$$obj.o
+
+
+    Execution Region ER (Exec base: 0x10000000, Load base: 0x08001cf8, Size: 0x00000bf4, Max: 0x00001000, ABSOLUTE)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x10000000   0x08001cf8   0x0000000a   Ven    RO         4694    Veneer$$Code        anon$$obj.o
+    0x1000000a   0x08001d02   0x0000000a   Ven    RO         4695    Veneer$$Code        anon$$obj.o
+    0x10000014   0x08001d0c   0x0000000a   Ven    RO         4696    Veneer$$Code        anon$$obj.o
+    0x1000001e   0x08001d16   0x0000000a   Ven    RO         4697    Veneer$$Code        anon$$obj.o
+    0x10000028   0x08001d20   0x0000000a   Ven    RO         4698    Veneer$$Code        anon$$obj.o
+    0x10000032   0x08001d2a   0x0000000a   Ven    RO         4699    Veneer$$Code        anon$$obj.o
+    0x1000003c   0x08001d34   0x0000000a   Ven    RO         4700    Veneer$$Code        anon$$obj.o
+    0x10000046   0x08001d3e   0x0000000a   Ven    RO         4701    Veneer$$Code        anon$$obj.o
+    0x10000050   0x08001d48   0x0000000a   Ven    RO         4702    Veneer$$Code        anon$$obj.o
+    0x1000005a   0x08001d52   0x0000000a   Ven    RO         4703    Veneer$$Code        anon$$obj.o
+    0x10000064   0x08001d5c   0x0000000a   Ven    RO         4704    Veneer$$Code        anon$$obj.o
+    0x1000006e   0x08001d66   0x00000002   PAD
+    0x10000070   0x08001d68   0x000008aa   Code   RO          397    ccmram              state_machine.o
+    0x1000091a   0x08002612   0x00000002   PAD
+    0x1000091c   0x08002614   0x00000238   Code   RO          447    ccmram              pid.o
+    0x10000b54   0x0800284c   0x00000050   Data   RW          398    ccmram              state_machine.o
+    0x10000ba4   0x0800289c   0x00000050   Data   RW          448    ccmram              pid.o
+
+
+    Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x08001cb4, Size: 0x00000458, Max: 0x00004000, ABSOLUTE)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20000000   0x08001cb4   0x0000000c   Data   RW          259    .data               adc_int.o
+    0x2000000c   0x08001cc0   0x00000006   Data   RW          303    .data               init.o
+    0x20000012   0x08001cc6   0x00000030   Data   RW         2786    .data               stm32f30x_rcc.o
+    0x20000042   0x08001cf6   0x00000002   PAD
+    0x20000044        -       0x0000000e   Zero   RW          302    .bss                init.o
+    0x20000052   0x08001cf6   0x00000006   PAD
+    0x20000058        -       0x00000400   Zero   RW          469    STACK               startup_stm32f334x8.o
+
+
+==============================================================================
+
+Image component sizes
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+
+       804         40          0         12          0       3307   adc_int.o
+       172         18          0          0          0       2195   delay.o
+       576         26          0          0          0       1731   hrtim_int.o
+       386         36          0          6         14       2775   init.o
+       388         10          0          0          0       1309   led.o
+        14          0          0          0          0     399775   main.o
+       568         58          0         80          0       2339   pid.o
+        36          8        392          0       1024        824   startup_stm32f334x8.o
+      2218        122          0         80          0       5125   state_machine.o
+       644         20          0          0          0      10856   stm32f30x_adc.o
+       462         78          0          0          0       7226   stm32f30x_dma.o
+       188          0          0          0          0       3331   stm32f30x_gpio.o
+      1166         30          0          0          0      13577   stm32f30x_hrtim.o
+       136         10          0          0          0       1967   stm32f30x_misc.o
+       952         68          0         48          0       9121   stm32f30x_rcc.o
+       184          8          0          0          0       4579   stm32f30x_tim.o
+       404          0          0          0          0       4685   stm32f30x_usart.o
+        18          0          0          0          0       4370   stm32f3xx_it.o
+       248         26          0          0          0       1341   system_stm32f30x.o
+
+    ----------------------------------------------------------------------
+      9706        558        456        228       1044     480433   Object Totals
+       120          0         64          0          0          0   (incl. Generated)
+        22          0          0          2          6          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Member Name
+
+         0          0          0          0          0          0   entry.o
+         0          0          0          0          0          0   entry10a.o
+         0          0          0          0          0          0   entry11a.o
+         8          4          0          0          0          0   entry2.o
+         4          0          0          0          0          0   entry5.o
+         0          0          0          0          0          0   entry7b.o
+         0          0          0          0          0          0   entry8b.o
+         8          4          0          0          0          0   entry9a.o
+        30          0          0          0          0          0   handlers.o
+        36          8          0          0          0         68   init.o
+
+    ----------------------------------------------------------------------
+        86         16          0          0          0         68   Library Totals
+         0          0          0          0          0          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Name
+
+        86         16          0          0          0         68   mc_w.l
+
+    ----------------------------------------------------------------------
+        86         16          0          0          0         68   Library Totals
+
+    ----------------------------------------------------------------------
+
+==============================================================================
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
+
+      9792        574        456        228       1044     472705   Grand Totals
+      9792        574        456        228       1044     472705   ELF Image Totals
+      9792        574        456        228          0          0   ROM Totals
+
+==============================================================================
+
+    Total RO  Size (Code + RO Data)                10248 (  10.01kB)
+    Total RW  Size (RW Data + ZI Data)              1272 (   1.24kB)
+    Total ROM Size (Code + RO Data + RW Data)      10476 (  10.23kB)
+
+==============================================================================
+
