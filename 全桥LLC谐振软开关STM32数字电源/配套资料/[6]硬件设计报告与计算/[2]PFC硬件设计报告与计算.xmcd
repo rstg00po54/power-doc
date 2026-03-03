@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?validation-md5-digest 19b4f283776ca27b4467ee298fa3200d?>
+<worksheet version="3.0.3" xmlns="http://schemas.mathsoft.com/worksheet30" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ws="http://schemas.mathsoft.com/worksheet30" xmlns:ml="http://schemas.mathsoft.com/math30" xmlns:u="http://schemas.mathsoft.com/units10" xmlns:p="http://schemas.mathsoft.com/provenance10">
+	<pointReleaseData/>
+	<metadata>
+		<generator>Mathcad Professional 14.1</generator>
+		<userData>
+			<title/>
+			<description/>
+			<author>Yatao</author>
+			<company/>
+			<keywords/>
+			<revisedBy>Yatao</revisedBy>
+		</userData>
+		<identityInfo>
+			<revision>33</revision>
+			<documentID>C38246E9-3C56-48AA-9906-F78562D6E607</documentID>
+			<versionID>2AEFFC0E-90C3-4837-A915-D6CE6CE55249</versionID>
+			<parentVersionID>00000000-0000-0000-0000-000000000000</parentVersionID>
+			<branchID>00000000-0000-0000-0000-000000000000</branchID>
+		</identityInfo>
+	</metadata>
+	<settings>
+		<presentation>
+			<textRendering>
+				<textStyles>
+					<textStyle name="Normal">
+						<blockAttr margin-left="0" margin-right="0" text-indent="0" text-align="left" list-style-type="none" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="标题">
+						<blockAttr margin-left="0" margin-right="0" text-indent="0" text-align="left" list-style-type="none" tabs="inherit"/>
+						<inlineAttr font-family="宋体" font-charset="134" font-size="24" font-weight="bold" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="普通" base-style="Normal">
+						<blockAttr margin-left="0" margin-right="0" text-indent="0" text-align="inherit" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="宋体" font-charset="134" font-size="10" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="标题 1">
+						<blockAttr margin-left="0" margin-right="0" text-indent="0" text-align="left" list-style-type="none" tabs="inherit"/>
+						<inlineAttr font-family="宋体" font-charset="134" font-size="14" font-weight="bold" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Heading 1">
+						<blockAttr margin-left="0" margin-right="0" text-indent="0" text-align="left" list-style-type="none" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="14" font-weight="bold" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+				</textStyles>
+			</textRendering>
+			<mathRendering equation-color="#000">
+				<operators multiplication="dot" derivative="derivative" literal-subscript="small" definition="colon-equal" global-definition="triple-equal" local-definition="left-arrow" equality="bold-equal" symbolic-evaluation="right-arrow"/>
+				<mathStyles>
+					<mathStyle name="变量" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="常数" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="用户 1" font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="用户 2" font-family="Courier New" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="用户 3" font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="用户 4" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="用户 5" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="用户 6" font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="用户 7" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="数学文本字体" font-family="Times New Roman" font-charset="0" font-size="14" font-weight="normal" font-style="normal" underline="false"/>
+				</mathStyles>
+				<dimensionNames mass="质量" length="长度" time="时间" current="电流" thermodynamic-temperature="温度" luminous-intensity="发光度" amount-of-substance="物质" display="false"/>
+				<symbolics derivation-steps-style="vertical-insert" show-comments="false" evaluate-in-place="false"/>
+				<results numeric-only="true">
+					<general precision="3" show-trailing-zeros="false" radix="dec" complex-threshold="10" zero-threshold="15" imaginary-value="i" exponential-threshold="3"/>
+					<matrix display-style="auto" expand-nested-arrays="false"/>
+					<unit format-units="false" simplify-units="false" fractional-unit-exponent="false"/>
+				</results>
+			</mathRendering>
+			<pageModel show-page-frame="false" show-header-frame="false" show-footer-frame="false" header-footer-start-page="1" paper-code="1" orientation="portrait" print-single-page-width="false" page-width="612" page-height="792">
+				<margins left="72" right="72" top="72" bottom="72"/>
+				<header use-full-page-width="false"/>
+				<footer use-full-page-width="false"/>
+			</pageModel>
+			<colorModel background-color="#fff" default-highlight-color="#ffff80"/>
+			<language math="zh-Hans" UI="zh-Hans"/>
+		</presentation>
+		<calculation>
+			<builtInVariables array-origin="0" convergence-tolerance="0.001" constraint-tolerance="0.001" random-seed="1" prn-precision="4" prn-col-width="8"/>
+			<calculationBehavior automatic-recalculation="true" matrix-strict-singularity-check="false" optimize-expressions="false" exact-boolean="true" strings-use-origin="false" zero-over-zero="error">
+				<compatibility multiple-assignment="MC12" local-assignment="MC11"/>
+			</calculationBehavior>
+			<units>
+				<currentUnitSystem name="si" customized="false"/>
+			</units>
+		</calculation>
+		<editor view-annotations="false" view-regions="false">
+			<ruler is-visible="false" ruler-unit="in"/>
+			<grid granularity-x="6" granularity-y="6"/>
+		</editor>
+		<fileFormat image-type="image/png" image-quality="75" save-numeric-results="true" exclude-large-results="true" save-text-images="false" screen-dpi="96"/>
+		<miscellaneous>
+			<handbook handbook-region-tag-ub="390" can-delete-original-handbook-regions="true" can-delete-user-regions="true" can-print="true" can-copy="true" can-save="true" file-permission-mask="0"/>
+		</miscellaneous>
+	</settings>
+	<regions>
+		<region region-id="385" left="66" top="14.25" width="567.75" height="132" align-x="66" align-y="24" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="#00ff80" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<f size="10">/</f>
+					<f size="10">
+						<c val="#008000">***************************************************************************************</c>
+					</f>
+				</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<f size="10">
+						<c val="#008000">
+							<sp count="2"/>* @file<sp count="4"/>PFC硬件设计报告与计算.xmcd</c>
+					</f>
+				</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<f size="10">
+						<c val="#008000">
+							<sp count="2"/>* @author<sp count="2"/>尖叫的变压器</c>
+					</f>
+				</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<f size="10">
+						<c val="#008000">
+							<sp count="2"/>* @version V1.0.0</c>
+					</f>
+				</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<c val="#008000">
+						<f size="10">
+							<sp count="2"/>* @数字电源交流群<sp count="2"/>599937745</f>
+					</c>
+				</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<f size="10">
+						<c val="#008000">
+							<sp count="2"/>* @淘宝店铺链接：</c>
+					</f>
+				</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<f size="10">
+						<c val="#008000">
+							<sp count="9"/>https://shop239216898.taobao.com/?spm=2013.1.1000126.d21.5e571852VY9erz</c>
+					</f>
+				</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<c val="#008000">
+						<f size="10">
+							<sp count="2"/>* @LegalDeclaration ：本文档内容难免存在Bug，</f>
+					</c>
+				</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<c val="#008000">
+						<f size="10">
+							<sp count="9"/>仅限于交流学习，禁止用于任何的商业用途</f>
+					</c>
+				</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<f size="10">
+						<c val="#008000">
+							<sp count="2"/>* @Copyright<sp count="3"/>著作权归数字电源开源社区所有</c>
+					</f>
+				</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<c val="#008000">
+						<f size="10">*****************************************************************************************/</f>
+					</c>
+				</p>
+			</text>
+		</region>
+		<region region-id="4" left="66" top="153.75" width="145.5" height="9.75" align-x="94.5" align-y="162" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="标题 1" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<f size="10">
+						<c val="#008080">1.LLC参数输入输出规格定义：</c>
+					</f>
+				</p>
+			</text>
+		</region>
+		<region region-id="277" left="72" top="177" width="62.25" height="15" align-x="107.25" align-y="186" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve" subscript="in_nom">V</ml:id>
+					<ml:apply>
+						<ml:mult style="auto-select"/>
+						<ml:real>220</ml:real>
+						<ml:id xml:space="preserve">V</ml:id>
+					</ml:apply>
+				</ml:define>
+			</math>
+			<rendering item-idref="1"/>
+		</region>
+		<region region-id="278" left="156" top="177" width="66" height="15" align-x="195" align-y="186" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve" subscript="out_nom">V</ml:id>
+					<ml:apply>
+						<ml:mult style="auto-select"/>
+						<ml:real>390</ml:real>
+						<ml:id xml:space="preserve">V</ml:id>
+					</ml:apply>
+				</ml:define>
+			</math>
+			<rendering item-idref="2"/>
+		</region>
+		<region region-id="279" left="234" top="177" width="51.75" height="15" align-x="255" align-y="186" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve" subscript="out">P</ml:id>
+					<ml:apply>
+						<ml:mult style="auto-select"/>
+						<ml:real>120</ml:real>
+						<ml:id xml:space="preserve">W</ml:id>
+					</ml:apply>
+				</ml:define>
+			</math>
+			<rendering item-idref="3"/>
+		</region>
+		<region region-id="27" left="66" top="201.75" width="85.5" height="9.75" align-x="94.5" align-y="210" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="标题 1" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<f size="10">
+						<c val="#008080">2.开关频率定义：</c>
+					</f>
+				</p>
+			</text>
+		</region>
+		<region region-id="280" left="72" top="219" width="57" height="15" align-x="93" align-y="228" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve" subscript="SW">f</ml:id>
+					<ml:apply>
+						<ml:mult style="auto-select"/>
+						<ml:real>200</ml:real>
+						<ml:id xml:space="preserve">kHz</ml:id>
+					</ml:apply>
+				</ml:define>
+			</math>
+			<rendering item-idref="4"/>
+		</region>
+		<region region-id="284" left="66" top="243.75" width="135" height="9.75" align-x="94.5" align-y="252" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="标题 1" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<f size="10">
+						<c val="#008080">3.PFC输出电流额定值：</c>
+					</f>
+				</p>
+			</text>
+		</region>
+		<region region-id="335" left="72" top="258" width="112.5" height="32.25" align-x="94.5" align-y="276" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve">Iout</ml:id>
+					<ml:eval placeholderMultiplicationStyle="default">
+						<ml:apply>
+							<ml:div/>
+							<ml:id xml:space="preserve" subscript="out">P</ml:id>
+							<ml:id xml:space="preserve" subscript="out_nom">V</ml:id>
+						</ml:apply>
+						<result xmlns="http://schemas.mathsoft.com/math30">
+							<unitedValue>
+								<ml:real>0.30769230769230771</ml:real>
+								<unitMonomial xmlns="http://schemas.mathsoft.com/units10">
+									<unitReference unit="ampere"/>
+								</unitMonomial>
+							</unitedValue>
+						</result>
+					</ml:eval>
+				</ml:define>
+			</math>
+			<rendering item-idref="5"/>
+		</region>
+		<region region-id="386" left="66" top="309.75" width="116.25" height="9.75" align-x="94.5" align-y="318" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="标题 1" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<f size="10">
+						<c val="#008080">4.计算输入电流：</c>
+					</f>
+				</p>
+			</text>
+		</region>
+		<region region-id="303" left="72" top="324" width="141" height="32.25" align-x="108" align-y="342" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve">Iin_rms</ml:id>
+					<ml:eval placeholderMultiplicationStyle="default">
+						<ml:apply>
+							<ml:div/>
+							<ml:id xml:space="preserve" subscript="out">P</ml:id>
+							<ml:apply>
+								<ml:mult/>
+								<ml:id xml:space="preserve" subscript="in_nom">V</ml:id>
+								<ml:real>0.94</ml:real>
+							</ml:apply>
+						</ml:apply>
+						<result xmlns="http://schemas.mathsoft.com/math30">
+							<unitedValue>
+								<ml:real>0.58027079303675055</ml:real>
+								<unitMonomial xmlns="http://schemas.mathsoft.com/units10">
+									<unitReference unit="ampere"/>
+								</unitMonomial>
+							</unitedValue>
+						</result>
+					</ml:eval>
+				</ml:define>
+			</math>
+			<rendering item-idref="6"/>
+		</region>
+		<region region-id="337" left="72" top="375" width="152.25" height="12.75" align-x="112.5" align-y="384" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve">Iin_Peak</ml:id>
+					<ml:eval placeholderMultiplicationStyle="default">
+						<ml:apply>
+							<ml:mult/>
+							<ml:id xml:space="preserve">Iin_rms</ml:id>
+							<ml:real>1.414</ml:real>
+						</ml:apply>
+						<result xmlns="http://schemas.mathsoft.com/math30">
+							<unitedValue>
+								<ml:real>0.8205029013539652</ml:real>
+								<unitMonomial xmlns="http://schemas.mathsoft.com/units10">
+									<unitReference unit="ampere"/>
+								</unitMonomial>
+							</unitedValue>
+						</result>
+					</ml:eval>
+				</ml:define>
+			</math>
+			<rendering item-idref="7"/>
+		</region>
+		<region region-id="339" left="66" top="411.75" width="116.25" height="9.75" align-x="94.5" align-y="420" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="标题 1" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<f size="10">
+						<c val="#008080">5.输入保险丝选型：</c>
+					</f>
+				</p>
+			</text>
+		</region>
+		<region region-id="341" left="78" top="441" width="124.5" height="12.75" align-x="104.25" align-y="450" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve">Ifuse</ml:id>
+					<ml:eval placeholderMultiplicationStyle="default">
+						<ml:apply>
+							<ml:mult/>
+							<ml:id xml:space="preserve">Iin_rms</ml:id>
+							<ml:real>1.5</ml:real>
+						</ml:apply>
+						<result xmlns="http://schemas.mathsoft.com/math30">
+							<unitedValue>
+								<ml:real>0.87040618955512583</ml:real>
+								<unitMonomial xmlns="http://schemas.mathsoft.com/units10">
+									<unitReference unit="ampere"/>
+								</unitMonomial>
+							</unitedValue>
+						</result>
+					</ml:eval>
+				</ml:define>
+			</math>
+			<rendering item-idref="8"/>
+		</region>
+		<region region-id="344" left="66" top="471.75" width="116.25" height="9.75" align-x="94.5" align-y="480" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="标题 1" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<f size="10">
+						<c val="#008080">6.输入NTC选型：</c>
+					</f>
+				</p>
+			</text>
+		</region>
+		<region region-id="349" left="78" top="494.25" width="276" height="24" align-x="78" align-y="504" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">输入冲击电流过大容易导致整流桥失效，峰值电流不超过150A，NTC阻值太大会影响效率</p>
+			</text>
+		</region>
+		<region region-id="346" left="72" top="534" width="132.75" height="30" align-x="96.75" align-y="552" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve">Rntc</ml:id>
+					<ml:eval placeholderMultiplicationStyle="default">
+						<ml:apply>
+							<ml:div/>
+							<ml:apply>
+								<ml:mult/>
+								<ml:id xml:space="preserve" subscript="in_nom">V</ml:id>
+								<ml:real>1.414</ml:real>
+							</ml:apply>
+							<ml:apply>
+								<ml:mult/>
+								<ml:real>150</ml:real>
+								<ml:id xml:space="preserve">A</ml:id>
+							</ml:apply>
+						</ml:apply>
+						<ml:unitOverride>
+							<ml:id xml:space="preserve">Ω</ml:id>
+						</ml:unitOverride>
+						<result xmlns="http://schemas.mathsoft.com/math30">
+							<unitedValue>
+								<ml:real>2.0738666666666665</ml:real>
+								<unitMonomial xmlns="http://schemas.mathsoft.com/units10">
+									<unitReference unit="ohm"/>
+								</unitMonomial>
+							</unitedValue>
+						</result>
+					</ml:eval>
+				</ml:define>
+			</math>
+			<rendering item-idref="9"/>
+		</region>
+		<region region-id="350" left="66" top="573.75" width="229.5" height="9.75" align-x="94.5" align-y="582" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="标题 1" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<f size="10">
+						<c val="#008080">7.计算最大占空比：</c>
+					</f>
+				</p>
+			</text>
+		</region>
+		<region region-id="353" left="72" top="600" width="162" height="32.25" align-x="97.5" align-y="618" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve" subscript="max">D</ml:id>
+					<ml:eval placeholderMultiplicationStyle="default">
+						<ml:apply>
+							<ml:div/>
+							<ml:parens>
+								<ml:apply>
+									<ml:minus/>
+									<ml:id xml:space="preserve" subscript="out_nom">V</ml:id>
+									<ml:apply>
+										<ml:mult/>
+										<ml:real>15</ml:real>
+										<ml:id xml:space="preserve">V</ml:id>
+									</ml:apply>
+								</ml:apply>
+							</ml:parens>
+							<ml:id xml:space="preserve" subscript="out_nom">V</ml:id>
+						</ml:apply>
+						<ml:unitOverride>
+							<ml:id xml:space="preserve">%</ml:id>
+						</ml:unitOverride>
+						<result xmlns="http://schemas.mathsoft.com/math30">
+							<ml:real>96.15384615384616</ml:real>
+						</result>
+					</ml:eval>
+				</ml:define>
+			</math>
+			<rendering item-idref="10"/>
+		</region>
+		<region region-id="354" left="66" top="645.75" width="141.75" height="9.75" align-x="94.5" align-y="654" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="标题 1" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<f size="10">
+						<c val="#008080">8.计算电感纹波电流最大值：</c>
+					</f>
+				</p>
+			</text>
+		</region>
+		<region region-id="359" left="72" top="662.25" width="336.75" height="24" align-x="72" align-y="672" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">经验值：电感工作在CCM模式，纹波电流取0.06倍输入电流，纹波电流越小越好</p>
+			</text>
+		</region>
+		<region region-id="367" left="72" top="693" width="156.75" height="12.75" align-x="117" align-y="702" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve">IL_Ripple</ml:id>
+					<ml:eval placeholderMultiplicationStyle="default">
+						<ml:apply>
+							<ml:mult/>
+							<ml:id xml:space="preserve">Iin_Peak</ml:id>
+							<ml:real>0.06</ml:real>
+						</ml:apply>
+						<result xmlns="http://schemas.mathsoft.com/math30">
+							<unitedValue>
+								<ml:real>0.049230174081237907</ml:real>
+								<unitMonomial xmlns="http://schemas.mathsoft.com/units10">
+									<unitReference unit="ampere"/>
+								</unitMonomial>
+							</unitedValue>
+						</result>
+					</ml:eval>
+				</ml:define>
+			</math>
+			<rendering item-idref="11"/>
+		</region>
+		<region region-id="368" left="72" top="729" width="173.25" height="12.75" align-x="110.25" align-y="738" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve">IL_Peak</ml:id>
+					<ml:eval placeholderMultiplicationStyle="default">
+						<ml:apply>
+							<ml:plus/>
+							<ml:id xml:space="preserve">Iin_Peak</ml:id>
+							<ml:id xml:space="preserve">IL_Ripple</ml:id>
+						</ml:apply>
+						<result xmlns="http://schemas.mathsoft.com/math30">
+							<unitedValue>
+								<ml:real>0.86973307543520306</ml:real>
+								<unitMonomial xmlns="http://schemas.mathsoft.com/units10">
+									<unitReference unit="ampere"/>
+								</unitMonomial>
+							</unitedValue>
+						</result>
+					</ml:eval>
+				</ml:define>
+			</math>
+			<rendering item-idref="12"/>
+		</region>
+		<region region-id="372" left="66" top="759.75" width="141.75" height="9.75" align-x="94.5" align-y="768" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="标题 1" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<f size="10">
+						<c val="#008080">9.电感设计：</c>
+					</f>
+				</p>
+			</text>
+		</region>
+		<region region-id="375" left="72" top="782.25" width="276" height="24" align-x="72" align-y="792" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">PFC电感一般选取磁粉芯电感，饱和电流能力强，体积小等优势。交给电感供应商进行设计</p>
+			</text>
+		</region>
+		<region region-id="382" left="66" top="813.75" width="141.75" height="9.75" align-x="94.5" align-y="822" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="标题 1" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<f size="10">
+						<c val="#008080">10.PFC电容选型：</c>
+					</f>
+				</p>
+			</text>
+		</region>
+		<region region-id="381" left="72" top="830.25" width="325.5" height="12" align-x="72" align-y="840" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">按照经验1uF做1瓦的功率，选择47uF*2，450V耐压</p>
+			</text>
+		</region>
+		<region region-id="389" left="66" top="855.75" width="141.75" height="9.75" align-x="94.5" align-y="864" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="标题 1" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<f size="10">
+						<c val="#008080">11.电压变化：</c>
+					</f>
+				</p>
+			</text>
+		</region>
+		<region region-id="390" left="72" top="872.25" width="325.5" height="12" align-x="72" align-y="882" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">说明，AC90V输入时，降低一半功率使用，因为电流较大</p>
+			</text>
+		</region>
+	</regions>
+	<binaryContent>
+		<item item-id="1">iVBORw0KGgoAAAANSUhEUgAAAFMAAAAUCAYAAADx7wHUAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEJSURBVFhH7ZJRDsQgCES9/6W7y0bN
+wDJUEz5K40toYQSKpO06pHGWmchZZiJnmYnMZbbWpnnxG2B32tGthrGqHgkDG1eG3W1XF2jN
+79mJGrwNdre5mGAX7EypUYMnkTEX6zEXE+yCnWn1C2v2RGRGz+5gOajbHBarmv6eeEkDT6sI
+u4dajMlhsarp74mX9FRkRs8i2LnVV2PUdUbHFgqioQ2NEeXZM+Zngz3vfPt9Gwt/Of2t8AoF
+/BD6DC8P81FjvgfTI0ZftEgXPA2x+tZUoxibsA8JXt6qJqBfga1p7y5v8fJWNQH9CixPKxez
+hrolyvP8yKpQZ9ICpC2z8h+VxfkzEznLTOO6PujPq5jXZiOzAAAAAElFTkSuQmCC</item>
+		<item item-id="2">iVBORw0KGgoAAAANSUhEUgAAAFgAAAAUCAYAAAAJD/ojAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAESSURBVFhH7ZILDoQwCER7/0u7Yoqh
+s0w/riRb7UtQmAJSYtoWoawFB7MWHMxacDDnglNKp3nxU2H3HNFRs3FRrQkKxk+D3XdUF2jN
+8czUGryBcylsWZX90Jrjmak1+Hd+ndXWsz0wXaA1x9PAms2CzO1ZDczBfI2Zrnh5ZcYOa/YG
+isXsvjXVLCy2epmxw5r1crXuLuT7nvXg5VkNz1lc1OR3ARYqotsm6FvzsGeYg2fMjwT7j8bC
+V05+F7QK1W9pHnKOubbGasz3YHoN7aumYGzx8i2od09lC9VvaR5X+jB/Brqn7V1CawFX+jB/
+BoamlcvhBVXzDMGzll+zWZhn0kkJXfDMf95drD84mLXgULbtA5rSFkoyw5mOAAAAAElFTkSu
+QmCC</item>
+		<item item-id="3">iVBORw0KGgoAAAANSUhEUgAAAEUAAAAUCAYAAADbX/B7AAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADzSURBVFhH7ZGNDsMgCIR9/5fugvEa
+PE/s0i5tF76EKcfPkJYtGcilCHIpglyKYF9KKWWwp6Bmmc2pdNa8D83YteZXfILB/h1gUM/M
+j/I4Zsy0To2a3slqDsSj+VWPmdapUdOznOm1qkU8mn8WUzldponefgH/BywiivsY50U+7lKr
+vw1u8hSiudSjwMxXNZ3Wzgo3+ZYj9ZajLGIWZ/2o73WptbPCTTwW8w347u1qVE+v4c55qzow
+1LWzBmCM13BfaUwUi7A6GPBaFFMonTVdSfgi3Ffamzn0ilzKBHswPxqasjfzH5/2YnIpglyK
+IJcysG0f0HWyWdMzMJEAAAAASUVORK5CYII=</item>
+		<item item-id="4">iVBORw0KGgoAAAANSUhEUgAAAEwAAAAUCAYAAAAnStuxAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEUSURBVFhH7ZABDoMwDAP5/6eZjDBy
+vSS0iGlo60nRGscNnZd1MsQMbJAZ2CAzsEHeAluW5agnkL3niu5E3khTGtUvfht/A/srus9I
+pGde0Ewq4xPg+/ydZzrwGYn0zAuOCUxad3PHTu7wXWc68HN2B0Teo3Z9Q42f4u0Be52hHvez
+z3RQeaIifm5u65BwAWfROevvRHf6fvaZDnD2ORjVmokbte85A+8dzKOq8HnWV74eD6m0ZtKz
+DKjee+cq0beyb2Y66DmTcs/+u4ksJdIANZ1HPlLNMrhbi0QaiHTXtFcduKb9VpvaARcQ9lzE
+869T/kMNwMPQoID3v8ppYFUQqv9DWOA//uWNzMAGmYENMgMbYl1fC/xov6DinwMAAAAASUVO
+RK5CYII=</item>
+		<item item-id="5">iVBORw0KGgoAAAANSUhEUgAAAJYAAAArCAYAAACaVXFJAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIFSURBVHhe7ZSNbsMwCITz/i/dDWlM
+mB7+U4iScJ+EasPBVnzq8SEkARqLpEBjkRRoLJLCq411HMdXkGt4/aa9mWiua6CxSAo0Fkmh
+hLFskGso94tFroHGGkBj7lHaWFLTOjrbIGu8emM9Y9icnkc5Mk/ZrdFYuZTdGo2VS+mtiWm8
+cTSHgszzvy0u8L7MvE2kWc0jZjSepmNnAOKsOeR7l2i3kWY1HzGqI5qOnQGIs+aQ713O7FY1
+Ue/KzKhnRKNGzZLTUHp3Pdu6JcoTjN/XaH+23uvV8+y8kc7TqH1z775SQ4gGRQXQ95ZA+Hyk
+E/ycUW9vlrCqtzTKlX9kpXYGMvNpcQZ+zsxc1fR6I41Faj5maZS+sXdfqSFEg6IC6HtLIHw+
+0llUE/XOzEQ5Icp7GtXoD9q7P2vo3X6SffwOZ3Ya7X+Ut6CcEOU9/ypp0LBEecHmbT3SC1Ge
+xOg+/e70butIs5IXolqUR4wVhGxAY5EUHmUs/1Ps7+Q+PO5FvIloqntCY5EUaCySwiNfRc1E
+U90XGoukUNJYNGQ+j91wZA7JW+P5sw2ErXmNr0Vn8ruHv8/HgR7Q5tBDoxxC6l5re2wuOlfn
+VRuwD4oeefbhd+ZE56q8agOzjz96+J050bkqr9uAPKp/WM2h8Pja6NyLytT+9iSN8sbiL00O
+3CJJgcYiCXw+P6cC21xDb4tdAAAAAElFTkSuQmCC</item>
+		<item item-id="6">iVBORw0KGgoAAAANSUhEUgAAALwAAAArCAYAAADCKuJQAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKJSURBVHhe7ZVRbsQwCERz/0tvxQcV
+mQVMsrGchHkSKsaAYzNttw8hjaDgSSsoeNIKCp60goKfxLZtX0bWwylMBEVO0a+HE5gIBX8/
+OIGJUPD3gxOYiAjcGlkPpzARivx+cCIT+VXw/IW5Hr7oRDLByp7ue741ch18zUlkgrUx9Ucx
+cg180QVQ8Ovgiy6Agl8HX3QRImYUtMY8I9fw/5Le4/KhyRk8LXl4eV4sopKD7CrONCDEghrK
+NDXKHelxtO+xqzjTgBBLVbQSH+VGtYLuZTkeu+zsQHvAkUNsHf7EmEX3vT0hipO14FxGc4ry
+q3WjPGSXbYvFt03tWrB+BNZFa/WVyPfQHmjkOrz3FfPAeJRnOVpz5gxll5k1OntItSf6WHcV
+2pv2bVeAfSp9bY76WZ3soVXZZWKhXWd7GdWeXj+JeXGL5qCR6/DeV8wD41GeRXMqtVG/yjnC
+Lis7MNvLqPas+OT+4LxG88tm7dVG/UbnKP9ZUqCGa2u4l4F50Tryde2R7ZG1RPPTdbQvnNmL
+4h7jDEJeBAVPWvGz4O2/E7S7gt+I66dQ+e5qThf63BTAIT9t6JXvr+Z48bfS56ZARQx3pvL9
+oxxde7Vvpc9NgZEY7k7l+0c5uvZq30qfmzo8eeCReC1ZTuS/nT43ddBBewO/iwii78B4lmdN
+YxZcv5k+N3WIBPAEjorW7ovvWQd63DLBG7QnBC9PyfJwL/KPgjVZj1H/M+c/lT43DYiGrXH5
+af0IL8/m21jkH0Xrsdb2xD2PSs5b6HPTg1jRKJkwvLxqTLA+mQdfOWAkUMTLq8YE65N58JUd
+RHxoNo5keZ6fGZkLX5i0goI/Af8yPxdOirSCgieN+Hz+AAH6KW7PAgrQAAAAAElFTkSuQmCC</item>
+		<item item-id="7">iVBORw0KGgoAAAANSUhEUgAAAMsAAAARCAYAAABzXlh6AAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAICSURBVGhD7ZXRiisxDEP7/z/diy+4
+aITlKJlOHxYfME1sSZ52Gfb1HobBYl6WYTCZl2UYTOZlGQaTz8vyer0+leD5BMzMusNdv6J6
+vqd2/YKdZ2ftyvut3yVyshRKo/pB1atwdcjFcRKwgjNPd4TviedLnsz+JTu/E2tX3tXchTOq
+TKXpvHHmucLVIRfHScAKzryz44nnS57M/jXOd0kNa5VX6U9wdjqawNUhqXG0yEXdLcYFO0u6
+zEDlVX28d74TVrvycycfffzJPSTn1czB8aWGtcqr9Cd8c6ebhTi5FRc1muOMoXgP8NyBXvbg
+feeMPUVoqlLgDLV55vkK9ql7nhN13mHl63ZU3k6fRL+qCu4rXbA76/TBzm7mouyCTpd0uphh
+IVW/0n0LzuW9iPsMbiaf2cfcmfPs7v0ENzP7qzmitEnMuVwuSjbivZt1dDo1U3vz3GUmoalK
+wTO8d7MON7PKi17Vd+h8mcuV4DlgXRZTaaIquF/pVho3GznxIBdV90DdrKPTqfzd8zfgvG6X
+u9vNdM477PhYu/KePhPi7Ow06hxUWYmadR7kowpDFt+xeNbh6NQcvVw4Z6reisxKL96xeNbB
+OnVX57zvovwqD/vKi3SzHdQuvFca7HUzRs1Uv2KtGIbhP/OyDIPJ7ZcF/41x/XWq75w1/D3m
+rzoMFu/3PyuLDaSYPN8IAAAAAElFTkSuQmCC</item>
+		<item item-id="8">iVBORw0KGgoAAAANSUhEUgAAAKYAAAARCAYAAABXR9e6AAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGnSURBVGhD7ZXhquxACIP7/i+9F39k
+cUJ0tO1hB64fDEdNTKds4VyfYTiQ+TCHI5kPcziS+TCHI/l+mNd1fY8nmv8ada/T7tihcnf1
+zk+o5CmPn7Gm2OmKZYMDfH8n/K858U53sPeovMub78tZKjvyVHY9O12xbHQf+GtOv1+Hyo/7
+5vtylsq+42Gg73zM4vbLVqsDuDeUz1AzT6ZlqOcA1Pa3k+/3+C/PPNCVVqG6dzef4ZwoF/Od
+HrHbj1jcvNzpu7XCdHUivOa9qFnfwXtRjxpEdYfOXuS1uToKnkc+4y0t8zKLcxeU9VazbmAe
+6U/gPN9nWkY1k2veY57qno43gjOiTMyVvruH6XyqLE5e7PaGzfxceSKwyyeCNd9nWkY1U+XZ
+TM0rdPYiL57PR8Fz5dt5omwj0rIdz+LqXMRqHPSgUr8B52XPqj67mlmpO1T37uYznKNyd57s
+LpGW7Xi+LlvAUT1gD8Dcz0A0B5kWgUzs+t4f1jLYF/VRjb5LtI8+0p8S5fq+4mGyHTVX7B3D
+8APmwxyO5L/7MP2/Ez7DOcyvMRzI5/MPoHxe1NS23YoAAAAASUVORK5CYII=</item>
+		<item item-id="9">iVBORw0KGgoAAAANSUhEUgAAALEAAAAoCAYAAACxQBtOAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKgSURBVHhe7ZWLjuswCET7/z/dXaoS
+TRAPO+l2gzNH4tYeHjcGpH08CWkOl5i0h0tM2sMlJu1pu8SPx2Mz796JmW+2sVVux37M0vqF
+swO9IvLNo99tY6vcyr8KrV9oB9R1YCPfrTGjb47iV6T1C0cHenVGvjtayig3il+R9i9cYVjV
+t6Pfxnq5WfyKtH+hDqka5n9SfUfmt76z9xVp/0IdUudhZd8uPs8UPAs2Tm1llnidNyRviF6c
+ksVZX3Q+ykyuja1yz3xXF5Z4YTQo1eUXzxFeHMajFp1n0XybG9VCPcpFMt8qLP1CHSAOcnTg
+Wa6nCXgm32PprldLZ/HiRjUBz+R7LNt1WShrqFuyOO+cGfkuW8e9YYgRgozshheDmvUhkS5E
+ububVyAriozGXQVtBhrJsT3yehbFjOZ6uuDlq7bzeAWiopbROLIOI/syulOqeT4hzXn9+yYL
+FLak31+rW02IdCXSSQ+8+VltJEZQLfJl+s6ziWBKpCl4FjKfRfyekb/H67tYRRRjdS8uixmt
+K6i281TFrJbFe/mfQmrT5uzTRDWtfvaueLpqO8/sf4D3KjZDYj0jf4/Xd7GMzG99I3fPPFDf
+nd+/L2zyzF3P9leweaQv1VytVt0tWU30obapr8vbENTRH90RT0MyH7keOk80xZ6tX7B3jyjG
+1sN7XZWQi8MlJu3hEgPVnzL0e9pRPlHjzrB7b7KFtHp1n+Vs/t1h9wBvmUSrlvbMEmrumRp3
+h50DskVCn407s4Cae6bG3WHngGqRooU7uoCfqnN32DWgWiL1jy7fSD1rZB52DaiWSP027sjy
+RTlHat0ddgzIFgh9Nu7I4kU5R2rdHXbsjSyPmuJpSuariHIjneSwW6Q9XGLSHi4xaQ+XmDTn
++fwBDfpbW7W28u0AAAAASUVORK5CYII=</item>
+		<item item-id="10">iVBORw0KGgoAAAANSUhEUgAAANgAAAArCAYAAAAaJkZaAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMrSURBVHhe7ZWLkusgCIb7/i/dc+jU
+DmG5iCZt0P+bcYuAGLnMPp6L8Hgs85Tbg1z3s0SmUPDvgnz3gwEDQyDnfWDAwBDIeR/lsyQL
+Tfu2tP2KWG8bfbs8J/cEl4FN+SxphZa6lZuB3ma9b+bdPTmcib8L5TPUU/jVG8HKwcy7e3I4
+E38Xymeop/CrN4L3vtG39+Rw9byeQfkMWUVu+h2aIHrjaA6iHO6Q21nKZygqfrUmoO/Vlseo
+vffc6HnwP0fv37JExR9tgkrNE33rbA6s85Vy9CvKZ8grstcYzabJfGlwm/SRNks+Ey/e7F1X
+xt6B8hnKNgDXNTnSaZBd+vIzXGfJZ9Bi8niabhQvxhnxV6d8hrJF5v5NjnQaI3EsuSLVv/9b
+LJGlTLG1Jo90GiNxLLki1b//WyyRpWyxyV+eaTptSaQtkr1Vlcrf/k0+WZKFb6sCVb5zFa7M
+d9R7no2Iznn2LFY8rjtYI+c7c+V3Umy5duaq98u40V5CdsvHO+uds+D+lkwcdtYl2csBGOFP
+czqNa6H5kc463/S98Rvc35KJw866JHt5hitjg1r8ac73nv9G/eLZNRuPnYH7ezEOGuuS7OUj
+0B3aArXRakpLQ+rbXp6xzhOejbDiROc06Ew7J2N99K+/b7gTx9L/kvYIrHuss9Diyvhyz/Fs
+RDZmFK+hxSX5cHr2khleH6MsUButprQiuI/0985HsZudfrU1Aj8n5UNE7YKmezkbMofvpZ/0
+BUBD9km051xh8/C+jeTP7rVRFofrpKz9EpqOY+nBflAveH2i2fle89F0GpHdQjvH70tF5cE8
+me8JuQdgF1Kd7w2V9ktoOgB2obvraUCiZflxfVWs97Q9ABrojgRymDBcIAIdkgADBrKgQxJg
+wEAWdEiSNlQYLtADuiQJBgxkQJckmR0wDOZeoNoDWENCej6AUuZLg9ukj7RZMrgXqMgAWiNz
+ndbwmk6D7NKXn+E6Swb3AdU4Cd7YWrP3DsBIHEsGvwfVOIneIYgGYCSOJYPfg2qcCDW3bPCm
+05ZE2iLZW+AeoBIAXAgG7IfgP8/6oKIAXAgGDIDLeD7/ASZxVy8cOcE1AAAAAElFTkSuQmCC</item>
+		<item item-id="11">iVBORw0KGgoAAAANSUhEUgAAANEAAAARCAYAAABD0klbAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAInSURBVGhD7ZPbbgQxCEP3/396Kx5Y
+eSybkMmsWlUcCSWAMellXu9hGI6Yj2gYDpmPaBgOmY9oGA75fESv1+sTKu+CcxgI53d4wmOF
+ev/pXvTMOOGJ+dU7VprV/A6rXUFXk3T0SUfDXCbY4I5hoObueinC60m/im/sYc+7O05/D513
+rDQn+5kn3hNELesdPbLqKy4Tuwsdau6ul+NpP8c39rDnyY4nZ5VXpTnZrTh9T5A5nwnniJtZ
+cVHvLKxQc1hT9zh5rtNLlAapehXV3rzHueNfeQbOT9Uxd3OOyitxGjzV3B3cLmSlyZzPhHPE
+zay4qHcWVsQcR4K56+fpekHnroi+Cgf2UJt37nfAWZ7BfOeOtS48ozycJk7sqdkgdRwKritd
+pVH3So90dYqL8sQIwTnlUfXv9OKO8STsh3nVq6h00cNAVF3pGNfnutI5TWd2l46n01SzccdQ
+sMbpFBclD+4YISsfzJ/osa4itCoc3MO86lXs7Evc3rxXng6eUR5O05kNoq5CwXWlc5o4VSCc
+J7t15qLqLO0Yr3wwjzvnyaqXuPsTsF+1q7u70jn/3XsH1qt5p+nM7tLx7O7t6oKuh+OjioEM
+zjFWOC3WsY9n3hPXy1zVHFXPkZ45izkG9yo6OtfHWQ7s78AeCeaVRtVPcJ6YOw2SvY5OaVxd
+sVZ8meqRnR9gGH6b+YiG4ZBb/6Xxz+1ih2qu6v118O0cw/9j/qrDcMT7/QPuRgu0OnthYgAA
+AABJRU5ErkJggg==</item>
+		<item item-id="12">iVBORw0KGgoAAAANSUhEUgAAAOcAAAARCAYAAAAmP7skAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJMSURBVGhD7ZPrbuswDIP7/i/dQT9U
+MAR1seOdk236AKGWScpO0LzewzA8kvk4h+GhzMc5DA9lPs5heCifj/P1en1K9V0wt5Nn7uYj
+1P1O3JXrDnfzCr4b910wh4Vwv8OJGRnR3RHlwT3WFJWuuCR4wM5A4+Sc3WyH75j9E5795B2Z
+k3e2WSfnMTy78zzed7JIpSsuidUDI07NMe5kK75j9v989q7/1B1VbndWxOl5SOc97HgY1ysf
+c3F3LtKhmmO9mq32sc9yO1Rn+e/K/GymEc1T+9hHOaTSneycFVQO99TafjnX0Rzl2aU6y/H9
+So+o8hEXN4dXhzmWw0KwX1njXoR5VEWghl5fs94Bs5zBfmWNexm7vm6OsRyXg32k+2+kGZ01
+YvuqFLwf+YxTWuZlLs47g5DqsliI2le+U/BcPhfp3iHzmYaFqH3lYzDHFcFa5s3AnJqR6Tua
+rbHuwjOimb6v9OoepnN1uTg5uDIIyXKRhvtqnc10zKMqgjXsMy1j5TwnOtfX2Uxk19fNMdUc
+7E9o7FOYR5WC95Wv8kSzjUjLMsjF1Tm4MzjzoHZnfQKel53VPTvzRfNX1xEdj8E+lds5L+tt
+zb1TaU603oVnqJmVJ7tHpGUZ5OOygBf3WBUdb6Rjlgt1Ru1V+CzPYo/FWkbHF+mY5UI9o9IN
+n+Ne7LEqIi/uo46/vnYizXu1dwp1hoF9x8NkGbWvqB3DcIDsz9j5o/5F5q0M/4T5ONfZeiv2
+MqP67ahn9vptqGf0WiHLZdpfZ97IMDyS9/sLnyx7imoghQMAAAAASUVORK5CYII=</item>
+	</binaryContent>
+</worksheet>

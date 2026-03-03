@@ -1,0 +1,5 @@
+PID基础入门教程（入门篇）
+https://www.bilibili.com/video/BV14E411L7GB?from=search&seid=10049232027126004011
+
+快速入门Simulink的PID仿真
+https://www.bilibili.com/video/BV1AK41157kE?from=search&seid=10049232027126004011

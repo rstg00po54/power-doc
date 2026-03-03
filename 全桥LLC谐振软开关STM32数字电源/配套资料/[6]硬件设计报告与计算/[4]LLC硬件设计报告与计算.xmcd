@@ -1,0 +1,1259 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?validation-md5-digest 1e0befc7d99838c259eb4c2c36debc95?>
+<worksheet version="3.0.3" xmlns="http://schemas.mathsoft.com/worksheet30" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ws="http://schemas.mathsoft.com/worksheet30" xmlns:ml="http://schemas.mathsoft.com/math30" xmlns:u="http://schemas.mathsoft.com/units10" xmlns:p="http://schemas.mathsoft.com/provenance10">
+	<pointReleaseData/>
+	<metadata>
+		<generator>Mathcad Professional 14.1</generator>
+		<userData>
+			<title/>
+			<description/>
+			<author>Yatao</author>
+			<company/>
+			<keywords/>
+			<revisedBy>Yatao</revisedBy>
+		</userData>
+		<identityInfo>
+			<revision>44</revision>
+			<documentID>C38246E9-3C56-48AA-9906-F78562D6E607</documentID>
+			<versionID>F81AC987-3740-4726-8800-6BACD228F0D4</versionID>
+			<parentVersionID>00000000-0000-0000-0000-000000000000</parentVersionID>
+			<branchID>00000000-0000-0000-0000-000000000000</branchID>
+		</identityInfo>
+	</metadata>
+	<settings>
+		<presentation>
+			<textRendering>
+				<textStyles>
+					<textStyle name="Normal">
+						<blockAttr margin-left="0" margin-right="0" text-indent="0" text-align="left" list-style-type="none" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="标题">
+						<blockAttr margin-left="0" margin-right="0" text-indent="0" text-align="left" list-style-type="none" tabs="inherit"/>
+						<inlineAttr font-family="宋体" font-charset="134" font-size="24" font-weight="bold" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="普通" base-style="Normal">
+						<blockAttr margin-left="0" margin-right="0" text-indent="0" text-align="inherit" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="宋体" font-charset="134" font-size="10" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="标题 1">
+						<blockAttr margin-left="0" margin-right="0" text-indent="0" text-align="left" list-style-type="none" tabs="inherit"/>
+						<inlineAttr font-family="宋体" font-charset="134" font-size="14" font-weight="bold" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Heading 1">
+						<blockAttr margin-left="0" margin-right="0" text-indent="0" text-align="left" list-style-type="none" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="14" font-weight="bold" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+				</textStyles>
+			</textRendering>
+			<mathRendering equation-color="#000">
+				<operators multiplication="dot" derivative="derivative" literal-subscript="small" definition="colon-equal" global-definition="triple-equal" local-definition="left-arrow" equality="bold-equal" symbolic-evaluation="right-arrow"/>
+				<mathStyles>
+					<mathStyle name="变量" font-family="Times New Roman" font-charset="0" font-size="14" font-weight="bold" font-style="normal" underline="false"/>
+					<mathStyle name="常数" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="用户 1" font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="用户 2" font-family="Courier New" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="用户 3" font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="用户 4" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="用户 5" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="用户 6" font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="用户 7" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="数学文本字体" font-family="Times New Roman" font-charset="0" font-size="14" font-weight="normal" font-style="normal" underline="false"/>
+				</mathStyles>
+				<dimensionNames mass="质量" length="长度" time="时间" current="电流" thermodynamic-temperature="温度" luminous-intensity="发光度" amount-of-substance="物质" display="false"/>
+				<symbolics derivation-steps-style="vertical-insert" show-comments="false" evaluate-in-place="false"/>
+				<results numeric-only="true">
+					<general precision="3" show-trailing-zeros="false" radix="dec" complex-threshold="10" zero-threshold="15" imaginary-value="i" exponential-threshold="3"/>
+					<matrix display-style="auto" expand-nested-arrays="false"/>
+					<unit format-units="false" simplify-units="false" fractional-unit-exponent="false"/>
+				</results>
+			</mathRendering>
+			<pageModel show-page-frame="false" show-header-frame="false" show-footer-frame="false" header-footer-start-page="1" paper-code="1" orientation="portrait" print-single-page-width="false" page-width="612" page-height="792">
+				<margins left="72" right="72" top="72" bottom="72"/>
+				<header use-full-page-width="false"/>
+				<footer use-full-page-width="false"/>
+			</pageModel>
+			<colorModel background-color="#fff" default-highlight-color="#ffff80"/>
+			<language math="zh-Hans" UI="zh-Hans"/>
+		</presentation>
+		<calculation>
+			<builtInVariables array-origin="0" convergence-tolerance="0.001" constraint-tolerance="0.001" random-seed="1" prn-precision="4" prn-col-width="8"/>
+			<calculationBehavior automatic-recalculation="true" matrix-strict-singularity-check="false" optimize-expressions="false" exact-boolean="true" strings-use-origin="false" zero-over-zero="error">
+				<compatibility multiple-assignment="MC12" local-assignment="MC11"/>
+			</calculationBehavior>
+			<units>
+				<currentUnitSystem name="si" customized="false"/>
+			</units>
+		</calculation>
+		<editor view-annotations="false" view-regions="false">
+			<ruler is-visible="false" ruler-unit="in"/>
+			<grid granularity-x="6" granularity-y="6"/>
+		</editor>
+		<fileFormat image-type="image/png" image-quality="75" save-numeric-results="true" exclude-large-results="true" save-text-images="false" screen-dpi="96"/>
+		<miscellaneous>
+			<handbook handbook-region-tag-ub="521" can-delete-original-handbook-regions="true" can-delete-user-regions="true" can-print="true" can-copy="true" can-save="true" file-permission-mask="0"/>
+		</miscellaneous>
+	</settings>
+	<regions>
+		<region region-id="520" left="30" top="2.25" width="567.75" height="132" align-x="30" align-y="12" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="#00ff80" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<f size="10">/</f>
+					<f size="10">
+						<c val="#008000">***************************************************************************************</c>
+					</f>
+				</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<f size="10">
+						<c val="#008000">
+							<sp count="2"/>* @file<sp count="4"/>LLC硬件设计报告与计算.xmcd</c>
+					</f>
+				</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<f size="10">
+						<c val="#008000">
+							<sp count="2"/>* @author<sp count="2"/>尖叫的变压器</c>
+					</f>
+				</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<f size="10">
+						<c val="#008000">
+							<sp count="2"/>* @version V1.0.0</c>
+					</f>
+				</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<c val="#008000">
+						<f size="10">
+							<sp count="2"/>* @数字电源交流群<sp count="2"/>599937745</f>
+					</c>
+				</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<f size="10">
+						<c val="#008000">
+							<sp count="2"/>* @淘宝店铺链接：</c>
+					</f>
+				</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<f size="10">
+						<c val="#008000">
+							<sp count="9"/>https://shop239216898.taobao.com/?spm=2013.1.1000126.d21.5e571852VY9erz</c>
+					</f>
+				</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<c val="#008000">
+						<f size="10">
+							<sp count="2"/>* @LegalDeclaration ：本文档内容难免存在Bug，</f>
+					</c>
+				</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<c val="#008000">
+						<f size="10">
+							<sp count="9"/>仅限于交流学习，禁止用于任何的商业用途</f>
+					</c>
+				</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<f size="10">
+						<c val="#008000">
+							<sp count="2"/>* @Copyright<sp count="3"/>著作权归数字电源开源社区所有</c>
+					</f>
+				</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<c val="#008000">
+						<f size="10">*****************************************************************************************/</f>
+					</c>
+				</p>
+			</text>
+		</region>
+		<region region-id="344" left="30" top="139.5" width="186.75" height="12" align-x="58.5" align-y="150" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="标题 1" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<f size="12">
+						<c val="#008080">1.LLC参数输入输出</c>
+					</f>
+					<f size="12">
+						<c val="#008080">规格定义</c>
+					</f>
+					<f size="12">：</f>
+				</p>
+			</text>
+		</region>
+		<region region-id="345" left="36" top="162" width="87.75" height="19.5" align-x="89.25" align-y="174" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve" subscript="in_nom">V</ml:id>
+					<ml:apply>
+						<ml:mult style="auto-select"/>
+						<ml:real>390</ml:real>
+						<ml:id xml:space="preserve">V</ml:id>
+					</ml:apply>
+				</ml:define>
+			</math>
+			<rendering item-idref="1"/>
+		</region>
+		<region region-id="510" left="132" top="162" width="93.75" height="19.5" align-x="191.25" align-y="174" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve" subscript="out_nom">V</ml:id>
+					<ml:apply>
+						<ml:mult style="auto-select"/>
+						<ml:real font="0">21</ml:real>
+						<ml:id xml:space="preserve">V</ml:id>
+					</ml:apply>
+				</ml:define>
+			</math>
+			<rendering item-idref="2"/>
+		</region>
+		<region region-id="514" left="246" top="162" width="70.5" height="19.5" align-x="278.25" align-y="174" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve" subscript="out">P</ml:id>
+					<ml:apply>
+						<ml:mult style="auto-select"/>
+						<ml:real>105</ml:real>
+						<ml:id xml:space="preserve">W</ml:id>
+					</ml:apply>
+				</ml:define>
+			</math>
+			<rendering item-idref="3"/>
+		</region>
+		<region region-id="348" left="30" top="187.5" width="120.75" height="12" align-x="58.5" align-y="198" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="标题 1" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<f size="12">
+						<c val="#008080">2.谐振频率定义</c>
+					</f>
+					<f size="10">
+						<c val="#008080">：</c>
+					</f>
+				</p>
+			</text>
+		</region>
+		<region region-id="349" left="36" top="204" width="62.25" height="19.5" align-x="54" align-y="216" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve" subscript="r">f</ml:id>
+					<ml:apply>
+						<ml:mult style="auto-select"/>
+						<ml:real>90</ml:real>
+						<ml:id xml:space="preserve">kHz</ml:id>
+					</ml:apply>
+				</ml:define>
+			</math>
+			<rendering item-idref="4"/>
+		</region>
+		<region region-id="350" left="120" top="204" width="80.25" height="19.5" align-x="156" align-y="216" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve" subscript="rmin">f</ml:id>
+					<ml:apply>
+						<ml:mult style="auto-select"/>
+						<ml:real>40</ml:real>
+						<ml:id xml:space="preserve">kHz</ml:id>
+					</ml:apply>
+				</ml:define>
+			</math>
+			<rendering item-idref="5"/>
+		</region>
+		<region region-id="515" left="228" top="204" width="96" height="19.5" align-x="265.5" align-y="216" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve" subscript="rmax">f</ml:id>
+					<ml:apply>
+						<ml:mult/>
+						<ml:real>150</ml:real>
+						<ml:id xml:space="preserve">kHz</ml:id>
+					</ml:apply>
+				</ml:define>
+			</math>
+			<rendering item-idref="6"/>
+		</region>
+		<region region-id="352" left="30" top="229.5" width="192" height="12" align-x="58.5" align-y="240" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="标题 1" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<f size="12">
+						<c val="#008080">3.计算变压器原副变比Nps：</c>
+					</f>
+				</p>
+			</text>
+		</region>
+		<region region-id="353" left="36" top="252" width="58.5" height="19.5" align-x="62.25" align-y="264" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve" subscript="D">V</ml:id>
+					<ml:apply>
+						<ml:mult style="auto-select"/>
+						<ml:real>0.5</ml:real>
+						<ml:id xml:space="preserve">V</ml:id>
+					</ml:apply>
+				</ml:define>
+			</math>
+			<rendering item-idref="7"/>
+		</region>
+		<region region-id="354" left="36" top="269.25" width="171.75" height="42" align-x="64.5" align-y="294" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve" subscript="ps">N</ml:id>
+					<ml:eval placeholderMultiplicationStyle="default">
+						<ml:apply>
+							<ml:div/>
+							<ml:id xml:space="preserve" subscript="in_nom">V</ml:id>
+							<ml:apply>
+								<ml:plus/>
+								<ml:id xml:space="preserve" subscript="out_nom">V</ml:id>
+								<ml:id xml:space="preserve" subscript="D">V</ml:id>
+							</ml:apply>
+						</ml:apply>
+						<result xmlns="http://schemas.mathsoft.com/math30">
+							<ml:real>18.13953488372093</ml:real>
+						</result>
+					</ml:eval>
+				</ml:define>
+			</math>
+			<rendering item-idref="8"/>
+		</region>
+		<region region-id="355" left="36" top="313.5" width="124.5" height="12" align-x="64.5" align-y="324" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="标题 1" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<f size="12">
+						<c val="#008080">4.计算谐振电感：</c>
+					</f>
+				</p>
+			</text>
+		</region>
+		<region region-id="386" left="36" top="338.25" width="445.5" height="12" align-x="36" align-y="348" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">谐振电容选型，常用的10nF，22nF，33nF，47nF，一定要规避稀奇古怪的参数</p>
+			</text>
+		</region>
+		<region region-id="385" left="36" top="360" width="58.5" height="19.5" align-x="59.25" align-y="372" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve" subscript="r">C</ml:id>
+					<ml:apply>
+						<ml:mult style="auto-select"/>
+						<ml:real>10</ml:real>
+						<ml:id xml:space="preserve">nF</ml:id>
+					</ml:apply>
+				</ml:define>
+			</math>
+			<rendering item-idref="9"/>
+		</region>
+		<region region-id="358" left="36" top="378" width="181.5" height="39" align-x="58.5" align-y="396" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve" subscript="r">L</ml:id>
+					<ml:eval placeholderMultiplicationStyle="default">
+						<ml:apply>
+							<ml:div/>
+							<ml:real>1</ml:real>
+							<ml:apply>
+								<ml:mult/>
+								<ml:apply>
+									<ml:pow/>
+									<ml:parens>
+										<ml:apply>
+											<ml:mult/>
+											<ml:apply>
+												<ml:mult style="auto-select"/>
+												<ml:real>2</ml:real>
+												<ml:id xml:space="preserve">π</ml:id>
+											</ml:apply>
+											<ml:id xml:space="preserve" subscript="r">f</ml:id>
+										</ml:apply>
+									</ml:parens>
+									<ml:real>2</ml:real>
+								</ml:apply>
+								<ml:id xml:space="preserve" subscript="r">C</ml:id>
+							</ml:apply>
+						</ml:apply>
+						<ml:unitOverride>
+							<ml:id xml:space="preserve">μH</ml:id>
+						</ml:unitOverride>
+						<result xmlns="http://schemas.mathsoft.com/math30">
+							<unitedValue>
+								<ml:real>312.71970259980793</ml:real>
+								<unitMonomial xmlns="http://schemas.mathsoft.com/units10">
+									<unitReference unit="microhenry"/>
+								</unitMonomial>
+							</unitedValue>
+						</result>
+					</ml:eval>
+				</ml:define>
+			</math>
+			<rendering item-idref="10"/>
+		</region>
+		<region region-id="389" left="36" top="428.25" width="445.5" height="24" align-x="36" align-y="438" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">谐变压器初级电感：励磁电感。</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">一般取谐振电感的3到7倍，励磁电感越大，励磁电流越小，ZVS越困难</p>
+			</text>
+		</region>
+		<region region-id="359" left="36" top="465.75" width="44.25" height="9.75" align-x="64.5" align-y="474" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="标题 1" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<f size="10">经验值：</f>
+				</p>
+			</text>
+		</region>
+		<region region-id="360" left="84" top="462" width="35.25" height="16.5" align-x="103.5" align-y="474" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define warning="WarnRedefinedBIUnit" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve">K</ml:id>
+					<ml:real>5</ml:real>
+				</ml:define>
+			</math>
+			<rendering item-idref="11"/>
+		</region>
+		<region region-id="361" left="36" top="485.25" width="166.5" height="20.25" align-x="63" align-y="498" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve" subscript="m">L</ml:id>
+					<ml:eval placeholderMultiplicationStyle="default">
+						<ml:apply>
+							<ml:mult/>
+							<ml:id xml:space="preserve">K</ml:id>
+							<ml:id xml:space="preserve" subscript="r">L</ml:id>
+						</ml:apply>
+						<ml:unitOverride>
+							<ml:id xml:space="preserve">μH</ml:id>
+						</ml:unitOverride>
+						<result xmlns="http://schemas.mathsoft.com/math30">
+							<unitedValue>
+								<ml:real>1563.5985129990397</ml:real>
+								<unitMonomial xmlns="http://schemas.mathsoft.com/units10">
+									<unitReference unit="microhenry"/>
+								</unitMonomial>
+							</unitedValue>
+						</result>
+					</ml:eval>
+				</ml:define>
+			</math>
+			<rendering item-idref="12"/>
+		</region>
+		<region region-id="362" left="36" top="517.5" width="294.75" height="12" align-x="64.5" align-y="528" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="标题 1" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<f size="12">
+						<c val="#008080">5.计算原边电流最大值与有效值（额定点）：</c>
+					</f>
+				</p>
+			</text>
+		</region>
+		<region region-id="456" left="36" top="538.5" width="223.5" height="60.75" align-x="86.25" align-y="582" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<originRef doc-id="7C7ED93E-AA0F-40CA-9689-96ACD6624500" version-id="CD9DDAFA-E92F-40DD-975D-848956495AB8" branch-id="00000000-0000-0000-0000-000000000000" revision-num="241482172" is-modified="false" region-id="0" href="D:\Work\Project\EVCM75040\A3_HARDWARE\A32_DESIGN\30kw_EV_Charger_D2D_Design.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</originRef>
+					<parentRef doc-id="CEAD4425-9BEB-4D9C-8578-4A5A79E83C2C" version-id="4B974E68-B344-4E5C-BDF2-5C25F8ACD965" branch-id="00000000-0000-0000-0000-000000000000" revision-num="241482292" is-modified="false" region-id="0" href="D:\My_project\PFC_LLC\配套资料\[6]参数计算\LLC计算书（Mathcad打开）.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</parentRef>
+					<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<contentHash xmlns="http://schemas.mathsoft.com/provenance10">38713b2cf904d4b70e6131610c7e029b</contentHash>
+					<ml:define>
+						<ml:id xml:space="preserve" subscript="pri_rms">I</ml:id>
+						<ml:eval placeholderMultiplicationStyle="default">
+							<ml:apply>
+								<ml:mult/>
+								<ml:apply>
+									<ml:div/>
+									<ml:id xml:space="preserve">π</ml:id>
+									<ml:apply>
+										<ml:mult/>
+										<ml:real>2</ml:real>
+										<ml:apply>
+											<ml:sqrt/>
+											<ml:real>2</ml:real>
+										</ml:apply>
+									</ml:apply>
+								</ml:apply>
+								<ml:apply>
+									<ml:div/>
+									<ml:apply>
+										<ml:div/>
+										<ml:id xml:space="preserve" subscript="out">P</ml:id>
+										<ml:id xml:space="preserve" subscript="out_nom">V</ml:id>
+									</ml:apply>
+									<ml:id xml:space="preserve" subscript="ps">N</ml:id>
+								</ml:apply>
+							</ml:apply>
+							<result xmlns="http://schemas.mathsoft.com/math30">
+								<unitedValue>
+									<ml:real>0.30616020246924641</ml:real>
+									<unitMonomial xmlns="http://schemas.mathsoft.com/units10">
+										<unitReference unit="ampere"/>
+									</unitMonomial>
+								</unitedValue>
+							</result>
+						</ml:eval>
+					</ml:define>
+				</ml:provenance>
+			</math>
+			<rendering item-idref="13">
+				<element-image-map>
+					<box left="1.5" top="0.75" width="222" height="59.25" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
+				</element-image-map>
+			</rendering>
+		</region>
+		<region region-id="457" left="276" top="572.25" width="180" height="12" align-x="276" align-y="582" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">次级电流按照匝数比折算到初级</p>
+			</text>
+		</region>
+		<region region-id="458" left="36" top="618" width="185.25" height="19.5" align-x="87.75" align-y="630" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<originRef doc-id="7C7ED93E-AA0F-40CA-9689-96ACD6624500" version-id="CD9DDAFA-E92F-40DD-975D-848956495AB8" branch-id="00000000-0000-0000-0000-000000000000" revision-num="241482132" is-modified="false" region-id="0" href="D:\Work\Project\EVCM75040\A3_HARDWARE\A32_DESIGN\30kw_EV_Charger_D2D_Design.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</originRef>
+					<parentRef doc-id="CEAD4425-9BEB-4D9C-8578-4A5A79E83C2C" version-id="4B974E68-B344-4E5C-BDF2-5C25F8ACD965" branch-id="00000000-0000-0000-0000-000000000000" revision-num="241481852" is-modified="false" region-id="0" href="D:\My_project\PFC_LLC\配套资料\[6]参数计算\LLC计算书（Mathcad打开）.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</parentRef>
+					<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<contentHash xmlns="http://schemas.mathsoft.com/provenance10">bd26772b6d8e59722866485328fb6ac9</contentHash>
+					<ml:define>
+						<ml:id xml:space="preserve" subscript="pri_max">I</ml:id>
+						<ml:eval placeholderMultiplicationStyle="default">
+							<ml:apply>
+								<ml:mult/>
+								<ml:apply>
+									<ml:sqrt/>
+									<ml:real>2</ml:real>
+								</ml:apply>
+								<ml:id xml:space="preserve" subscript="pri_rms">I</ml:id>
+							</ml:apply>
+							<result xmlns="http://schemas.mathsoft.com/math30">
+								<unitedValue>
+									<ml:real>0.43297591059090107</ml:real>
+									<unitMonomial xmlns="http://schemas.mathsoft.com/units10">
+										<unitReference unit="ampere"/>
+									</unitMonomial>
+								</unitedValue>
+							</result>
+						</ml:eval>
+					</ml:define>
+				</ml:provenance>
+			</math>
+			<rendering item-idref="14">
+				<element-image-map>
+					<box left="1.5" top="0.75" width="183.75" height="18" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
+				</element-image-map>
+			</rendering>
+		</region>
+		<region region-id="459" left="36" top="649.5" width="141.75" height="12" align-x="64.5" align-y="660" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="标题 1" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<f size="12">
+						<c val="#008080">6.计算变压器激磁电流：</c>
+					</f>
+				</p>
+			</text>
+		</region>
+		<region region-id="460" left="276" top="668.25" width="151.5" height="24" align-x="276" align-y="678" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">电感两端电压恒定时，电流线性变化，L*di/dt=U</p>
+			</text>
+		</region>
+		<region region-id="461" left="36" top="665.25" width="233.25" height="42" align-x="82.5" align-y="690" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<originRef doc-id="7C7ED93E-AA0F-40CA-9689-96ACD6624500" version-id="CD9DDAFA-E92F-40DD-975D-848956495AB8" branch-id="00000000-0000-0000-0000-000000000000" revision-num="241482652" is-modified="false" region-id="0" href="D:\Work\Project\EVCM75040\A3_HARDWARE\A32_DESIGN\30kw_EV_Charger_D2D_Design.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</originRef>
+					<parentRef doc-id="CEAD4425-9BEB-4D9C-8578-4A5A79E83C2C" version-id="4B974E68-B344-4E5C-BDF2-5C25F8ACD965" branch-id="00000000-0000-0000-0000-000000000000" revision-num="241482132" is-modified="false" region-id="0" href="D:\My_project\PFC_LLC\配套资料\[6]参数计算\LLC计算书（Mathcad打开）.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</parentRef>
+					<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<contentHash xmlns="http://schemas.mathsoft.com/provenance10">07a1dd6470617994818ea28ace8fa314</contentHash>
+					<ml:define>
+						<ml:id xml:space="preserve" subscript="m_rms">I</ml:id>
+						<ml:eval placeholderMultiplicationStyle="default">
+							<ml:apply>
+								<ml:mult/>
+								<ml:apply>
+									<ml:div/>
+									<ml:apply>
+										<ml:mult style="auto-select"/>
+										<ml:real>2</ml:real>
+										<ml:apply>
+											<ml:sqrt/>
+											<ml:real>2</ml:real>
+										</ml:apply>
+									</ml:apply>
+									<ml:id xml:space="preserve">π</ml:id>
+								</ml:apply>
+								<ml:apply>
+									<ml:div/>
+									<ml:apply>
+										<ml:mult/>
+										<ml:id xml:space="preserve" subscript="ps">N</ml:id>
+										<ml:id xml:space="preserve" subscript="out_nom">V</ml:id>
+									</ml:apply>
+									<ml:apply>
+										<ml:mult/>
+										<ml:apply>
+											<ml:mult/>
+											<ml:apply>
+												<ml:mult style="auto-select"/>
+												<ml:real>2</ml:real>
+												<ml:id xml:space="preserve">π</ml:id>
+											</ml:apply>
+											<ml:id xml:space="preserve" subscript="r">f</ml:id>
+										</ml:apply>
+										<ml:id xml:space="preserve" subscript="m">L</ml:id>
+									</ml:apply>
+								</ml:apply>
+							</ml:apply>
+							<result xmlns="http://schemas.mathsoft.com/math30">
+								<unitedValue>
+									<ml:real>0.3878760248651939</ml:real>
+									<unitMonomial xmlns="http://schemas.mathsoft.com/units10">
+										<unitReference unit="ampere"/>
+									</unitMonomial>
+								</unitedValue>
+							</result>
+						</ml:eval>
+					</ml:define>
+				</ml:provenance>
+			</math>
+			<rendering item-idref="15">
+				<element-image-map>
+					<box left="1.5" top="0.75" width="231.75" height="40.5" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
+				</element-image-map>
+			</rendering>
+		</region>
+		<region region-id="482" left="36" top="709.5" width="147" height="12" align-x="64.5" align-y="720" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="标题 1" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<f size="12">
+						<c val="#008080">8.变压器参数设计：</c>
+					</f>
+				</p>
+			</text>
+		</region>
+		<region region-id="495" left="36" top="738" width="51" height="16.5" align-x="57.75" align-y="750" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<originRef doc-id="C97BE1FA-018B-4D27-9A88-47C5208F06DD" version-id="2BD9F8CD-1D21-4A29-A205-ABD678138FC5" branch-id="00000000-0000-0000-0000-000000000000" revision-num="241482532" is-modified="false" region-id="0" href="C:\Users\Yatao\Desktop\LL电感56.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</originRef>
+					<parentRef doc-id="C97BE1FA-018B-4D27-9A88-47C5208F06DD" version-id="2BD9F8CD-1D21-4A29-A205-ABD678138FC5" branch-id="00000000-0000-0000-0000-000000000000" revision-num="241481452" is-modified="false" region-id="0" href="C:\Users\Yatao\Desktop\LL电感56.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</parentRef>
+					<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<contentHash xmlns="http://schemas.mathsoft.com/provenance10">4d58aa6b86e2dbb34defd14f19e27d56</contentHash>
+					<ml:define>
+						<ml:id xml:space="preserve">ur</ml:id>
+						<ml:real>2000</ml:real>
+					</ml:define>
+				</ml:provenance>
+			</math>
+			<rendering item-idref="16">
+				<element-image-map>
+					<box left="1.5" top="0.75" width="49.5" height="15" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
+				</element-image-map>
+			</rendering>
+		</region>
+		<region region-id="496" left="96" top="728.25" width="117" height="36" align-x="119.25" align-y="750" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<originRef doc-id="C97BE1FA-018B-4D27-9A88-47C5208F06DD" version-id="2BD9F8CD-1D21-4A29-A205-ABD678138FC5" branch-id="00000000-0000-0000-0000-000000000000" revision-num="241481692" is-modified="false" region-id="0" href="C:\Users\Yatao\Desktop\LL电感56.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</originRef>
+					<parentRef doc-id="C97BE1FA-018B-4D27-9A88-47C5208F06DD" version-id="2BD9F8CD-1D21-4A29-A205-ABD678138FC5" branch-id="00000000-0000-0000-0000-000000000000" revision-num="241482092" is-modified="false" region-id="0" href="C:\Users\Yatao\Desktop\LL电感56.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</parentRef>
+					<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<contentHash xmlns="http://schemas.mathsoft.com/provenance10">a5ba9886e219d53f76b3afa8a2087a60</contentHash>
+					<ml:define warning="WarnRedefinedBIUnit">
+						<ml:id xml:space="preserve" subscript="0">μ</ml:id>
+						<ml:apply>
+							<ml:mult/>
+							<ml:apply>
+								<ml:mult/>
+								<ml:apply>
+									<ml:mult/>
+									<ml:real>4</ml:real>
+									<ml:id xml:space="preserve">π</ml:id>
+								</ml:apply>
+								<ml:apply>
+									<ml:pow/>
+									<ml:real>10</ml:real>
+									<ml:real>-7</ml:real>
+								</ml:apply>
+							</ml:apply>
+							<ml:apply>
+								<ml:div/>
+								<ml:id xml:space="preserve">H</ml:id>
+								<ml:id xml:space="preserve">m</ml:id>
+							</ml:apply>
+						</ml:apply>
+					</ml:define>
+				</ml:provenance>
+			</math>
+			<rendering item-idref="17">
+				<element-image-map>
+					<box left="1.5" top="0.75" width="115.5" height="34.5" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
+				</element-image-map>
+			</rendering>
+		</region>
+		<region region-id="497" left="234" top="738" width="64.5" height="19.5" align-x="250.5" align-y="750" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<originRef doc-id="C97BE1FA-018B-4D27-9A88-47C5208F06DD" version-id="2BD9F8CD-1D21-4A29-A205-ABD678138FC5" branch-id="00000000-0000-0000-0000-000000000000" revision-num="241481972" is-modified="false" region-id="0" href="C:\Users\Yatao\Desktop\LL电感56.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</originRef>
+					<parentRef doc-id="C97BE1FA-018B-4D27-9A88-47C5208F06DD" version-id="2BD9F8CD-1D21-4A29-A205-ABD678138FC5" branch-id="00000000-0000-0000-0000-000000000000" revision-num="241482092" is-modified="false" region-id="0" href="C:\Users\Yatao\Desktop\LL电感56.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</parentRef>
+					<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<contentHash xmlns="http://schemas.mathsoft.com/provenance10">dae16f8f743d126f6c1e01e17077fc8f</contentHash>
+					<ml:define>
+						<ml:id xml:space="preserve">u</ml:id>
+						<ml:apply>
+							<ml:mult/>
+							<ml:id xml:space="preserve">ur</ml:id>
+							<ml:id xml:space="preserve" subscript="0">μ</ml:id>
+						</ml:apply>
+					</ml:define>
+				</ml:provenance>
+			</math>
+			<rendering item-idref="18">
+				<element-image-map>
+					<box left="1.5" top="0.75" width="63" height="18" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
+				</element-image-map>
+			</rendering>
+		</region>
+		<region region-id="498" left="36" top="768" width="101.25" height="16.5" align-x="55.5" align-y="780" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<originRef doc-id="C97BE1FA-018B-4D27-9A88-47C5208F06DD" version-id="2BD9F8CD-1D21-4A29-A205-ABD678138FC5" branch-id="00000000-0000-0000-0000-000000000000" revision-num="241481972" is-modified="false" region-id="0" href="C:\Users\Yatao\Desktop\LL电感56.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</originRef>
+					<parentRef doc-id="C97BE1FA-018B-4D27-9A88-47C5208F06DD" version-id="2BD9F8CD-1D21-4A29-A205-ABD678138FC5" branch-id="00000000-0000-0000-0000-000000000000" revision-num="241481852" is-modified="false" region-id="0" href="C:\Users\Yatao\Desktop\LL电感56.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</parentRef>
+					<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<contentHash xmlns="http://schemas.mathsoft.com/provenance10">80ed71f12ffed2f890f81136b7072cd4</contentHash>
+					<ml:define>
+						<ml:id xml:space="preserve">lg</ml:id>
+						<ml:apply>
+							<ml:mult/>
+							<ml:real>0.2830450</ml:real>
+							<ml:id xml:space="preserve">mm</ml:id>
+						</ml:apply>
+					</ml:define>
+				</ml:provenance>
+			</math>
+			<rendering item-idref="19">
+				<element-image-map>
+					<box left="1.5" top="0.75" width="99.75" height="15" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
+				</element-image-map>
+			</rendering>
+		</region>
+		<region region-id="499" left="276" top="770.25" width="151.5" height="96" align-x="276" align-y="780" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Ur是初始磁导率</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">U0是真空磁导率</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">u是相对磁导率</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">lg是磁芯中柱气息长度</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Ae是磁芯中柱面积</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">le是磁芯闭合回路长度</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">磁芯选择PQ2625</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">谐振电感磁芯：PQ2020</p>
+			</text>
+		</region>
+		<region region-id="500" left="36" top="788.25" width="93.75" height="20.25" align-x="60.75" align-y="804" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<originRef doc-id="C97BE1FA-018B-4D27-9A88-47C5208F06DD" version-id="2BD9F8CD-1D21-4A29-A205-ABD678138FC5" branch-id="00000000-0000-0000-0000-000000000000" revision-num="241482212" is-modified="false" region-id="0" href="C:\Users\Yatao\Desktop\LL电感56.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</originRef>
+					<parentRef doc-id="C97BE1FA-018B-4D27-9A88-47C5208F06DD" version-id="2BD9F8CD-1D21-4A29-A205-ABD678138FC5" branch-id="00000000-0000-0000-0000-000000000000" revision-num="241481972" is-modified="false" region-id="0" href="C:\Users\Yatao\Desktop\LL电感56.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</parentRef>
+					<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<contentHash xmlns="http://schemas.mathsoft.com/provenance10">74d0bfd25614ec71403b7ef8558b8e29</contentHash>
+					<ml:define>
+						<ml:id xml:space="preserve">Ae</ml:id>
+						<ml:apply>
+							<ml:mult/>
+							<ml:real>118.0</ml:real>
+							<ml:apply>
+								<ml:pow/>
+								<ml:id xml:space="preserve">mm</ml:id>
+								<ml:real>2</ml:real>
+							</ml:apply>
+						</ml:apply>
+					</ml:define>
+				</ml:provenance>
+			</math>
+			<rendering item-idref="20">
+				<element-image-map>
+					<box left="1.5" top="0.75" width="92.25" height="18.75" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
+				</element-image-map>
+			</rendering>
+		</region>
+		<region region-id="501" left="36" top="816" width="78" height="16.5" align-x="54.75" align-y="828" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<originRef doc-id="C97BE1FA-018B-4D27-9A88-47C5208F06DD" version-id="2BD9F8CD-1D21-4A29-A205-ABD678138FC5" branch-id="00000000-0000-0000-0000-000000000000" revision-num="241482252" is-modified="false" region-id="0" href="C:\Users\Yatao\Desktop\LL电感56.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</originRef>
+					<parentRef doc-id="C97BE1FA-018B-4D27-9A88-47C5208F06DD" version-id="2BD9F8CD-1D21-4A29-A205-ABD678138FC5" branch-id="00000000-0000-0000-0000-000000000000" revision-num="241482212" is-modified="false" region-id="0" href="C:\Users\Yatao\Desktop\LL电感56.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</parentRef>
+					<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<contentHash xmlns="http://schemas.mathsoft.com/provenance10">9eeb80525c88958130a06c4f9e88e3fd</contentHash>
+					<ml:define>
+						<ml:id xml:space="preserve">le</ml:id>
+						<ml:apply>
+							<ml:mult/>
+							<ml:real>55.5</ml:real>
+							<ml:id xml:space="preserve">mm</ml:id>
+						</ml:apply>
+					</ml:define>
+				</ml:provenance>
+			</math>
+			<rendering item-idref="21">
+				<element-image-map>
+					<box left="1.5" top="0.75" width="76.5" height="15" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
+				</element-image-map>
+			</rendering>
+		</region>
+		<region region-id="502" left="36" top="845.25" width="186.75" height="60" align-x="61.5" align-y="888" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve">N1</ml:id>
+					<ml:eval placeholderMultiplicationStyle="default">
+						<ml:apply>
+							<ml:sqrt/>
+							<ml:apply>
+								<ml:div/>
+								<ml:apply>
+									<ml:mult/>
+									<ml:id xml:space="preserve" subscript="m">L</ml:id>
+									<ml:parens>
+										<ml:apply>
+											<ml:plus/>
+											<ml:id xml:space="preserve">lg</ml:id>
+											<ml:apply>
+												<ml:div/>
+												<ml:id xml:space="preserve">le</ml:id>
+												<ml:id xml:space="preserve">ur</ml:id>
+											</ml:apply>
+										</ml:apply>
+									</ml:parens>
+								</ml:apply>
+								<ml:apply>
+									<ml:mult/>
+									<ml:id xml:space="preserve">Ae</ml:id>
+									<ml:id xml:space="preserve" subscript="0">μ</ml:id>
+								</ml:apply>
+							</ml:apply>
+						</ml:apply>
+						<result xmlns="http://schemas.mathsoft.com/math30">
+							<ml:real>57.2471275660688</ml:real>
+						</result>
+					</ml:eval>
+				</ml:define>
+			</math>
+			<rendering item-idref="22"/>
+		</region>
+		<region region-id="521" left="276" top="878.25" width="151.5" height="24" align-x="276" align-y="888" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">公式来源可以参考论文，</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">此处不再过多讲解，</p>
+			</text>
+		</region>
+		<region region-id="503" left="36" top="908.25" width="105.75" height="39" align-x="61.5" align-y="930" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve">N2</ml:id>
+					<ml:eval placeholderMultiplicationStyle="default">
+						<ml:apply>
+							<ml:div/>
+							<ml:id xml:space="preserve">N1</ml:id>
+							<ml:id xml:space="preserve" subscript="ps">N</ml:id>
+						</ml:apply>
+						<result xmlns="http://schemas.mathsoft.com/math30">
+							<ml:real>3.1559313914627669</ml:real>
+						</result>
+					</ml:eval>
+				</ml:define>
+			</math>
+			<rendering item-idref="23"/>
+		</region>
+		<region region-id="504" left="36" top="957.75" width="78" height="9.75" align-x="36" align-y="966" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="普通" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">计算最大磁通密度</p>
+			</text>
+		</region>
+		<region region-id="505" left="36" top="971.25" width="174" height="39" align-x="78.75" align-y="996" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve">Bmax</ml:id>
+					<ml:eval placeholderMultiplicationStyle="default">
+						<ml:apply>
+							<ml:div/>
+							<ml:apply>
+								<ml:mult/>
+								<ml:id xml:space="preserve" subscript="m">L</ml:id>
+								<ml:id xml:space="preserve" subscript="m_rms">I</ml:id>
+							</ml:apply>
+							<ml:apply>
+								<ml:mult/>
+								<ml:id xml:space="preserve">N1</ml:id>
+								<ml:id xml:space="preserve">Ae</ml:id>
+							</ml:apply>
+						</ml:apply>
+						<ml:unitOverride>
+							<ml:id xml:space="preserve">T</ml:id>
+						</ml:unitOverride>
+						<result xmlns="http://schemas.mathsoft.com/math30">
+							<unitedValue>
+								<ml:real>0.089780594565714841</ml:real>
+								<unitMonomial xmlns="http://schemas.mathsoft.com/units10">
+									<unitReference unit="tesla"/>
+								</unitMonomial>
+							</unitedValue>
+						</result>
+					</ml:eval>
+				</ml:define>
+			</math>
+			<rendering item-idref="24"/>
+		</region>
+	</regions>
+	<binaryContent>
+		<item item-id="1">iVBORw0KGgoAAAANSUhEUgAAAHUAAAAaCAYAAACJphMzAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF5SURBVGhD7ZSBbsNACEPz/z+dhSmu
+PAe4u6XZJMqTUGvAqAdSt70pRx+1IH3UgvRRC9JHLcjrqNu2ucFkteY5dO8I5kftzH3DhYxR
+vXk/K7e5dIzMo6HNc8zepo/6MNE+V/NGVjOQd6uRORpWBe/Nd4j2t5pnLIdgWF9dBzPGiuib
+obNYAf3qG+UZyyEY1lfXiZp1COCeJoZ3pPuCjvKK5RHQjO86GBkB9zQ+uiPdF3SUVyyPgGZ8
+18HI+AnwDqJYgfu9OVw3VIOh7/x0UbOi9UjPMOPlHq5pzvsO/Z94v4FzWs9+s9UQSuw6yIxA
+6+rRekbm5e9GpJGL6hkzPXfQ2auasRpCiV0n2WBDB490RubNasaq9pjpWQHzdK5qxuuPCGec
+n79Gf8BIZ2TerGas6srcfuVoeaozMm9WM1Z1ZW6/crQ81RmZN6sZq7oyt16JRUWhPRnch95M
+I2d4+ZGuTP0XfiB91IL86VH5L1CjeR+9zYL0Ucux719T4kgVMjPdeAAAAABJRU5ErkJg
+gg==</item>
+		<item item-id="2">iVBORw0KGgoAAAANSUhEUgAAAH0AAAAaCAYAAACacVPHAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGJSURBVGhD7ZQLbgMxCET3/pdOZStE
+dAoD1E4/a55EssAMG2Mp16M5jr70A+lLP5C+9APpSz+Q16Vf12WGhvWa71PdK2rQL6H51HvW
+JrrBiPpNHr1zHUilz5ia5/OLyBwNbfLgniXHHeu61Rcy/fk9PxVZY7OfzO5X+/N7fgKe2Rt2
+CtZOdiLzvXdE/YGn0bnpzhhPBHciOYsKkScz19Po3HWjGYc0e8F9W2Q0A9Sh3nVHxl28a+5/
+Q+/aQzRVHepdd2Tcxbvm/gR6R15kyGqzc1GHeupGs4XWaB3WWC41Bmotn9boHtasZ8l/A+vd
+Xi37W5mWuplxgL3VPEL04vGeB14uNa/PyGiqyEwMi6ivYdrQzV6AQ1fzCOZnvUE1t8hoKsg8
+KzRWX4Lh9ZdOgC9ezSOYn/UG1fzOLJ0yWlw1j2B+1htU8zuzdMpocZVc1z0iv9cbVPM7s3xK
+WZa3NOxLCJh7aK/oWS61gVWP8jtz/xM2X+hLP5A/den6Lxaj2Udv80D60o/j8fgATMPdm+XX
+zygAAAAASUVORK5CYII=</item>
+		<item item-id="3">iVBORw0KGgoAAAANSUhEUgAAAF4AAAAaCAYAAAA+G+sUAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFKSURBVGhD7ZCNjsQgCIT7/i/di3s7
+DYsMVBuX3MmXUMPwU53jLFIo45Mo45Mo45Mo45O4jD+OI4ziF+YN08FH7a1dyCKwtN1hnjAd
+QO+qbJDpu+L5EdVe5+srYENM/4tYb/Dex2ozOuj+4g1Z+kpW/M/aOZoD7LL6mQ66jdaQpX0D
+7x4s7qD7vNzbi5rskaelg26jHNDxX9BvifIGe3/TEchxWjrotumBVaze79GZEOTA0puGQI7T
+0kG3SQ+sYma/vBuLO+i+KAeejpAwvdEpXrNE9slerXk5tG+j/xvlwNMREqY3OsVrBrr+NGfc
+7RtF74zyhnePVkNILA1cqhzWodH605xxt28E7NR7Ld3SGKyH6u9zCH2Zp/mOTL0+MnI035Gp
+10dGjuRS34npV8M8aaJE1xFA57ux78uTKeOTKOOTKOOTKONTOM8fhoiIVg2Na08AAAAASUVO
+RK5CYII=</item>
+		<item item-id="4">iVBORw0KGgoAAAANSUhEUgAAAFMAAAAaCAYAAADL5WCkAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFHSURBVGhD7ZCBisYwCIP3/i+9w9L8
+pEHteic/O/ADoSax67zupoxeZiG9zEJ6mYX0Mgtxl3ld11L/iadv1xwKeJ5VxuLq0JML3oj+
+R0aWzTyPJaXDJxe9Cf2PjCybeR5L6nT4W0TvOtU9smzmeXxSPHhygfKXWQ+9C32kG3ZGAU8z
+It2IPNaXmv6Ajd+i83xnVBnqo490w84ooHnA2awY7pfc1AZsvAV9C/pIN+yMQh+hWSby0LM/
+aqgTNt6CvgV9pBt29soj8zPPUH9JqVkB3xnVDi+vc9x7We6ZSm9JuQHR1P8m/F19g3oooD3w
+siDyWGdvSXkBQ3X1Gc5VondmPd6w04xINyLP00c/z0sABbTPOMk+IbsPHvussefpXgHP29ac
+TUG4yellFtLLLGS7ISyyF7qnt1NIL7OQXmYhvcxCepll3PcPruXtqqJaIEAAAAAASUVORK5C
+YII=</item>
+		<item item-id="5">iVBORw0KGgoAAAANSUhEUgAAAGsAAAAaCAYAAACwwaJoAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGBSURBVGhD7ZGBbsQwCEP7/z/diare
+jAckp7anZceT0AXbzRjZ9mYZ+rEWoh9rIfqxFqIfayHCx9q2zVXzw+xuNIcCkWdV4Vz9aOaC
+T0T3VFFlKy/CpfTjVy76JHRPFVW28iJc6tWP/yP8v2f7yPSIKlt5Ed8p/vCVC97Nk7Px3fo3
+uEdupBmZbmQe665O/4CNv4rOxzNnNQNy+gu4tzMKaB5wtiqGe5c7tQM2nuDJu6+CufQXcG9n
+FPoMzTKZh579ow71hI0nePLuK/BMOOucmokqovIrz1DfpdRcAZ45qwr10We6YWdU1DN3ei4V
+BkTjPtL5jN5QLevfDc+hxXAfZbQHURZkHuvsuVQUMFTnX9VxNmZ7aOpHzGSuwLMw3GOGkWZk
+upF5kX7059kFUEB7MMpd7SNmMleI5sk09iI9KhB5wzq/LUFYUf3uvvFMbSZboup3941najPZ
+ElW/u288w81ggbrISK/6UWm++U1vZSH6sRaiH2sh+rEWoh9rGfb9C4BQcKZJ0rdkAAAAAElF
+TkSuQmCC</item>
+		<item item-id="6">iVBORw0KGgoAAAANSUhEUgAAAIAAAAAaCAYAAAB/w1TuAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGxSURBVGhD7ZILjsQgDEN7/0vPKlW9
+MpYJsJ3ujzwpmsY2KUM5XsXW1AXYnLoAm1MXYHPqAmyOvQDHcTRVPMvseWsOBZwXldG4umhm
+QPEe9OwzsmzmOZqULl4ZVNxDzz4jy2aeo0mtLv6P9P67OxunfZWVWVk28xyfKV64MuCneGKP
+2UzVR/0qeDfPcVrQ04Oex3pTl3/Cxm9H98l779UMLufWj/pV8A6e05vJ2awY7pvcpZ2wsSvZ
+f2dPc6N1mR8gg1yW1yzT89Czf9apXrCxK6P/Dl9z2brwZua6cmR+5gXqNyk1/xK8917NMMrB
+19zs/B6xHuV65p1ek7IB0bh3Oj+jB6yz53R+/k5G7+T9MXf3GutRQHvgsqDnsc5ek3KBQHX+
+VR3PwawXuD5D8+8im5nt7+5eYj0KOC3o6UHPc/rZX89NAAW0B6Oc9gC6ej3dMZtbwb3faSDz
+VuA5PM/proDzhnWtTUFYUX2lVy9wWvEsU6fd+zCqZ33mAWiqF88xddK9j6J61mdekHnFcwxP
+GR9DP4rTV3pXLlM8S53w5tQF2Jy6AJtTF2Bz6gJszev1AYexzLpsZ1NIAAAAAElFTkSuQmCC</item>
+		<item item-id="7">iVBORw0KGgoAAAANSUhEUgAAAE4AAAAaCAYAAAAZtWr8AAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEiSURBVGhD7ZDrrsMwCIP7/i/do0zH
+E/MwJHTd1IpP4kdic932pkQfrkgfrkgfrkgfrsjzcNu2uWGJtKvDuyEsL9r/3wMrRGT6VVnZ
+/82RJWdFr87s/rc7XDY/UD71D/DvqipZFavi9TjCyryZhrDYt5s9k/gJuAfeUUSwrvxZLejs
+sW+ZzclcZGA9HL+A+2ZzRDr2gIe9MjNLBNYDvL9v4M2RoTzYATr7ZOUsEViPRf1HICeKCNYz
+/0B50A86+8LKnOyh9CzvDLjfTP/Igx08T1g5SgSycJI3mPGswLVm+kdgPs+XTj1bnFH/lhnP
+KqjJdfFWukL5Dk+thlgZ7or04Yqccri7H21waDscyIu7c/8NT6IPV6QPV6QPV6QPV2Lf/wB6
+gzBonlH3dQAAAABJRU5ErkJggg==</item>
+		<item item-id="8">iVBORw0KGgoAAAANSUhEUgAAAOUAAAA4CAYAAAACaT/nAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAO0SURBVHhe7dYNb+MgDIDh/v8/vRvS
+PPkcf0AJDVneR0JXg0kJtad7fQHYCk0JbIamBDZDUwKboSmBzdCUJ3m9Xu7QsjVAUBkn6m04
+GhIZquNkVWPSkKhQISejKTGLClkgakwaEj2okgVoSsygShaxjRk1pM4BGqphEWk2abio8XQO
+0FANi0izScPReOhFpSxkG9Oy61Hco2evztFrds77LDHW46YX6ilou2732PVMtld/bqJY5qJ1
+rMctL1YVclX8Ns5ke7O1ZjTGOtzyxarit3Em25utNaMx1uGWL1YVv40z2d5srRmNsQ63fLGq
++G2cyfZma81ojHW45QtJoUfD5mR0nuRmscw13nwVYx1uGNjMb1Pqv4TeX0O77uUAmHforKrp
+aMbr6N/GDvwdaVN6PzYFAKxFUwLfolqP+kCbXbcO2fIAOYx94OgX9PK+C/iEnjqPatPbq1Xr
+nkO2foA80M6t4H1PNQCvLuzoYfOqWIvWZD7b6zlk6we0z3rIHPDXeHXdW/PReu9+65BtH9Bi
+GRLfhT47457jU6Lv6jmDl6PnRt/jkB19gR6fYL/TG4BXF3b08PJkrnqGXa/iyiE7ekCbl2Fj
+PbRsDdiJV7taVr9erjd6HTKjzd7Ds9hby9h84JNs7VWxVtXtaF3/ZreNdlh2Povls17PjOQC
+Z4pqNZsXUY6WrXnGsg17mCjWcwByS5uykTk7/0n6DHpo2Rpi9t5kaNkajqZuyF6yjqP5q8gZ
+qnNcfc474m7PNXVL+seQIaL5K1Xn2eWcd8TdnmfqprIfYUdy3ujMd3qXld65B+72PFM3lf0I
+u5Iz23Pf7T1WevcuuNtzvH1b+ge406VHZ77TO6z27l1wt+d45G3Z4qFo/jdzHz13q3PswPf9
+/Pz7KLYIVhXDXYpM30c0etk90V6dI7y5J3rkDciPLwWwqhDuWmAz55Z7lWdEz9I5WjT/JI99
+e/nxswLQOTrPzmWxzGVsrrdP5+g1O+d9lrjXaL7V873RerXvCR779vLjRwVg12bjiuTLnuhz
+E8UyF633Gsn1yPdlz4nWq31P8Oi3Hyma2biS7c/WmtG4MpIbqZ4RnSmaf5Jnv33CFsdsXMn2
+Z2vNaLyD6Ew7nvXTnv32CVscs3El25+tNaPxDqIz7XjWT3v22ydscczEej5S7Y/WmtF4B96Z
+djznFbiBhBRJVCx2XYawcUTvlfwslrnGm6/iq+nz2IHv+/n5F8AmaEpgMzTlh3j/VZMBaFQE
+sBmaEtjK19c/O6Hcds82DMsAAAAASUVORK5CYII=</item>
+		<item item-id="9">iVBORw0KGgoAAAANSUhEUgAAAE4AAAAaCAYAAAAZtWr8AAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEkSURBVGhD7ZKBDoMgDET5/592w3BL
+OdviKpqofUkXOI5KLytLEiKDC5LBBcnggmRwQdzgSildAbl+Ijy3Ws3bIQ0SS38q1ryr1tY/
+LDPwzp6Gl4UZnMfo/GrUwdocR96q9cC666oZZ3JGb62ntYcXxRqjnWHduTXjTLi3/J5Ve2Cf
+t0dfFGsSqctaz9bfBh/eBX6vt8d8I62i6Vh3Ts14B/i93h7zjbSKpmPdOTXjmcjvWbUH9nl7
+9B1pFUuvbBTPDHDGXrm+Ev6mt8cbR1rF0itb5Yt7gTT2aneA9M2Ee3p7vGGkVSy9slUE8qLZ
+wNA1/vHuBT25r6ZLTZ5pulXg8BTc8C1kcEEyuCCHJkZobwzvfX+VSWRwQTK4IBlckAwuxLJ8
+AASk2bA2ezGqAAAAAElFTkSuQmCC</item>
+		<item item-id="10">iVBORw0KGgoAAAANSUhEUgAAAPIAAAA0CAYAAACw2WUNAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAORSURBVHhe7ZOBbgQhCET7/z/dxiY0
+ZA4EV3d16bzEyy2MiHH4+iaEvB4OMiEF4CATUgAOMiEF4CBv5uuLT0DmoYs20oaYg0xWQBdt
+hoNMVkAXbYaDTFZAF22Gg0xWQBdthoNMVkAXbYaDTFZAF22Gg0xWQBdtpA2xLEJm+HOQNhUu
+QshzWDPYlmDlPqZUJwkh++jNIuY4yIQcSm8WMcdBJq+i508v5ukbOo86KzaDVyuKZ3IfChSs
+4o6a5H+B/tHflr+i74anyewdpdWw6kTxTO5DgYJVYE19jrdILaw3xjUC6qP9M/nR3ixaDatO
+FI/Wr/b3V4ECQk7E8mfk2Zl8lItqNzxdFM/kPhQoQLz4DnSvXPvXU3jn9XrI9Odpor0tn61v
+6aJ4JvehQAHixUfR53iL1MJ6Y1wjoL63P6o9szdLq2PViuKZ3IcCBcjfRtDp/4Q8AfrN81/G
+lzN7s7RaVj2JY96KCZj7UKBAg3HU6hyidYSsAP1k+UvHev6b2Zul1ZAl6Fgvh2DuT6ET0RLw
+u8eIlhAL8ZDlJSuuY1ZO0P8FvUfWLFbNtnRO/8clWLmp7qQIeRb9gOQ93PlmJQf57Qbv9Y+5
+t9/1P9He6q73mqp6Z2NXqWDskTtUuO9/4c55uVxVmrqzuVFO6WMF2btUunN17pyVUi6oZurM
+fTjIpMFBPpjoPhxiIpRxwhtM3XrUK6Knyey/gu5Pn3HXeWQNZV7nZKPhYOj/EZZOx7J1IqQn
+rOfFyVmUeZ2TjYbDoP9HoE726jVLVGvVOeQ+yrxOz2hixF1mnDn/iZ4zvT3RB7lOmdfxjIZx
+/d3+j6wrzNYZ1Y9ytS9yFmVeL2tE0aF5o+8ZpNaVeqt68JjpjZxDmdfLGtEzLsYsjUVGJ5pM
+PeTKHiFzpmhmziH7KfN6GSP2NGhm/PbI6ESTqYdc2SNkzhTNzDlkP2VeL2PEngbNjN8zSK0r
+9Vb14DHTGzmHMq8XGbGXt8yM3zP06ksM84IVW42c3TtLcqjV/8k+yrxAz0w6Z+k8M3rxUaQO
+1sI45htW7A6wFw3GUGvtIc9S5gU8M2nTydJ48YYXH0HXx3r4bRHlVyM96YV4cbKPUq/xNnNF
+A3HqfaK+yfNwkDcSDcSp94n6Js/DQd5INBCn3ifqmzxPudd4i8FkGLyhOPUeUd9kDxzkA+GA
+kFFKOubtg8BBJqPQMYQUgINMSAE4yIS8nu/vHzAMgcPA56MjAAAAAElFTkSuQmCC</item>
+		<item item-id="11">iVBORw0KGgoAAAANSUhEUgAAAC8AAAAWCAYAAABQUsXJAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC5SURBVFhH7Y8LDoQwCAU5+t68RlII
+2+Uj1pRu4iQobS1vhPbHvPJVvPJVsDwAmEV4ZxX8pEdiO0gTKfldpInL8ruIS79QXvYZ7t6L
+kDNdeVlZxntyllUR43euvLbeAXbDp0CT1faqQZ/eM5qotpdFzrAqA97pPWMNs/arQJfeM56k
+dzZy9bs70FyeTmFaeecW0XkWLfO56QWwPHy+/2N2vQJMPINl+Ox6FZhIwU+9VwEy8Oxn1+to
+7QDf2F35a67vugAAAABJRU5ErkJggg==</item>
+		<item item-id="12">iVBORw0KGgoAAAANSUhEUgAAAN4AAAAbCAYAAAATQjGwAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJ1SURBVHhe7ZSJjsMwCET7/z/dlStR
+oTFXDuKkO09iFcNkwHG9rzch5HJ48QhZAC8eIQvgxSNkAbx45Gd4vV7fuDu8eOQnwMt298v3
+nU7/t8B4Etb8EkJU24LlI0HWcuUZ4NlLCFZtmk4Xn0y2jzP3mPUi17LqHKLfAdYmBQqeSrSP
+s/cW9SLXsvIcot8B1iYFCp6Kt4+OfXm97kJlrmgPXn7g5c8gmiXre8ZcXp8sX6lNChR009UL
+99HVZ4C97kR1Lk8TvZt5760NLO9srcn8K1gzDLJ8pTYpUNAN9tL9vahgvTeigy5/7etFhUzn
+eUXvSa3ijWTvCKjL1ppqj4jhYflk+Sw+2s9fBQqeCu4D1xWq+j3eV1KdS+vk2duXrmdoTUUv
+oDZaj2cdERXNwNNl+UptUqAA8fJ3w9qHlYuoajPfikcnW/qLFvdTeY5Avwqoz9ZVqrN4uixf
+qU0KFCBe/ix0fy8qWHordwaZ795+2teLClXdQLT4TpbPGLqqVsh6bfXbijdzlq/UJgUKkO+L
+oLOeZb0CbwYvf4TMU/Ko08+dbOmhZ9PovBURup5pNajN1mcz/K0ekse6lROwNilQoME8ar16
+REWzB/G1vKPaHiI/zKNW17qo9tA6fMfzyLytevaOkM1Q9dnL8JcQdC6qIVj7KnQhC2Hr2qKi
+2YL4WRHV92D5eCHguhtrhoGsvfogqgkdtYH0RZ2X70D30qFr+hlDsGqHphcTIVsTfpMn0XlW
+h1xxsGxN+E2eROdZHXLFwbI14Td5Ep1ntdtVhtLDZev/jv4e/Cb3p/OcePqELIAXj5AF8OIR
+sgBePEIWwItHyOW83386fJYjbqCyegAAAABJRU5ErkJggg==</item>
+		<item item-id="13">iVBORw0KGgoAAAANSUhEUgAAASoAAABRCAYAAABlqOuZAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAT+SURBVHhe7dnbruMgDEDR/v9PnxEP
+HlmubaAhrSF7SejE3BoCeB7m9QcAxZGoAJRHogJQHokKQHkkKgDlkahQ2uv1SguegZ3GFrzE
+RLJ6DnYZWyBRPRu7jC2QqJ6NXcYWSFTPxi5jC5KUbFll5VxYj93BFlYnJotEVRu7gy30EpW0
+2362LoulDvWwM9hClkhs29UY9bA72EKWTGzb1Rj1sDsoTZKILZqtuxqjHnYH2+slntkY9bA7
+2F4v8czEuh51sCs4giQbnXQ02y5F2Bi1sDMAyiNRASiPRAWgPBIVgPJIVADKI1EBKI9EheX0
+f/8/uWAdviaA8khUAMojUQEoj0QFoDwSFYDySFQAyiNR4Ra9/66P6gEPpwS3ypIRSQqjOCm4
+FYkKK3BScDsvWZGkMIPTgtuRqHAVpwW3s4nqjiRF4jsbu1uMXOrRsgv9vne8907fAvPY3UL0
+ZW568U70u3trkHbdr7F1WSx1GdvXG6f76DZb5z1LjLX4qkV4h9zWeX12Er2/rb8a90h/GRM9
+N1EsdVE71uKLFnbaJYje39ZfjXuy8VlbMxtjDb5oYaddguj9bf3VuCcbn7U1szHW4IsWJQf+
+CZegt87ZuCcbn7U1szHW4IsWFR34Ey+CXdOVWNdHeuOjtmY2xhp80YLksHsH/tSLoNfsrc+2
+SxE2juix0j+Lpa7x6nsx1uBrAijvf6LS/xLYAgCfWpFD3mYgQWF3+gzbgu9b8e1JVABusyqf
+kKiAQ43c5ahPVC+yNk3PM9I/8jZyxaS7eMo68Tz2XHvnPOrTG+vN5dHzSfnU28gVk+7CrlOv
+PSrAN3hnz5aMbe/1b6RPNnZkHqHnk/Kpt5ErJhWr5sF3sW/7s/vX20/dHo3Vf20fy5tjZFzk
+bdTVCbVV8+xEf7/KJTPTh/JZuZv9jew37TtFY3v9NG8OO37G26irE+5Mrz0qwDd4Z8+WjG3v
+9W+kTzR2Zs7WlpVZbyPsZDrWRdg6Hev6jO2rY69eP0ssdL1tA57Cuxc90icaOzpnVi9l1tsI
+b7LRWOr0X3nukb56rPy19fLc9Noytj9wCnuuR8659InGjs6Z1esy439vO4lXRC8WUb1ndI4s
+lmfdnpnpuxP9HWzBc0T7LrFu9/rM1De6zbbbNimjhnraSXuxiOo9o3OMxrruaZ68dpxp6ETb
+i9+LRVTvGZ2jFzdSZ+uf4MQ16/301mfbvT7Y29CO2s3vxSKq94zOkcVZv1+Qd/jme9jf+sU7
+3KW3lhPWCN/QzuoDIkXM1nuivl59FtvyS/b3v/E+vd/89Te5qr2/Ltbu60NsaGejg4FxV7/f
+yB5cba9OvoEUa/f1ITa0s9HBwLjs+/W+r7T19uBqe3X6O0jRdl8fYt2d1YfiykGw8+hyut4a
+Z75D1G/kN3an19CepYgT1ggfO/sFKy9QNFfvN064xHoN7VkXqcOZ2Nmb3XF57Jy93zjlAnvr
+liIxzsTO3khfnJWXyM6VzX3XO/yC9/6tTheciZ29ib1AKy+RnSuaW/+2lJ1F72/Xp2NdtKwN
+9bBDm5LL9aRLFq1Vko1uz2KvDbWxQ5vSl+50klh0sWx9Fsuzbkdt7NTGuGgxm4iiWNehLnZp
+Y1yymE1CXlKSOluPetghHMkmIB1H9aiLHcKRJAHpIqJ61MUu4UgkobOwkzgSieos7CSOI0mK
+ZHUOdhFAeSQqAMX9/f0Dvwvo6YmyyiUAAAAASUVORK5CYII=</item>
+		<item item-id="14">iVBORw0KGgoAAAANSUhEUgAAAPcAAAAaCAYAAABrVsoPAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAK/SURBVHhe7ZPbjsMgDET7/z/dFQ+z
+Gk18I6WbhPWRrMbjC2DK6900zZb0426aTenH3TSb0o+7aTalH3fTbMrv4369Xq4138WaOews
+Vi9Yc39W3NOhQ/8J/p5vzrrv85msuLN+3Bfz7Tn3fT6PVXfWj/tidM6r57+63+7MzovzvFpP
+9+D8ao3FoXJF06dx1Xl1zcw/A862otfuzM6f5+rVeroH18HOcqhc0fRp6Hl5Bp5lVPI+jVfA
+Plb0ujt8Vs8iNB7lI+blzOqA+8LOcqhc0RSs6vM0cObs7J/ERyyrHyCvkpuxqs9d0bNFZ0XM
+yvHqon4DjQ8fdoZD1acNmVV9nox3/mwulXhltsir5Gas6nNX9GzeWVm3aqw6T2e8Xlmdx6Hq
+04Y7wDPwrIqXm/WYWSMC+13V787wWT2L0LiVX8kZzOqDEYtslkOFNmOfDajGPusRmmt9wwes
+c8zS+fsKdO1sLyv3irOjJ/tsQDX2WY/QXPYtnb/hA9Y1thprbYX3wqZY2uCMDpvlUGE1q/rQ
++BffGcj1aquxgeVHaP5qtHe0FsdW7Gn0gIGqD41/8Z2BXK7Fr+r4HmSxb6L9K+t5OSt1thl+
+s7WJZSDzgadbaG7mA+ga83SLat5ZtLe3FvbBdharlxrIfODpFtUekY9vjn8bb01vD9C5jnM9
+HURxjcGqlDK1aeYDT7fQ3BlfYwNLuxLe69XobDIfeLpFtUfVZ62pUZqYN3CgPvB0C82N/CgG
+oKl+FdjHHfajc8l84OkW1R6ZP4CmehNTmpYONvOBp1tobuRHsUEUu5I77SOakfrA0y2qPSI/
+ymtyStPCYNnArG5h5c74llk5V3OHPQx0LryvWd3Cy7X0yFdr5ihNrIe7F32f/4N+3P+Qvs//
+QXrD+CN8+ofQPmzN37Fq9tqHrbkHfRNNsyn9uJtmS97vH1Ys/QJ+yzdKAAAAAElFTkSuQmCC</item>
+		<item item-id="15">iVBORw0KGgoAAAANSUhEUgAAATcAAAA4CAYAAACYA79TAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAUYSURBVHhe7dSBbuQgDEXR/v9P74pK
+XnnfYAMJhCRzj4RagzFMQvj5AwAvxOUG4JW43AC8EpcbgFficgPwSlxuX+7n5+e/pnS8lrNK
+be3SvGwM343TgF+tC2LXxdHal9m1P9wXJwK//CVSuyh2Xh7Zvoqde8N9cSrwy18gtcti5wWS
+7avYuTfcF6cCv+yCiC6S3RfIXfeF++Jk3JD/kLWt4mvX1lu5do/anord+8J9cTJuaMcH69e0
+S8Sa9c3m6/ewfJszMhffh9NxM7s+WF3XLhHrX7EvX7+H5duckbkjVtXFtXiLk+iHd5TOn1W3
+pVbfr716/R66l1V7usNvxXm8xQn0Yzj6cbTqrPzootql35rGvnnZ2Fk9dX2Oz9O+LLa+jObW
+5vkcP6Z9tf8txjE8vQVqh7LnsJ4dPyOqbfv241lcG5vJ6kd1dexs3GL5Nif6v4hi64vGcQxP
+bgE9kBa3DurZ8SNKTW1K+7PY/vfjs2W1de2zcUs2PxsrRmOM4clN1jqM0fjReTuUvfj9RLHv
+u0q0FzMat2Tzs7FiNMYYntxkrcMYjR+dt0PZi9+PxoX1af9quubZuCWbn40VozHG8OQm6j2I
+mtead7cDXvbj9+TjqP8quuaZ2PdHWvOjsWI0xhie3CR6KDM6nuWP1L1K2Yc2E/VfqbUHHbdm
+NI74uZafxdZX1PpbMcbw1Cbwh7DnMOp4lO/rWbuDO+0FiPw7of4D0ob57Lk+8flyLrDajPP1
+UcEOLod3LXu+T3vO/nw8be9H6O/1DevMeMYfs3l51+EZA59m3UFcbhvxjHE3Pd9/lDPaH/H5
+vXNqPmbOKHpHb/xNwEz6fdS+lyhntD/i51k76mPmjKJ3pL/J/86oAU9SO8PaMjreyi8sJ5o7
+WtPPs3bUx8wZRbEX7w9H6JlpnaEov7df1eZZO+Jj1tmC38Q/q6tbZiSH9py2mq6RrRntKZqT
+1TKaY2v0zK35mHW24FP43xk14ElqZ1hbRsdb+YXPsf+jOq16ZTxroz5m1IppX+1/i1s038e1
+fv+/xcb36xiAMbXvq8Vyorm9NbN+a6M+ZkTFtF9zNM5YruX7v9pv/xetsYzmA/iffh8934vl
+RHN7a2b9vo34l61FfPPjphVnolztz2L7349nRnKBbxV9Vxb78VrOSH/hx3Rcx6z16s7Uwq04
+E+Vqf2/s+wCg6L4VoovFaJyJcrW/FRfWp/14P//uZ75/resbnqP7benLbcWZKFf7szjLw7vZ
++7Z3vur96zp4lq635l+yvehWHPF5PrfWn8Xa8D30va86A7oOnoW3hmG7P/qr1r9qHazBW7uA
+/0h62p3p/nzsf0NPO2JWnR5XrIF1lrw1fyi0fRv93a34aWzvrd+l8RlWa1a9yFXrYA3e2kK1
+D0P7ajlPYvvX36B9tZyanjzL6alX0zv37DrYi7d2Mf1YnvzxZPs++jt78iynp15N79zWOj01
+sA9v52L6sWQfz91l+175O63WrHqR1jqr18c5vJ0L1T4WjZ8i27P9Jp+j8RlZfevT8SO0prJ+
+zav9bzGuwxO/UHTIn3b4/V5Hfk/UP8rqaC3t1/FRWs/Tfs2NxnEdnvZF7HDXDviTDr7/HbV9
+R/1F1D/C19d6Gh/la7eaGY2xHk8br7HzAtG1WzHW42njNXZeILp2K8Z6PG28xs4LRNduxViP
+p41XsMtjxyVSW7sVYz2eNIBX4nID8EpcbgBeicsNwCtxuQF4oT9//gJGhLFdrYKYNgAAAABJ
+RU5ErkJggg==</item>
+		<item item-id="16">iVBORw0KGgoAAAANSUhEUgAAAEQAAAAWCAYAAAB5VTpOAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADNSURBVFhH7ZALCsMwDENz/0tnrbGD
+LZrFzsrKhh4I6pdfUeskwEIAFgKwEICFACwEYCEACwF+tpDW2ojnUz9W/cJYLLoZq/UqeJfN
+d/hgRGiMlfOZgev+zCwVbD+e2/HBiNAYGYfr38b/h2fHByNCY2TdU+B/eWyu+GBEaIysq+DP
+z5LF78VzNld8MCI0RtY9Ab4/mys+GBEanM2dXLl3VPZm8ffZN76x46M5EKnBeZYV2X1Z/Nt4
+95U7yfr7/vJPYCEACwFYCMBCAr2/AGMWFRNoj4+jAAAAAElFTkSuQmCC</item>
+		<item item-id="17">iVBORw0KGgoAAAANSUhEUgAAAJwAAAAwCAYAAADkZhPYAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJaSURBVHhe7dUBb9wwCIbh/PT9805k
+o6IEY7h47i19H8ltsX0Ozn1Sjw9gIwKHrQgctiJw2IrAYSsCh7LjOMKhojUZFoFD2yhMIlsT
+BA5tWaiyNUHg0JaFKlsTBA5tWaiyNUHg0GZDlY0IgUNbFqpsTRA4tGWhytYEgUNbFqpsTRA4
+tGWhytYEgUNbFqpsTRC4h7Jf/OjL7/Jn6lDRmgyLwD3Q5Ut29XcicD8AgcM27xQ2QeD+AxKa
+bGRm67tduhldonK57/bu/VnZO155j3d7J5duRhde8SJWnDGysr/qeFX0+Vn9qlXnrHLpJnoZ
+YjTf4c/QOhsVuq+6P+KfN6vv8mfN6les7HeVS0fSZNRoNK9z0dpO+uysh6zHaM3PRXsinX3W
+rH5FtY8Vz6q6PGnUgJ+f1bv4Hka6/fn91c939lmz+l+p9Kt77o7zrPOnYRctPz+rK/Qz2cj4
+9dn+Dv98X9/lz5rVT3G51ejF6rwfytc72D7suCs6a9XZyp81q5/icit9sfbCds4P5etIZc8d
+q84e9bmyf3/OrH6Ky630pfph1/zfwteRyp47VpytPUZnjea7Rs8YzT/J5WbVC/t91c/hZ/tM
+yPHrz58aHK1VVH8JXFAD3pmKMyx/A6Jhs4EZ1RqwUQ14Zyo0HBoaW89+fwY0+RygDhuKMziL
+a8D6EjixusZznP/FzPBzKppTpAMtNkwaqNmcReDQEgWpOicIHFqiIFXnBIFDSxSk6pwgcGiJ
+glSdEwQOLVGQqnOCwKHMhsiGqTonCBy2InDYisBhKwKHrQgcNvr4+A0hLB4TtPqeDAAAAABJ
+RU5ErkJggg==</item>
+		<item item-id="18">iVBORw0KGgoAAAANSUhEUgAAAFYAAAAaCAYAAAAtzKvgAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEdSURBVGhD7ZDhCsNACIP7/i/d0TGP
+XEhau5v9MfxAqLmoJdvelNDBFtHBFtHBFtHBFtHBFtHBFtHBFtHBGrZtexfjdGY4YgAHlebI
+eO6Ad2PvXW0FtyO7e3LEEA4qTXE25+oK5b3SsFZwO7K7J0cM4aDSnkLdzmj8jpy9Ic6n9NDw
+bXLw44HSnkLdzmqOVR/rrp8mh6iMoGXAOVdXKG9WW8XtY9310+QQlRG0p1C3s9oqbh/ewgqG
+9unfsBH70BwZz134NvahHShtFbUTNa5gaJ9+wGbsQ1NcvX8L38be1S9Qe4/CN/4+iP43f/GH
+cGAO9kXfwRo4MAf7ou9gDRyYg33Rd7AGDuyMESbMdLBFdLBFdLBFdLBFdLAl7PsLULi/9GLU
+A4wAAAAASUVORK5CYII=</item>
+		<item item-id="19">iVBORw0KGgoAAAANSUhEUgAAAIcAAAAWCAYAAADq3Y/sAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGJSURBVGhD7ZQBr4JADIP5/3+ax4yV
+0rftdiokkn3JItd2O4yLy9o0Ab0cTUgvRxPSy9GE9HI0Ia/lWJblUE1z2IJejobp5WhCfmo5
+Ku8XZb6lM5UeT/sVDm8cfRHWtSJG/iw6y5sdZb6lM6aNcpU5VXAfSjUw0qDr2VBtdzbUNFRT
+P0JzOGeVof4obyBT7a3mvZw9V/veBXegKhpgDfpQeyhP2ACq6fkq9L7K/ZzBc9TnZUF09mbN
+zGHMy3wDGc6dqe3qBhtANT1fhd43ut/zox7T2dNc5GkOQM/mKOZlvoEM587UdnWDDaCa+lV4
+TlQZ6r+bz/qizEhXZvNVrB8FztR2dYMNhnX1rsJ7p4hRNuqFHuXt0ysFmnpedgbcx3PO1HZ1
+gw1GzxW8OZ9QfSfW8TzbO5tnWKvOqWL9KHCm9lIP4rMiHZVRycwS3Y0z+ygw0lg3Ip2Bl2Uz
+bwaew/Mqmlde7p/2UBIOYaea+1L6db2lQDX3pfTPEdHLcW8++udo7k3/wk3Auv4BlnQlHFGY
+BkMAAAAASUVORK5CYII=</item>
+		<item item-id="20">iVBORw0KGgoAAAANSUhEUgAAAH0AAAAbCAYAAABRLYBiAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFzSURBVGhD7ZXhbsQwCIP7/i/diepc
+Mc5OyDRl68EncWqMoY38446zKUeHXpAOvSAdekE69AIcx3HXdb5+m48FQYMr/NdzU4QOvSAd
+ekE69GLg/30aOozNs/E5pkLv4J/Nt8Atz9czBYF36M/FZ3jXq0eJ5v+O+kamZ+6V8TwReRtc
+NHvxrM/I+lZQO5k+OxsZTxab9RU1MNOgx7PBNIV0YDizzPdnXiN6cB5VBuWL+uxsZDwr2Lyv
+jAa8Bn2mjaDdODRaFnvxvBP1TqZDy84on2G9Ud+Ax/t2aAzajUOjZb4Xazfqnau6EXsz76hv
+wON9OzQG7fphVh6lr+B3qMqgfEyHlp1Rviw2jwI7NMZbVw2ohUr/C9Q3sG/2sLmMZwWbR4Ed
+GuOtqwb8wuhhevR4ove3UDujPjsbGc8KNo8COzTG3fUDcSj2UJ5RL5LxrKLe/RMdKM8qfo/f
+l9FYMZ/SGLrTfCwdekE69IJ06AXp0Mtxnl+i3WJBw5BNWQAAAABJRU5ErkJggg==</item>
+		<item item-id="21">iVBORw0KGgoAAAANSUhEUgAAAGgAAAAWCAYAAAAsNNkQAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEeSURBVGhD7ZHRDsMgCEX9/5/ubNNb
+r0wU07qyhJP40MMd4khb4JpYkHNiQc6JBTknFuSca0EppeoEPqg2EQvyRyzIOX+1IG0+zTOW
+jEfMC+rVJNbcLFpP60x3wbtwpAMjBy+/d6QrlYwsguoHjbpEZvDdOyO0nOX3lowV9OKeIwfY
+wQ/dYU64AKST379Gu9cyzyhjeRcynFvpis1wAbCT5y20uy0z9TKWdyHDuZWu2AwXQMvNwj20
+M4OWt/SZvUuCebnPSldshgug5d5Gm8Uy49134L/gPitdsRkuMC0vM4zMPonW13LfEzPhbdxr
+pbtsJc/D9GoSS2YG7V7N78D1MrNwL+5pca3Tyn25wwRuiQU5JxbknFiQc2JBrtm2D/beFK5H
+XcV0AAAAAElFTkSuQmCC</item>
+		<item item-id="22">iVBORw0KGgoAAAANSUhEUgAAAPkAAABQCAYAAADbXNO2AAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAX+SURBVHhe7ZWBbi0rCEX7/z/dl8kL
+N4QBRceqwF4JyRFBkdm0P78AgNRgyAFIDoYcgOSUHfKfnx9YcgP/U3rIo1NRyBjecTDkAXlq
+ryz26u8fBUMeEAgcPRgBQx6MiHU/NXNbRcRenABDHojIoqYBX/2GyD3ZBYY8EJEFTQO++g2R
+e7KLkh2KKIy/GJCdUP1/8YbIfdkBhjwI0YVMA669o7XnYTavCiW7E1EU0YVMQyzfwX3avoeZ
+nEqU7E5EUUQXMg0wf4f0ybWX0fhqlOxONFFkEDENL38L90kbZSanCiU7E00QGQRMw8vfovlm
+WXFGVkp2JpogMgiYhpm/RfPNsuKMrJTsTDRBZBAwDbN8i+aXMR5mcqpQsjPRBBFdwE/90jit
+PS+zeRUo2ZlogoCA+6BHNhhyxuO37CSe+2+q9wQV3+ylZGd6grhtWLx13Fb3Tiq+2Uu5znjE
+cNuweOu4re6dVHyzl3Kd8YjhtmHx1vFXdd/ShxYRajxFuc54xECDcotwvHVYdXO/NA/euJNE
+qPEU5TrjEQMNwC3C8dah1S19ct/DaPwJItR4inKd8YiBBmGHcDz3eOugs3i89Mm1h5HYU0So
+8RTlOuMRAw2BFbtSUK17CO99dBaPlz651uAxlrXQ4r+YB29cRcp1xiOGnsB2C8p7n1a39Ml9
+D6PxJ4hQ4ynKdcYjBhoEK5b8Mk77TesveM+w7uR+uedhJmc3EWo8RbnOeMRAw6DFSr+Mtfa/
+4M2nu2T8rvtPEqHGU5TrTEsMz57XiNH1DJ58uoeb5SfzMhJ7igg1nqJcZ1aLQQ5Mbz3Dl3y6
+37IsZHrLasp1ZrUY5LD01jOsyLcsC5nesppynVktBjksvfUMX/JbuV/ruolMb1lNqc6sFsJz
+Hjfp09YzfMl94DVwy0S296ykVGeiCgEC7oMe2WDIAxC5bm4zPi8jsdUo1ZnIQohaOw0rr7/n
+4+bBG1eVUt2JLIaotdOw8vo9PrnfwhtXlVLdiSyGqLXTsPL6vT4vMzmVKNWdyGKYHYDTUN28
+dq/Py0xOJUp1J7oYItZPg8tr9/o8jMZXpFSHogsiYv00uFQ7X5PvQfN5GI2vSKkOZRBExDfQ
+8FLtfG2ZB29cdUp1KYsoIG70YIR/nXqaxk0i97WYB8t/AzfXNkKr/xWo/v5RXp2iBlpN1Pw8
+x8q7gZtrmyHbezzcrrEbeXWLmmg1U/pkvNy/hVvr+krWd2lUeutKXl2jQSWTWI1u5dzArXWB
+2Ejd8zX3S3r7D7THY8lGeEXTAdaB1gVWvMVI7Ap23gXqIHXVWz94Y8jviW/xiuYH0EXSp6HF
+tpCxPN+yL3zNB7mQ2tKsRy/Oc8aDjKO1lu89k/PK4Ic8v7mRT0PG3catdYH4tGbCg4yjtZbv
+PZPzytAuJKO1hoy7jVZdvHZYDtuNdqenDhnD17NnSl4Z1sHcNHr7PXi+ZV/4mg9yIbWl2Qgy
+3pvP43pneM+UvLKsgx4/mUZv/zS31gVyIPXl0ZuWoxnBf4/wyrIO0i7l9PYlI7Er2HkXqIWm
+rZ7e+L4VK/29My3+ZT0HSJNofh4vrYUnZiU77wL5If1qurK0Rn6eS6bB/VaMh/nMYHxpEgCR
+wZBfDP4wgRWUUFHUYXnqxqCDr2DIL4UGHEMOvoIhvxQ+5Lvrt+48UQv4Dob8QqheGqpe/d44
+L9ZZK+8A+yjxxaIJk+qloWrVz/d7sV6sc1adD/ZS4otFEqaslQZLe4Pck2tJa49jxWl+8ml7
+4A5KfJVI4pO1tgaI70nTaO1xrDjp763BHZT4IpGER4NiGcfyf8U6U/p7a3AHJb5IFOFZddLw
+yH3L/xXrTH4fN0KuwR2k+iKWyKIIz6qT3kXG0fwyZhTrTMsIuQZ3kOaLkLg0kd0uPBoOMo7c
+I+O09maQ55HxPfn7Qa7BHaT8IlJoEN4Y3mGVcd48sJeUX0QKDcIbwzusMs6bB/aS9ouQ2CC6
+cbzDKuO8eWAvab8IiQ2iG2dkWCl2JAfsBUMOQHJSTwD+uwCAIQcgPeknAEMOqoMhByA1v7//
+AWyHoJLjT78dAAAAAElFTkSuQmCC</item>
+		<item item-id="23">iVBORw0KGgoAAAANSUhEUgAAAI0AAAA0CAYAAAC3m7sYAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJaSURBVHhe7ZMJbsMwDAT9/0+nEWoG
+2zUPyemBijsA4ZikpISaHA8hFpE0YhlJI5aRNGIZSSOW2Vqa4zi+BMN1r2cQ5bvSYhp3pMA1
+0bqutJPGE4Bz3M/17kiaJ5EU2ZrOtJHGnp4EkRRRf3daSTPwRIik8HpFc2ksj3WE+8Qn7aQZ
+sAyRFNwnPmkpzQCFiKSo6l1pK82gkqKqd0XSJFJU9a5sPQ289OjyvTz2c4jNpRE/w0ua6h/F
+deyJ8mJPLjdcXT7nsR9D7EsqjXf5mOMee8ec2I+3pGGydeI+s3ON6tn6KJ9x6bYNbDPeMDsg
+WuMx29cdnlE0s2yeq/mKyyrcyL4I5yK4N8Pbt4r/iPc7OFbI+r1adMbquchlJW5mB1pYzoP7
+xPdTzTarY80+j2e1p8dlBW9iG1s+OgR7/gr7Dr8Zv8XMebN13qtax1y6vQ3sEAsmyq+A+0fx
+H/F+B8cKWX+1l9W5b/k7nM8X0QYjb8HM5sT7ZHOtZm517lu9q0t3tMHIWyCYx6iY7RNfyWY2
+W+O+1Xt4dY+FHAznsZejYravOzhTnhe+ez1ezshqFesrRHu2lAb/Rd4/ietej4jZelqVFJLl
+Hm2k8QSRNPeQNGKZ7aWxpyeOpLlHC2kGnjiS5h4tpbE81sU8baQZSJrvoZU0AxRH0tyjnTQD
+lgbfMZCs1g1Jc5K9e7XObPnr7ZIxGM5n7/YZ653RFE5Yiugdc13RBE4iSRDLcb4bkuaEZcD3
+KN8VSXNiMmAYUb4rmsCJhJhHUzqRNPNoSk9MGIkzhyYklpE0YpHH4wNRDphWdoAX0AAAAABJ
+RU5ErkJggg==</item>
+		<item item-id="24">iVBORw0KGgoAAAANSUhEUgAAAOgAAAA0CAYAAACAVXQsAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOuSURBVHhe7dSBctwgDEXR/f+fTodM
+lajPEmDANtu9Z4Z2kWTwYJTXF4Bt0aDAxmhQYGM0KLAxGhTYGA160uv1SsdTonexgffGFxy0
+YxPs+E6Yw5cctGMz7PhOmMOXHLRjM+z4TpjDlxy0YzPs+E6Yw5cctGMz7PhOmMOXHHRnM/Tu
+c+c74R58yUGtZljZJLV9PKtbuTeexZcc1GqGJ5qk9U54P3zJQa1msLjWRb9tPitaT2PRb5u3
+aL2fR3H/2+bGxzWHX5zMoNrl0rjWZvlZto6upXGt0XmN1Vq9/1/j9rto5RDjZE6yy9UzzNn5
+WfZ8NHzetOY1Wa3Ga3P77fOIcUI30MvYmq/W2k/nNVmtxnvnPoYjTucG2eU0Ol+ttZ/Oa7Ja
+jbfmhcU0jl+czA30Erbmq7X203lNVqvx2rxWh39xMhezC+gvYmu+kl/b1m/NM77O10bx2lwH
+cpwOsLGfBo3+skUDwLyot8Lxt/6HTxof83H8f/Rb+4F19Dyzcz6celqYxAGc19tfNCg+Ts9d
+zmqy+Kxs3cMuUWErZnGdF1HM+JzWZDmdR1p5fC69F9E9yWp6nh1V1rLhHXbwhTpUlG/FTDZv
+xQqdK33G5rWB9xB9Ox01mo/qs5qeZ0eVtWx4hx2iwihWRPGzMRPVFBrXPHBGdL9UVtPzrCm5
+Wl5ZvT5zWCEtDOIzMc/no5pa7i7+HRjXjavpHtGeWU3Ps6bkanll9frMYYW0MIjPxAofy2qK
+Wq6Hfz4beA/Rt9NRo/movlZTfvuxSrbmYYe0MIivjOnctPLAGdn98kZqZpX1bHiHXaLCKFZE
+8dGYzgv/u4hqIj01+Ex6L6J70qq54m6VNW14PzNfkA0vy/fGCo35uR9ZLtPK47Nld8jPoxqd
+r+D30fGd//4XwJZo0BtFfyE9zUc1RRZf4cq1cR5f4wEjDeifyZ5b4er1cQ5f4gG+0aJm0JjW
+a36Vq9fHeXyJB/hGiJoha5DaMyv49a/aA+fwFR5glz9rhqw5svoVbM3ePXrrMIfTfYC/1NFF
+zy59VLuKrdmzh8+3ajGHk32Av9B2wf1F93lP62p66wqts2ej5zWnc6zFqT5AL7Ne8uyya11N
+b12hdfZs9LzP6cB6nOoDosvcc9lb+VF+3Wh4WRzX4JQfkF3u1uVv5Uec3SuL4xqc8gOyy926
+/K38iJ69tCaKaw3W4FRv5C+2DRXFfb2OUbV1NGfDq+WwDicLbIwGBTZGgwIbo0GBjdGgwLa+
+vv4AUupXUw/Y+y4AAAAASUVORK5CYII=</item>
+	</binaryContent>
+</worksheet>
